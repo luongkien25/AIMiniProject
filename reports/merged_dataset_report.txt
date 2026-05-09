@@ -1,0 +1,40 @@
+ai_generated: 1092
+real_review: 1109
+shopee_real_scraped: 1327
+Rows before dedup: 3528
+Duplicate/empty rows removed: 7
+Final rows: 3521
+
+Source distribution:
+source
+shopee_real_scraped    1327
+real_review            1102
+ai_generated           1092
+
+Sentiment distribution:
+sentiment_label
+positive    1394
+negative    1383
+neutral      744
+
+Issue distribution:
+issue_label
+no_issue                  1022
+damaged_defective          583
+product_quality            346
+packaging                  275
+shipping_delivery          237
+wrong_missing_item         192
+material_comfort           168
+price_value                142
+spam_irrelevant            126
+color_design                88
+customer_service            80
+audio_quality               71
+seller_service              64
+size_fit                    52
+device_performance          18
+connectivity_bluetooth      17
+battery_charging            16
+camera_performance          13
+general_feedback            11

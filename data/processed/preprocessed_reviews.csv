@@ -1,0 +1,1093 @@
+﻿review_id,review_text,sentiment_label,issue_label,is_multi_topic,secondary_issue,comment_type,processed_text
+RV0001,bình nước nhìn ngoài được nhưng thực tế mùi rất khó chịu.,Negative,product_quality,no,,normal,bình nước nhìn ngoài được nhưng thực tế mùi rất khó chịu
+RV0002,"giày dùng ổn, ship khá nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,giày dùng ổn ship khá nhanh bao bì sạch sẽ
+RV0003,"Giao khá nhanh nhưng giao sai màu, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng giao sai màu shop xử lý đổi trả chậm
+RV0004,"gói hàng nhìn rất cũ, may là bàn phím chưa hỏng hẳn.",Negative,packaging,no,,normal,gói hàng nhìn rất cũ may là bàn phím chưa hỏng hẳn
+RV0005,Mình không hài lòng vì hộp bị móp khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì hộp bị móp khi nhận hàng
+RV0006,"Hàng chuẩn, màu đẹp, bên bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn màu đẹp bên bán nhắn tin lịch sự nên mình hài lòng
+RV0007,"Mình mua váy, thấy màu đẹp, cửa hàng đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua váy thấy màu đẹp cửa hàng đổi trả rõ ràng
+RV0008,Mình đặt máy xay nhưng shop giao sai màu.,Negative,wrong_item,no,,normal,mình đặt máy xay nhưng shop giao sai màu
+RV0009,"Nhận khăn tắm mà không có chống sốc, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận khăn tắm mà không có chống sốc nhìn rất thiếu chuyên nghiệp
+RV0010,abc xyz nhận xu Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,spam_xu,abc xyz nhận xu mình ghi nhận như vậy
+RV0011,Mình không hài lòng vì không có chống sốc khi nhận hàng. Hy vọng lần sau tốt hơn.,Negative,packaging,no,,normal,mình không hài lòng vì không có chống sốc khi nhận hàng hy vọng lần sau tốt hơn
+RV0012,"không có chống sốc, may là chuột máy tính chưa hỏng hẳn.",Negative,packaging,no,,normal,không có chống sốc may là chuột máy tính chưa hỏng hẳn
+RV0013,Mình không hài lòng vì hộp bị móp khi nhận hàng. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,mình không hài lòng vì hộp bị móp khi nhận hàng mình ghi nhận như vậy
+RV0014,"khăn tắm chắc chắn, giao đúng hẹn, bao bì sạch sẽ.",Positive,no_issue,no,,normal,khăn tắm chắc chắn giao đúng hẹn bao bì sạch sẽ
+RV0015,"Mình hỏi về đồng hồ mà thái độ phản hồi khó chịu, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về đồng hồ mà thái độ phản hồi khó chịu rất mất thời gian
+RV0016,Sản phẩm bên trong tạm ổn nhưng đóng gói sơ sài. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng đóng gói sơ sài mình ghi nhận như vậy
+RV0017,"Không hài lòng vì giao sai size, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì giao sai size phải mất công đổi trả
+RV0018,"Giao khá nhanh nhưng thiếu số lượng, shop xử lý đổi trả chậm. Mình ghi nhận như vậy.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng thiếu số lượng shop xử lý đổi trả chậm mình ghi nhận như vậy
+RV0019,"Hàng chuẩn, rất đáng tiền, cửa hàng đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn rất đáng tiền cửa hàng đổi trả rõ ràng nên mình hài lòng
+RV0020,"ốp điện thoại tạm dùng được nhưng giá tăng bất thường, đóng gói cũng sơ sài.",Negative,price,yes,packaging,mixed_topic,ốp điện thoại tạm dùng được nhưng giá tăng bất thường đóng gói cũng sơ sài
+RV0021,ok Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,too_short,ok đây là trải nghiệm cá nhân
+RV0022,Shop cần kiểm tra đơn kỹ hơn vì giao sai màu. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì giao sai màu mình ghi nhận như vậy
+RV0023,"Đơn giao hơi chậm, thêm nữa nhắn tin không ai trả lời nên mình không hài lòng.",Negative,customer_service,yes,delivery,mixed_topic,đơn giao hơi chậm thêm nữa nhắn tin không ai trả lời nên mình không hài lòng
+RV0024,"Đơn đèn học giao quá chậm, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn đèn học giao quá chậm hỏi thì không có cập nhật rõ
+RV0025,"Vấn đề lớn nhất là hàng bị kẹt ở kho, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là hàng bị kẹt ở kho mong shop cải thiện khâu giao hàng
+RV0026,"Gói hàng ổn, ship khá nhanh, sản phẩm mùi dễ chịu. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm mùi dễ chịu hy vọng lần sau tốt hơn
+RV0027,"Shop giao rồi, chưa mở hộp.",Neutral,spam_or_irrelevant,no,,not_used,shop giao rồi chưa mở hộp
+RV0028,"Mình cần dùng gấp mà hàng bị kẹt ở kho, trải nghiệm không tốt. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,mình cần dùng gấp mà hàng bị kẹt ở kho trải nghiệm không tốt hy vọng lần sau tốt hơn
+RV0029,tai nghe nhìn ngoài được nhưng thực tế mùi rất khó chịu.,Negative,product_quality,no,,normal,tai nghe nhìn ngoài được nhưng thực tế mùi rất khó chịu
+RV0030,ok Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,too_short,ok mình đánh giá theo đơn này
+RV0031,"sạc dự phòng màu đẹp, ship khá nhanh, hộp còn nguyên.",Positive,no_issue,no,,normal,sạc dự phòng màu đẹp ship khá nhanh hộp còn nguyên
+RV0032,"giày đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,giày đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0033,"Shop tư vấn được nhưng bao bì rách, không xứng với giá. Mình ghi nhận như vậy.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng bao bì rách không xứng với giá mình ghi nhận như vậy
+RV0034,"Đã dùng vài ngày, đồng hồ dùng ổn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày đồng hồ dùng ổn không có lỗi gì
+RV0035,"Nhận hàng xong mới thấy đèn học đường may xấu, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy đèn học đường may xấu không muốn mua lại
+RV0036,Mua theo bạn nên chưa sử dụng. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,not_used,mua theo bạn nên chưa sử dụng mình ghi nhận như vậy
+RV0037,"Hàng chuẩn, chất lượng tốt, bên bán đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chất lượng tốt bên bán đổi trả rõ ràng nên mình hài lòng
+RV0038,Sản phẩm bên trong tạm ổn nhưng không có chống sốc.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng không có chống sốc
+RV0039,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. Mình đánh giá theo đơn này.,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp mình đánh giá theo đơn này
+RV0040,"Mình cần dùng gấp mà giao thiếu thông báo, trải nghiệm không tốt.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao thiếu thông báo trải nghiệm không tốt
+RV0041,Mình đặt tai nghe nhưng shop nhận nhầm đơn của người khác.,Negative,wrong_item,no,,normal,mình đặt tai nghe nhưng shop nhận nhầm đơn của người khác
+RV0042,Có lỗi phát sinh nhưng bên bán thái độ phản hồi khó chịu.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng bên bán thái độ phản hồi khó chịu
+RV0043,"Hàng chuẩn, chất lượng tốt, bên bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chất lượng tốt bên bán nhắn tin lịch sự nên mình hài lòng
+RV0044,chuột máy tính thì tạm ổn nhưng đơn hàng giao thiếu thông báo.,Negative,delivery,no,,normal,chuột máy tính thì tạm ổn nhưng đơn hàng giao thiếu thông báo
+RV0045,"Hàng chuẩn, vải đẹp, shop shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn vải đẹp shop shop tư vấn nhiệt tình nên mình hài lòng
+RV0046,đèn học thì tạm ổn nhưng đơn hàng trễ hẹn nhiều ngày.,Negative,delivery,no,,normal,đèn học thì tạm ổn nhưng đơn hàng trễ hẹn nhiều ngày
+RV0047,Với mức giá này thì giá tăng bất thường. Hy vọng lần sau tốt hơn.,Negative,price,no,,normal,với mức giá này thì giá tăng bất thường hy vọng lần sau tốt hơn
+RV0048,Tạm Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,too_short,tạm mình đánh giá theo đơn này
+RV0049,kem dưỡng dùng bình thường nhưng chất lượng chưa tương xứng với giá.,Negative,price,no,,normal,kem dưỡng dùng bình thường nhưng chất lượng chưa tương xứng với giá
+RV0050,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. #656,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp 656
+RV0051,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. #653,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp 653
+RV0052,balo dùng bình thường nhưng vừa mua xong đã giảm giá mạnh.,Negative,price,no,,normal,balo dùng bình thường nhưng vừa mua xong đã giảm giá mạnh
+RV0053,"Bao bì nhìn được nhưng sách dùng được một lúc là hỏng, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng sách dùng được một lúc là hỏng mình vẫn phải đánh giá thấp
+RV0054,"Dùng thử nồi chiên thì thấy không giống mô tả, cần kiểm tra chất lượng kỹ hơn. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,dùng thử nồi chiên thì thấy không giống mô tả cần kiểm tra chất lượng kỹ hơn mình ghi nhận như vậy
+RV0055,sách nhìn ngoài được nhưng thực tế mùi rất khó chịu.,Negative,product_quality,no,,normal,sách nhìn ngoài được nhưng thực tế mùi rất khó chịu
+RV0056,bàn phím dùng bình thường nhưng phí ship cao.,Negative,price,no,,normal,bàn phím dùng bình thường nhưng phí ship cao
+RV0057,"Không hài lòng vì giao hàng không đúng phân loại, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì giao hàng không đúng phân loại phải mất công đổi trả
+RV0058,abc xyz nhận xu Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,spam_xu,abc xyz nhận xu hy vọng lần sau tốt hơn
+RV0059,"đồng hồ đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,đồng hồ đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0060,"Đã dùng vài ngày, ốp điện thoại hoạt động tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày ốp điện thoại hoạt động tốt không có lỗi gì
+RV0061,"máy xay xài mượt, giao đúng hẹn, niêm phong kỹ.",Positive,no_issue,no,,normal,máy xay xài mượt giao đúng hẹn niêm phong kỹ
+RV0062,"Đã dùng vài ngày, đồng hồ vải đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày đồng hồ vải đẹp không có lỗi gì
+RV0063,"Mình mua balo, thấy xài mượt, bên bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua balo thấy xài mượt bên bán nhắn tin lịch sự
+RV0064,"thiếu số lượng, bao bì lại còn bị rách. Hy vọng lần sau tốt hơn.",Negative,wrong_item,yes,packaging,mixed_topic,thiếu số lượng bao bì lại còn bị rách hy vọng lần sau tốt hơn
+RV0065,Với mức giá này thì giá tăng bất thường. Mình đánh giá theo đơn này.,Negative,price,no,,normal,với mức giá này thì giá tăng bất thường mình đánh giá theo đơn này
+RV0066,"Mình mua ốp điện thoại, thấy rất đáng tiền, shop đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua ốp điện thoại thấy rất đáng tiền shop đổi trả rõ ràng
+RV0067,"Đã dùng vài ngày, sách hoạt động tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sách hoạt động tốt không có lỗi gì
+RV0068,"Đơn giày vận chuyển chậm hơn dự kiến, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn giày vận chuyển chậm hơn dự kiến hỏi thì không có cập nhật rõ
+RV0069,"Shop giao rồi, chưa mở hộp. #1096",Neutral,spam_or_irrelevant,no,,not_used,shop giao rồi chưa mở hộp 1096
+RV0070,"Rất thích bàn phím, hoạt động tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích bàn phím hoạt động tốt phù hợp với nhu cầu
+RV0071,"Gói hàng ổn, giao đúng hẹn, sản phẩm vải đẹp.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm vải đẹp
+RV0072,ok Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,too_short,ok hy vọng lần sau tốt hơn
+RV0073,"Đơn kem dưỡng trễ hẹn nhiều ngày, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn kem dưỡng trễ hẹn nhiều ngày hỏi thì không có cập nhật rõ
+RV0074,"Hàng đúng loại nhưng hộp ướt, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng hộp ướt làm mình lo sản phẩm bị hỏng
+RV0075,"đặt mẫu khác nhưng nhận mẫu này, không đúng với lựa chọn ban đầu. Hy vọng lần sau tốt hơn.",Negative,wrong_item,no,,normal,đặt mẫu khác nhưng nhận mẫu này không đúng với lựa chọn ban đầu hy vọng lần sau tốt hơn
+RV0076,"Mình hỏi về bình nước mà xử lý khiếu nại lâu, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về bình nước mà xử lý khiếu nại lâu rất mất thời gian
+RV0077,"Bao bì nhìn được nhưng kem dưỡng âm thanh rè, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng kem dưỡng âm thanh rè mình vẫn phải đánh giá thấp
+RV0078,"Không hài lòng vì đặt mẫu khác nhưng nhận mẫu này, phải mất công đổi trả. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,không hài lòng vì đặt mẫu khác nhưng nhận mẫu này phải mất công đổi trả mình ghi nhận như vậy
+RV0079,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. #631,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp 631
+RV0080,Không có gì để nhận xét. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét hy vọng lần sau tốt hơn
+RV0081,"Mình mua khăn tắm, thấy hoạt động tốt, người bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua khăn tắm thấy hoạt động tốt người bán nhắn tin lịch sự
+RV0082,"thiếu số lượng, không đúng với lựa chọn ban đầu. Đây là trải nghiệm cá nhân.",Negative,wrong_item,no,,normal,thiếu số lượng không đúng với lựa chọn ban đầu đây là trải nghiệm cá nhân
+RV0083,bàn phím nhìn ngoài được nhưng thực tế mùi rất khó chịu.,Negative,product_quality,no,,normal,bàn phím nhìn ngoài được nhưng thực tế mùi rất khó chịu
+RV0084,Đơn này bị lỗi phân loại: đặt mẫu khác nhưng nhận mẫu này. Hy vọng lần sau tốt hơn.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại đặt mẫu khác nhưng nhận mẫu này hy vọng lần sau tốt hơn
+RV0085,"mũ bảo hiểm đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,mũ bảo hiểm đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0086,"Đã dùng vài ngày, sạc dự phòng hoạt động tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sạc dự phòng hoạt động tốt không có lỗi gì
+RV0087,quần jean nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng.,Negative,product_quality,no,,normal,quần jean nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng
+RV0088,"bình nước chắc chắn, giao nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,bình nước chắc chắn giao nhanh bọc chống sốc tốt
+RV0089,"sạc dự phòng dùng ổn nhưng đợi rất lâu mới nhận được, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,sạc dự phòng dùng ổn nhưng đợi rất lâu mới nhận được trải nghiệm mua hàng bị ảnh hưởng
+RV0090,Mình không hài lòng vì tem niêm phong bị bung khi nhận hàng. Hy vọng lần sau tốt hơn.,Negative,packaging,no,,normal,mình không hài lòng vì tem niêm phong bị bung khi nhận hàng hy vọng lần sau tốt hơn
+RV0091,Sản phẩm có vấn đề nhưng không hỗ trợ đổi trả.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng không hỗ trợ đổi trả
+RV0092,"Vấn đề lớn nhất là hàng bị kẹt ở kho, mong shop cải thiện khâu giao hàng. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,vấn đề lớn nhất là hàng bị kẹt ở kho mong shop cải thiện khâu giao hàng mình ghi nhận như vậy
+RV0093,Chưa dùng nên chưa biết chất lượng thế nào. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào mình ghi nhận như vậy
+RV0094,"Cảm giác không đáng tiền, giá trị nhận lại chưa ổn.",Negative,price,no,,normal,cảm giác không đáng tiền giá trị nhận lại chưa ổn
+RV0095,tai nghe thì tạm ổn nhưng đơn hàng giao quá chậm.,Negative,delivery,no,,normal,tai nghe thì tạm ổn nhưng đơn hàng giao quá chậm
+RV0096,"Nhận hàng xong mới thấy nồi chiên mùi rất khó chịu, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy nồi chiên mùi rất khó chịu không muốn mua lại
+RV0097,"quần jean dùng ổn nhưng mã vận đơn cập nhật sai, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,quần jean dùng ổn nhưng mã vận đơn cập nhật sai trải nghiệm mua hàng bị ảnh hưởng
+RV0098,"Sản phẩm pin tụt nhanh, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm pin tụt nhanh khác xa kỳ vọng
+RV0099,"Sản phẩm mùi dễ chịu, hộp còn nguyên, lần sau sẽ ủng hộ tiếp. Đây là trải nghiệm cá nhân.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu hộp còn nguyên lần sau sẽ ủng hộ tiếp đây là trải nghiệm cá nhân
+RV0100,"Vấn đề lớn nhất là giao quá chậm, mong shop cải thiện khâu giao hàng. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,vấn đề lớn nhất là giao quá chậm mong shop cải thiện khâu giao hàng mình ghi nhận như vậy
+RV0101,mũ bảo hiểm thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến.,Negative,delivery,no,,normal,mũ bảo hiểm thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến
+RV0102,"sách mùi dễ chịu nhưng hàng bị kẹt ở kho, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,sách mùi dễ chịu nhưng hàng bị kẹt ở kho hộp cũng hơi móp
+RV0103,Đánh giá để nhận xu thôi.,Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá để nhận xu thôi
+RV0104,Đánh giá để nhận xu thôi. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá để nhận xu thôi mình ghi nhận như vậy
+RV0105,"Sản phẩm hoạt động tốt, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm hoạt động tốt bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0106,"Dùng thử đồng hồ thì thấy dùng được một lúc là hỏng, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử đồng hồ thì thấy dùng được một lúc là hỏng cần kiểm tra chất lượng kỹ hơn
+RV0107,"Nhận hàng xong mới thấy quần jean dùng được một lúc là hỏng, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy quần jean dùng được một lúc là hỏng không muốn mua lại
+RV0108,"Hàng gì cũng được, cần xu. #1087",Neutral,spam_or_irrelevant,no,,spam_xu,hàng gì cũng được cần xu 1087
+RV0109,"Sản phẩm dùng được một lúc là hỏng, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm dùng được một lúc là hỏng khác xa kỳ vọng
+RV0110,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp mình ghi nhận như vậy
+RV0111,"Hàng chuẩn, mùi dễ chịu, người bán shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu người bán shop tư vấn nhiệt tình nên mình hài lòng
+RV0112,"Mình thấy vừa mua xong đã giảm giá mạnh, nên chưa muốn mua lại.",Negative,price,no,,normal,mình thấy vừa mua xong đã giảm giá mạnh nên chưa muốn mua lại
+RV0113,"Gói hàng ổn, đóng đơn nhanh, sản phẩm xài mượt.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm xài mượt
+RV0114,"sạc dự phòng dùng được nhưng bao bì rách, giao hàng cũng hơi lâu.",Negative,packaging,yes,delivery,mixed_topic,sạc dự phòng dùng được nhưng bao bì rách giao hàng cũng hơi lâu
+RV0115,"Giao khá nhanh nhưng giao hàng không đúng phân loại, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng giao hàng không đúng phân loại shop xử lý đổi trả chậm
+RV0116,"Giao khá nhanh nhưng nhận nhầm đơn của người khác, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng nhận nhầm đơn của người khác shop xử lý đổi trả chậm
+RV0117,"Shop phản hồi được nhưng chất lượng chưa tương xứng với giá, mình thấy chưa đáng mua lại. Mình ghi nhận như vậy.",Negative,price,yes,customer_service,mixed_topic,shop phản hồi được nhưng chất lượng chưa tương xứng với giá mình thấy chưa đáng mua lại mình ghi nhận như vậy
+RV0118,"Sản phẩm màu đẹp, bọc chống sốc tốt, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm màu đẹp bọc chống sốc tốt lần sau sẽ ủng hộ tiếp
+RV0119,"đồng hồ xài mượt nhưng vận chuyển chậm hơn dự kiến, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,đồng hồ xài mượt nhưng vận chuyển chậm hơn dự kiến hộp cũng hơi móp
+RV0120,kem dưỡng dùng bình thường nhưng mua sale nhưng vẫn đắt.,Negative,price,no,,normal,kem dưỡng dùng bình thường nhưng mua sale nhưng vẫn đắt
+RV0121,"Dùng thử kem dưỡng thì thấy bị lỗi, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử kem dưỡng thì thấy bị lỗi cần kiểm tra chất lượng kỹ hơn
+RV0122,Mình không hài lòng vì gói hàng nhìn rất cũ khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì gói hàng nhìn rất cũ khi nhận hàng
+RV0123,"Sản phẩm màu đẹp, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm màu đẹp bao bì sạch sẽ lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0124,"Dùng thử bình nước thì thấy âm thanh rè, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử bình nước thì thấy âm thanh rè cần kiểm tra chất lượng kỹ hơn
+RV0125,"váy đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,váy đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0126,"sách bị lỗi nhẹ, nhưng vấn đề chính là shop trả lời rất chậm.",Negative,customer_service,yes,product_quality,mixed_topic,sách bị lỗi nhẹ nhưng vấn đề chính là shop trả lời rất chậm
+RV0127,"Khâu đóng gói kém, tem niêm phong bị bung. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,khâu đóng gói kém tem niêm phong bị bung mình ghi nhận như vậy
+RV0128,"Mình muốn đổi size nhưng nhắn tin không ai trả lời, trải nghiệm rất tệ.",Negative,customer_service,yes,wrong_item,mixed_topic,mình muốn đổi size nhưng nhắn tin không ai trả lời trải nghiệm rất tệ
+RV0129,"ốp điện thoại mùi dễ chịu, đóng đơn nhanh, đóng gói cẩn thận.",Positive,no_issue,no,,normal,ốp điện thoại mùi dễ chịu đóng đơn nhanh đóng gói cẩn thận
+RV0130,"sách đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,sách đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0131,Không biết viết gì. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,irrelevant,không biết viết gì hy vọng lần sau tốt hơn
+RV0132,good good good xu xu xu Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,spam_xu,good good good xu xu xu mình ghi nhận như vậy
+RV0133,Bình luận cho đủ ký tự nhận điểm. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,spam_xu,bình luận cho đủ ký tự nhận điểm đây là trải nghiệm cá nhân
+RV0134,"bàn phím dùng ổn, giao đúng hẹn, đóng gói cẩn thận.",Positive,no_issue,no,,normal,bàn phím dùng ổn giao đúng hẹn đóng gói cẩn thận
+RV0135,"Gói hàng ổn, ship khá nhanh, sản phẩm dùng ổn. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm dùng ổn mình ghi nhận như vậy
+RV0136,"Mình thấy không đáng tiền, nên chưa muốn mua lại.",Negative,price,no,,normal,mình thấy không đáng tiền nên chưa muốn mua lại
+RV0137,"Khâu đóng gói kém, hộp ướt. Hy vọng lần sau tốt hơn.",Negative,packaging,no,,normal,khâu đóng gói kém hộp ướt hy vọng lần sau tốt hơn
+RV0138,balo nhìn ngoài được nhưng thực tế màu bị phai.,Negative,product_quality,no,,normal,balo nhìn ngoài được nhưng thực tế màu bị phai
+RV0139,"Nhận hàng xong mới thấy máy xay không hoạt động, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy máy xay không hoạt động không muốn mua lại
+RV0140,"sạc dự phòng đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,sạc dự phòng đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0141,đèn học thì tạm ổn nhưng đơn hàng hàng bị kẹt ở kho.,Negative,delivery,no,,normal,đèn học thì tạm ổn nhưng đơn hàng hàng bị kẹt ở kho
+RV0142,sạc dự phòng thì tạm ổn nhưng đơn hàng giao thiếu thông báo. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,sạc dự phòng thì tạm ổn nhưng đơn hàng giao thiếu thông báo mình ghi nhận như vậy
+RV0143,bàn phím nhìn ngoài được nhưng thực tế chất lượng kém.,Negative,product_quality,no,,normal,bàn phím nhìn ngoài được nhưng thực tế chất lượng kém
+RV0144,Sản phẩm bên trong tạm ổn nhưng gói hàng nhìn rất cũ.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng gói hàng nhìn rất cũ
+RV0145,"Mình hỏi về áo mà không hỗ trợ đổi trả, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về áo mà không hỗ trợ đổi trả rất mất thời gian
+RV0146,"Hàng đúng loại nhưng không có chống sốc, làm mình lo sản phẩm bị hỏng. Mình ghi nhận như vậy.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng không có chống sốc làm mình lo sản phẩm bị hỏng mình ghi nhận như vậy
+RV0147,abc xyz nhận xu,Neutral,spam_or_irrelevant,no,,spam_xu,abc xyz nhận xu
+RV0148,"Rất thích nồi chiên, chắc chắn, phù hợp với nhu cầu. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,rất thích nồi chiên chắc chắn phù hợp với nhu cầu mình ghi nhận như vậy
+RV0149,"Hàng chuẩn, đúng mô tả, shop đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn đúng mô tả shop đổi trả rõ ràng nên mình hài lòng
+RV0150,Không có gì để nhận xét. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét đây là trải nghiệm cá nhân
+RV0151,"Nhận hàng xong mới thấy khăn tắm chất lượng kém, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy khăn tắm chất lượng kém không muốn mua lại
+RV0152,"váy đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,váy đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0153,"Mình mua quần jean, thấy đúng mô tả, bên bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua quần jean thấy đúng mô tả bên bán đổi trả rõ ràng
+RV0154,"máy xay đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,máy xay đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0155,"Shop trả lời ổn nhưng váy bị lỗi, hộp ướt.",Negative,product_quality,yes,customer_service,mixed_topic,shop trả lời ổn nhưng váy bị lỗi hộp ướt
+RV0156,chuột máy tính nhìn ngoài được nhưng thực tế chất lượng kém.,Negative,product_quality,no,,normal,chuột máy tính nhìn ngoài được nhưng thực tế chất lượng kém
+RV0157,"Khâu đóng gói kém, hộp ướt. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,khâu đóng gói kém hộp ướt mình ghi nhận như vậy
+RV0158,"Sản phẩm vải đẹp, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm vải đẹp đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0159,"Mình mua bàn phím, thấy đúng mô tả, bên bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua bàn phím thấy đúng mô tả bên bán nhắn tin lịch sự
+RV0160,"Hàng chuẩn, mùi dễ chịu, người bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu người bán nhắn tin lịch sự nên mình hài lòng
+RV0161,Có lỗi phát sinh nhưng cửa hàng nhắn tin không ai trả lời.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng cửa hàng nhắn tin không ai trả lời
+RV0162,"Gói hàng ổn, giao đúng hẹn, sản phẩm mùi dễ chịu.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm mùi dễ chịu
+RV0163,Mình không hài lòng vì đóng gói sơ sài khi nhận hàng. Hy vọng lần sau tốt hơn.,Negative,packaging,no,,normal,mình không hài lòng vì đóng gói sơ sài khi nhận hàng hy vọng lần sau tốt hơn
+RV0164,"thiếu phụ kiện, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,thiếu phụ kiện không đúng với lựa chọn ban đầu
+RV0165,"Bao bì nhìn được nhưng giày không giống mô tả, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng giày không giống mô tả mình vẫn phải đánh giá thấp
+RV0166,"Mình mua tai nghe, thấy mùi dễ chịu, cửa hàng shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua tai nghe thấy mùi dễ chịu cửa hàng shop tư vấn nhiệt tình
+RV0167,Chưa dùng nên chưa biết chất lượng thế nào. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào đây là trải nghiệm cá nhân
+RV0168,"Sản phẩm không giống mô tả, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm không giống mô tả khác xa kỳ vọng
+RV0169,"áo giao nhanh nhưng pin tụt nhanh, thêm nữa giao quá chậm.",Negative,product_quality,yes,delivery,mixed_topic,áo giao nhanh nhưng pin tụt nhanh thêm nữa giao quá chậm
+RV0170,Hàng không tệ nhưng đợi rất lâu mới nhận được nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng đợi rất lâu mới nhận được nên mình đánh giá thấp
+RV0171,"Mình mua mũ bảo hiểm, thấy đúng mô tả, cửa hàng hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua mũ bảo hiểm thấy đúng mô tả cửa hàng hỗ trợ tốt
+RV0172,kem dưỡng nhìn ngoài được nhưng thực tế không giống mô tả.,Negative,product_quality,no,,normal,kem dưỡng nhìn ngoài được nhưng thực tế không giống mô tả
+RV0173,"váy mùi dễ chịu, giao nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,váy mùi dễ chịu giao nhanh bao bì sạch sẽ
+RV0174,"Vấn đề lớn nhất là giao quá chậm, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là giao quá chậm mong shop cải thiện khâu giao hàng
+RV0176,Mua hộ nên không rõ sản phẩm ra sao. Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao mình đánh giá theo đơn này
+RV0177,Với mức giá này thì phí ship cao.,Negative,price,no,,normal,với mức giá này thì phí ship cao
+RV0178,"Shop tư vấn được nhưng hộp bị móp, không xứng với giá.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng hộp bị móp không xứng với giá
+RV0179,"Sản phẩm chắc chắn, bọc chống sốc tốt, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chắc chắn bọc chống sốc tốt lần sau sẽ ủng hộ tiếp
+RV0180,"Đã dùng vài ngày, giày mùi dễ chịu, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày giày mùi dễ chịu không có lỗi gì
+RV0181,"Vấn đề lớn nhất là giao thiếu thông báo, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là giao thiếu thông báo mong shop cải thiện khâu giao hàng
+RV0182,"Sản phẩm đường may xấu, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm đường may xấu khác xa kỳ vọng
+RV0183,Mình đặt váy nhưng shop nhận nhầm đơn của người khác.,Negative,wrong_item,no,,normal,mình đặt váy nhưng shop nhận nhầm đơn của người khác
+RV0184,"máy xay chắc chắn, nhận hàng sớm, bao bì sạch sẽ.",Positive,no_issue,no,,normal,máy xay chắc chắn nhận hàng sớm bao bì sạch sẽ
+RV0185,Mình không hài lòng vì đóng gói sơ sài khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì đóng gói sơ sài khi nhận hàng
+RV0186,"Hàng chuẩn, mùi dễ chịu, cửa hàng phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu cửa hàng phản hồi nhanh nên mình hài lòng
+RV0187,Sản phẩm bên trong tạm ổn nhưng hộp ướt.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng hộp ướt
+RV0188,Mình không hài lòng vì hộp ướt khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì hộp ướt khi nhận hàng
+RV0189,"Mình cần dùng gấp mà shipper giao nhầm giờ, trải nghiệm không tốt. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,mình cần dùng gấp mà shipper giao nhầm giờ trải nghiệm không tốt hy vọng lần sau tốt hơn
+RV0190,Hàng không tệ nhưng shipper giao nhầm giờ nên mình đánh giá thấp. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,hàng không tệ nhưng shipper giao nhầm giờ nên mình đánh giá thấp mình ghi nhận như vậy
+RV0191,"Bao bì nhìn được nhưng ốp điện thoại chất lượng kém, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng ốp điện thoại chất lượng kém mình vẫn phải đánh giá thấp
+RV0192,"Hàng chuẩn, mùi dễ chịu, shop phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu shop phản hồi nhanh nên mình hài lòng
+RV0193,"Nhận hàng xong mới thấy bàn phím màu bị phai, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy bàn phím màu bị phai không muốn mua lại
+RV0194,"Mình cần dùng gấp mà trễ hẹn nhiều ngày, trải nghiệm không tốt. Đây là trải nghiệm cá nhân.",Negative,delivery,no,,normal,mình cần dùng gấp mà trễ hẹn nhiều ngày trải nghiệm không tốt đây là trải nghiệm cá nhân
+RV0195,Không có gì để nhận xét. #1072,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét 1072
+RV0196,"Hàng đúng mô tả nhưng đợi rất lâu mới nhận được, shop phản hồi cũng chậm.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng đợi rất lâu mới nhận được shop phản hồi cũng chậm
+RV0197,"Hàng chuẩn, dùng ổn, người bán shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn dùng ổn người bán shop tư vấn nhiệt tình nên mình hài lòng
+RV0198,"quần jean xài mượt, nhận hàng sớm, bao bì sạch sẽ.",Positive,no_issue,no,,normal,quần jean xài mượt nhận hàng sớm bao bì sạch sẽ
+RV0199,"đèn học đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,đèn học đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0200,"Đơn sạc dự phòng trễ hẹn nhiều ngày, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn sạc dự phòng trễ hẹn nhiều ngày hỏi thì không có cập nhật rõ
+RV0201,"Gói hàng ổn, đóng đơn nhanh, sản phẩm xài mượt. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm xài mượt mình ghi nhận như vậy
+RV0202,"Nhận hàng xong mới thấy giày màu bị phai, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy giày màu bị phai không muốn mua lại
+RV0203,"Sản phẩm hoạt động tốt, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm hoạt động tốt đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0204,Mình không hài lòng vì shop trả lời rất chậm.,Negative,customer_service,no,,normal,mình không hài lòng vì shop trả lời rất chậm
+RV0205,"Rất thích tai nghe, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích tai nghe đúng mô tả phù hợp với nhu cầu
+RV0206,"sách màu đẹp, nhận hàng sớm, niêm phong kỹ.",Positive,no_issue,no,,normal,sách màu đẹp nhận hàng sớm niêm phong kỹ
+RV0207,"Hàng chuẩn, vải đẹp, shop đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn vải đẹp shop đổi trả rõ ràng nên mình hài lòng
+RV0208,"Mình hỏi về đèn học mà hứa gọi lại nhưng không gọi, rất mất thời gian. Mình ghi nhận như vậy.",Negative,customer_service,no,,normal,mình hỏi về đèn học mà hứa gọi lại nhưng không gọi rất mất thời gian mình ghi nhận như vậy
+RV0209,"Nhận khăn tắm mà đóng gói sơ sài, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận khăn tắm mà đóng gói sơ sài nhìn rất thiếu chuyên nghiệp
+RV0210,"Sản phẩm chắc chắn, niêm phong kỹ, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm chắc chắn niêm phong kỹ lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0211,"Sản phẩm hoạt động tốt, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm hoạt động tốt đóng gói cẩn thận lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0212,"Sản phẩm xài mượt, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm xài mượt bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0213,"Rất thích bàn phím, xài mượt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích bàn phím xài mượt phù hợp với nhu cầu
+RV0214,Tạm Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,too_short,tạm đây là trải nghiệm cá nhân
+RV0215,"Đã dùng vài ngày, tai nghe chắc chắn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày tai nghe chắc chắn không có lỗi gì
+RV0216,"đặt mẫu khác nhưng nhận mẫu này, bao bì lại còn bị rách. Mình ghi nhận như vậy.",Negative,wrong_item,yes,packaging,mixed_topic,đặt mẫu khác nhưng nhận mẫu này bao bì lại còn bị rách mình ghi nhận như vậy
+RV0217,"Mình thấy giá hơi cao so với chất lượng, nên chưa muốn mua lại.",Negative,price,no,,normal,mình thấy giá hơi cao so với chất lượng nên chưa muốn mua lại
+RV0218,"Đơn sách trễ hẹn nhiều ngày, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn sách trễ hẹn nhiều ngày hỏi thì không có cập nhật rõ
+RV0219,"mũ bảo hiểm đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,mũ bảo hiểm đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0220,"son đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,son đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0221,Sản phẩm không quá tệ nhưng vừa mua xong đã giảm giá mạnh. Mình ghi nhận như vậy.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng vừa mua xong đã giảm giá mạnh mình ghi nhận như vậy
+RV0222,"Mình muốn đổi size nhưng xử lý khiếu nại lâu, trải nghiệm rất tệ.",Negative,customer_service,yes,wrong_item,mixed_topic,mình muốn đổi size nhưng xử lý khiếu nại lâu trải nghiệm rất tệ
+RV0223,"Sản phẩm bị lỗi, khác xa kỳ vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,sản phẩm bị lỗi khác xa kỳ vọng mình ghi nhận như vậy
+RV0224,"Mình mua kem dưỡng, thấy hoạt động tốt, người bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua kem dưỡng thấy hoạt động tốt người bán hỗ trợ tốt
+RV0225,"bàn phím rất đáng tiền, giao đúng hẹn, bao bì sạch sẽ.",Positive,no_issue,no,,normal,bàn phím rất đáng tiền giao đúng hẹn bao bì sạch sẽ
+RV0226,"son không hoạt động, mình khá thất vọng.",Negative,product_quality,no,,normal,son không hoạt động mình khá thất vọng
+RV0227,"Sản phẩm chắc chắn, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chắc chắn bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0228,"Sản phẩm chất lượng tốt, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chất lượng tốt hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV0229,Đánh giá để nhận xu thôi. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá để nhận xu thôi hy vọng lần sau tốt hơn
+RV0230,"Hàng đúng loại nhưng bao bì rách, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng bao bì rách làm mình lo sản phẩm bị hỏng
+RV0231,"máy xay hoạt động tốt, đóng đơn nhanh, niêm phong kỹ.",Positive,no_issue,no,,normal,máy xay hoạt động tốt đóng đơn nhanh niêm phong kỹ
+RV0232,Sản phẩm bên trong tạm ổn nhưng sản phẩm bị trầy do gói kém.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng sản phẩm bị trầy do gói kém
+RV0233,giày nhìn ngoài được nhưng thực tế màu bị phai.,Negative,product_quality,no,,normal,giày nhìn ngoài được nhưng thực tế màu bị phai
+RV0234,"Gói hàng ổn, giao đúng hẹn, sản phẩm xài mượt. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm xài mượt mình ghi nhận như vậy
+RV0235,"Rất thích tai nghe, dùng ổn, phù hợp với nhu cầu. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,rất thích tai nghe dùng ổn phù hợp với nhu cầu mình ghi nhận như vậy
+RV0236,"Dùng thử sách thì thấy pin tụt nhanh, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử sách thì thấy pin tụt nhanh cần kiểm tra chất lượng kỹ hơn
+RV0237,Sản phẩm bên trong tạm ổn nhưng bao bì rách.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng bao bì rách
+RV0238,giày dùng bình thường nhưng chất lượng chưa tương xứng với giá.,Negative,price,no,,normal,giày dùng bình thường nhưng chất lượng chưa tương xứng với giá
+RV0239,"thiếu số lượng, không đúng với lựa chọn ban đầu. Hy vọng lần sau tốt hơn.",Negative,wrong_item,no,,normal,thiếu số lượng không đúng với lựa chọn ban đầu hy vọng lần sau tốt hơn
+RV0240,Mình đặt đèn học nhưng shop đặt mẫu khác nhưng nhận mẫu này.,Negative,wrong_item,no,,normal,mình đặt đèn học nhưng shop đặt mẫu khác nhưng nhận mẫu này
+RV0241,"Sản phẩm dùng ổn, hộp còn nguyên, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm dùng ổn hộp còn nguyên lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0242,"Đã dùng vài ngày, sạc dự phòng đúng mô tả, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sạc dự phòng đúng mô tả không có lỗi gì
+RV0243,"đèn học dùng ổn, ship khá nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,đèn học dùng ổn ship khá nhanh bọc chống sốc tốt
+RV0244,"mũ bảo hiểm đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,mũ bảo hiểm đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0245,"bàn phím chất lượng tốt, ship khá nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,bàn phím chất lượng tốt ship khá nhanh bao bì sạch sẽ
+RV0246,"Đã dùng vài ngày, máy xay xài mượt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày máy xay xài mượt không có lỗi gì
+RV0247,"Rất thích máy xay, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích máy xay đúng mô tả phù hợp với nhu cầu
+RV0248,"Sản phẩm mùi dễ chịu, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0249,"tai nghe dùng ổn nhưng trễ hẹn nhiều ngày, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,tai nghe dùng ổn nhưng trễ hẹn nhiều ngày trải nghiệm mua hàng bị ảnh hưởng
+RV0250,"Đã dùng vài ngày, tai nghe vải đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày tai nghe vải đẹp không có lỗi gì
+RV0251,"Sản phẩm đường may xấu, khác xa kỳ vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,sản phẩm đường may xấu khác xa kỳ vọng mình ghi nhận như vậy
+RV0252,"Hàng chuẩn, hoạt động tốt, cửa hàng đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn hoạt động tốt cửa hàng đổi trả rõ ràng nên mình hài lòng
+RV0253,"Đã dùng vài ngày, kem dưỡng chất lượng tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày kem dưỡng chất lượng tốt không có lỗi gì
+RV0254,giày nhìn ngoài được nhưng thực tế không giống mô tả.,Negative,product_quality,no,,normal,giày nhìn ngoài được nhưng thực tế không giống mô tả
+RV0255,"Mình mua mũ bảo hiểm, thấy mùi dễ chịu, người bán phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua mũ bảo hiểm thấy mùi dễ chịu người bán phản hồi nhanh
+RV0256,Shop cần kiểm tra đơn kỹ hơn vì gửi nhầm sản phẩm. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì gửi nhầm sản phẩm mình ghi nhận như vậy
+RV0257,"Gói hàng ổn, nhận hàng sớm, sản phẩm mùi dễ chịu.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm mùi dễ chịu
+RV0258,"Hàng đúng loại nhưng đóng gói sơ sài, làm mình lo sản phẩm bị hỏng. Mình ghi nhận như vậy.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng đóng gói sơ sài làm mình lo sản phẩm bị hỏng mình ghi nhận như vậy
+RV0259,"Mình hỏi về váy mà hứa gọi lại nhưng không gọi, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về váy mà hứa gọi lại nhưng không gọi rất mất thời gian
+RV0260,Shop cần kiểm tra đơn kỹ hơn vì giao hàng không đúng phân loại.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì giao hàng không đúng phân loại
+RV0261,"Nhận khăn tắm mà bao bì rách, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận khăn tắm mà bao bì rách nhìn rất thiếu chuyên nghiệp
+RV0262,"sạc dự phòng đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,sạc dự phòng đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0263,"Mình thấy chất lượng chưa tương xứng với giá, nên chưa muốn mua lại.",Negative,price,no,,normal,mình thấy chất lượng chưa tương xứng với giá nên chưa muốn mua lại
+RV0264,Sản phẩm có vấn đề nhưng xử lý khiếu nại lâu.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng xử lý khiếu nại lâu
+RV0265,Mình không hài lòng vì đóng gói sơ sài khi nhận hàng. Đây là trải nghiệm cá nhân.,Negative,packaging,no,,normal,mình không hài lòng vì đóng gói sơ sài khi nhận hàng đây là trải nghiệm cá nhân
+RV0266,"sách dùng ổn, giao đúng hẹn, bọc chống sốc tốt.",Positive,no_issue,no,,normal,sách dùng ổn giao đúng hẹn bọc chống sốc tốt
+RV0267,"Gói hàng ổn, giao nhanh, sản phẩm chắc chắn.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm chắc chắn
+RV0268,"Sản phẩm đúng mô tả, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm đúng mô tả hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV0269,sách nhìn ngoài được nhưng thực tế không giống mô tả.,Negative,product_quality,no,,normal,sách nhìn ngoài được nhưng thực tế không giống mô tả
+RV0270,"Nhận hàng xong mới thấy nồi chiên bị lỗi, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy nồi chiên bị lỗi không muốn mua lại
+RV0271,"Rất thích quần jean, màu đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích quần jean màu đẹp phù hợp với nhu cầu
+RV0272,"Gói hàng ổn, đóng đơn nhanh, sản phẩm đúng mô tả.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm đúng mô tả
+RV0273,Mình đặt nồi chiên nhưng shop giao sai size.,Negative,wrong_item,no,,normal,mình đặt nồi chiên nhưng shop giao sai size
+RV0274,"nồi chiên đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,nồi chiên đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0275,"Nhận ốp điện thoại mà hộp ướt, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận ốp điện thoại mà hộp ướt nhìn rất thiếu chuyên nghiệp
+RV0276,"Mình hỏi về sạc dự phòng mà xử lý khiếu nại lâu, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về sạc dự phòng mà xử lý khiếu nại lâu rất mất thời gian
+RV0277,"Đã dùng vài ngày, giày xài mượt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày giày xài mượt không có lỗi gì
+RV0278,"Rất thích balo, vải đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích balo vải đẹp phù hợp với nhu cầu
+RV0279,"kem dưỡng giao nhanh nhưng màu bị phai, thêm nữa đóng gói sơ sài.",Negative,product_quality,yes,delivery,mixed_topic,kem dưỡng giao nhanh nhưng màu bị phai thêm nữa đóng gói sơ sài
+RV0280,good good good xu xu xu,Neutral,spam_or_irrelevant,no,,spam_xu,good good good xu xu xu
+RV0281,nồi chiên thì tạm ổn nhưng đơn hàng giao thiếu thông báo.,Negative,delivery,no,,normal,nồi chiên thì tạm ổn nhưng đơn hàng giao thiếu thông báo
+RV0282,"Khâu đóng gói kém, gói hàng nhìn rất cũ.",Negative,packaging,no,,normal,khâu đóng gói kém gói hàng nhìn rất cũ
+RV0283,"Mình mua máy xay, thấy rất đáng tiền, cửa hàng hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua máy xay thấy rất đáng tiền cửa hàng hỗ trợ tốt
+RV0284,"thiếu số lượng, bao bì lại còn bị rách.",Negative,wrong_item,yes,packaging,mixed_topic,thiếu số lượng bao bì lại còn bị rách
+RV0285,"balo màu đẹp, đóng đơn nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,balo màu đẹp đóng đơn nhanh bọc chống sốc tốt
+RV0286,Bình luận cho đủ ký tự nhận điểm. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,spam_xu,bình luận cho đủ ký tự nhận điểm hy vọng lần sau tốt hơn
+RV0287,Có lỗi phát sinh nhưng người bán tư vấn không rõ ràng.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng người bán tư vấn không rõ ràng
+RV0288,đồng hồ nhìn ngoài được nhưng thực tế chất lượng kém.,Negative,product_quality,no,,normal,đồng hồ nhìn ngoài được nhưng thực tế chất lượng kém
+RV0289,"Gói hàng ổn, giao đúng hẹn, sản phẩm chất lượng tốt. Đây là trải nghiệm cá nhân.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm chất lượng tốt đây là trải nghiệm cá nhân
+RV0290,"Sản phẩm không hoạt động, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm không hoạt động khác xa kỳ vọng
+RV0291,"Rất thích quần jean, hoạt động tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích quần jean hoạt động tốt phù hợp với nhu cầu
+RV0292,"Không hài lòng vì gửi nhầm sản phẩm, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì gửi nhầm sản phẩm phải mất công đổi trả
+RV0293,Sản phẩm bên trong tạm ổn nhưng đóng gói sơ sài.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng đóng gói sơ sài
+RV0294,Bình luận cho đủ ký tự nhận điểm.,Neutral,spam_or_irrelevant,no,,spam_xu,bình luận cho đủ ký tự nhận điểm
+RV0295,"Mình mua bình nước, thấy vải đẹp, shop nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua bình nước thấy vải đẹp shop nhắn tin lịch sự
+RV0296,"Đánh giá sau, giờ lấy xu trước. Đây là trải nghiệm cá nhân.",Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá sau giờ lấy xu trước đây là trải nghiệm cá nhân
+RV0297,"sạc dự phòng tạm dùng được nhưng phí ship cao, đóng gói cũng sơ sài.",Negative,price,yes,packaging,mixed_topic,sạc dự phòng tạm dùng được nhưng phí ship cao đóng gói cũng sơ sài
+RV0298,"Dùng thử máy xay thì thấy chất lượng kém, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử máy xay thì thấy chất lượng kém cần kiểm tra chất lượng kỹ hơn
+RV0299,"thiếu phụ kiện, không đúng với lựa chọn ban đầu. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,thiếu phụ kiện không đúng với lựa chọn ban đầu mình ghi nhận như vậy
+RV0300,"Hàng chuẩn, rất đáng tiền, cửa hàng hỗ trợ tốt nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn rất đáng tiền cửa hàng hỗ trợ tốt nên mình hài lòng
+RV0301,"sạc dự phòng dùng được nhưng không có chống sốc, giao hàng cũng hơi lâu. Mình ghi nhận như vậy.",Negative,packaging,yes,delivery,mixed_topic,sạc dự phòng dùng được nhưng không có chống sốc giao hàng cũng hơi lâu mình ghi nhận như vậy
+RV0302,Shop cần kiểm tra đơn kỹ hơn vì giao sai size.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì giao sai size
+RV0303,"Nhận hàng xong mới thấy ốp điện thoại âm thanh rè, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy ốp điện thoại âm thanh rè không muốn mua lại
+RV0304,"Bao bì nhìn được nhưng chuột máy tính âm thanh rè, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng chuột máy tính âm thanh rè mình vẫn phải đánh giá thấp
+RV0305,"Hàng chuẩn, xài mượt, bên bán hỗ trợ tốt nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt bên bán hỗ trợ tốt nên mình hài lòng
+RV0306,bàn phím nhìn ngoài được nhưng thực tế pin tụt nhanh.,Negative,product_quality,no,,normal,bàn phím nhìn ngoài được nhưng thực tế pin tụt nhanh
+RV0307,"Nhận quần jean mà hộp ướt, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận quần jean mà hộp ướt nhìn rất thiếu chuyên nghiệp
+RV0308,Sản phẩm có vấn đề nhưng không hỗ trợ đổi trả. Đây là trải nghiệm cá nhân.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng không hỗ trợ đổi trả đây là trải nghiệm cá nhân
+RV0309,"Sản phẩm xài mượt, niêm phong kỹ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm xài mượt niêm phong kỹ lần sau sẽ ủng hộ tiếp
+RV0310,"Rất thích áo, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích áo đúng mô tả phù hợp với nhu cầu
+RV0311,"Mình mua chuột máy tính, thấy dùng ổn, shop nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua chuột máy tính thấy dùng ổn shop nhắn tin lịch sự
+RV0312,"bình nước giao nhanh nhưng chất lượng kém, thêm nữa gói hàng nhìn rất cũ.",Negative,product_quality,yes,delivery,mixed_topic,bình nước giao nhanh nhưng chất lượng kém thêm nữa gói hàng nhìn rất cũ
+RV0313,"Vấn đề lớn nhất là trễ hẹn nhiều ngày, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là trễ hẹn nhiều ngày mong shop cải thiện khâu giao hàng
+RV0314,"mũ bảo hiểm chất lượng tốt, ship khá nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,mũ bảo hiểm chất lượng tốt ship khá nhanh bao bì sạch sẽ
+RV0315,Mua hộ nên không rõ sản phẩm ra sao. #1079,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao 1079
+RV0316,Mình không hài lòng vì sản phẩm bị trầy do gói kém khi nhận hàng. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,mình không hài lòng vì sản phẩm bị trầy do gói kém khi nhận hàng mình ghi nhận như vậy
+RV0317,"Rất thích khăn tắm, vải đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích khăn tắm vải đẹp phù hợp với nhu cầu
+RV0318,"Bao bì nhìn được nhưng mũ bảo hiểm đường may xấu, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng mũ bảo hiểm đường may xấu mình vẫn phải đánh giá thấp
+RV0319,"Gói hàng ổn, ship khá nhanh, sản phẩm màu đẹp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm màu đẹp mình ghi nhận như vậy
+RV0320,"Gói hàng ổn, ship khá nhanh, sản phẩm chất lượng tốt.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm chất lượng tốt
+RV0321,"Gói hàng ổn, nhận hàng sớm, sản phẩm xài mượt.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm xài mượt
+RV0322,"tai nghe đúng mô tả, đóng đơn nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,tai nghe đúng mô tả đóng đơn nhanh bọc chống sốc tốt
+RV0323,"Rất thích balo, rất đáng tiền, phù hợp với nhu cầu. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,rất thích balo rất đáng tiền phù hợp với nhu cầu mình ghi nhận như vậy
+RV0324,"áo đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,áo đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0325,"chuột máy tính dùng ổn, đóng đơn nhanh, niêm phong kỹ.",Positive,no_issue,no,,normal,chuột máy tính dùng ổn đóng đơn nhanh niêm phong kỹ
+RV0326,aaaaaaaaaaaa Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,random_text,aaaaaaaaaaaa đây là trải nghiệm cá nhân
+RV0327,"nồi chiên dùng ổn, đóng đơn nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,nồi chiên dùng ổn đóng đơn nhanh bọc chống sốc tốt
+RV0328,sách nhìn ngoài được nhưng thực tế màu bị phai.,Negative,product_quality,no,,normal,sách nhìn ngoài được nhưng thực tế màu bị phai
+RV0329,Hàng không tệ nhưng đợi rất lâu mới nhận được nên mình đánh giá thấp. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,hàng không tệ nhưng đợi rất lâu mới nhận được nên mình đánh giá thấp mình ghi nhận như vậy
+RV0330,Hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp mình ghi nhận như vậy
+RV0331,"Rất thích kem dưỡng, mùi dễ chịu, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích kem dưỡng mùi dễ chịu phù hợp với nhu cầu
+RV0332,"Gói hàng ổn, đóng đơn nhanh, sản phẩm đúng mô tả. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm đúng mô tả mình ghi nhận như vậy
+RV0333,Hàng không tệ nhưng vận chuyển chậm hơn dự kiến nên mình đánh giá thấp. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,hàng không tệ nhưng vận chuyển chậm hơn dự kiến nên mình đánh giá thấp mình ghi nhận như vậy
+RV0334,"Hàng đúng loại nhưng sản phẩm bị trầy do gói kém, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng sản phẩm bị trầy do gói kém làm mình lo sản phẩm bị hỏng
+RV0335,"Giao hàng ổn nhưng giá tăng bất thường, chất lượng chưa thuyết phục.",Negative,price,yes,product_quality,mixed_topic,giao hàng ổn nhưng giá tăng bất thường chất lượng chưa thuyết phục
+RV0336,"Nhận quần jean mà hộp bị móp, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận quần jean mà hộp bị móp nhìn rất thiếu chuyên nghiệp
+RV0337,"Gói hàng ổn, đóng đơn nhanh, sản phẩm chắc chắn.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm chắc chắn
+RV0338,"mũ bảo hiểm chất lượng tốt, giao nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,mũ bảo hiểm chất lượng tốt giao nhanh bọc chống sốc tốt
+RV0339,"Rất thích kem dưỡng, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích kem dưỡng rất đáng tiền phù hợp với nhu cầu
+RV0340,"Rất thích nồi chiên, chắc chắn, phù hợp với nhu cầu. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,rất thích nồi chiên chắc chắn phù hợp với nhu cầu hy vọng lần sau tốt hơn
+RV0341,Sản phẩm có vấn đề nhưng không hỗ trợ đổi trả. Hy vọng lần sau tốt hơn.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng không hỗ trợ đổi trả hy vọng lần sau tốt hơn
+RV0342,"Nhận hàng xong mới thấy tai nghe âm thanh rè, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy tai nghe âm thanh rè không muốn mua lại
+RV0343,"Sản phẩm vải đẹp, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm vải đẹp bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0344,Hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp. Đây là trải nghiệm cá nhân.,Negative,delivery,no,,normal,hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp đây là trải nghiệm cá nhân
+RV0345,"Mình mua nồi chiên, thấy dùng ổn, người bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua nồi chiên thấy dùng ổn người bán nhắn tin lịch sự
+RV0346,"Sản phẩm mùi dễ chịu, bọc chống sốc tốt, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu bọc chống sốc tốt lần sau sẽ ủng hộ tiếp
+RV0347,"Rất thích balo, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích balo dùng ổn phù hợp với nhu cầu
+RV0349,"Sản phẩm bị lỗi, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm bị lỗi khác xa kỳ vọng
+RV0350,"tai nghe màu bị phai, mình khá thất vọng.",Negative,product_quality,no,,normal,tai nghe màu bị phai mình khá thất vọng
+RV0351,"Rất thích đèn học, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích đèn học dùng ổn phù hợp với nhu cầu
+RV0352,"Đơn váy giao quá chậm, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn váy giao quá chậm hỏi thì không có cập nhật rõ
+RV0353,"Mình mua kem dưỡng, thấy chắc chắn, shop phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua kem dưỡng thấy chắc chắn shop phản hồi nhanh
+RV0354,"Sản phẩm mùi dễ chịu, hộp còn nguyên, lần sau sẽ ủng hộ tiếp. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu hộp còn nguyên lần sau sẽ ủng hộ tiếp hy vọng lần sau tốt hơn
+RV0355,"Giao khá nhanh nhưng nhận nhầm đơn của người khác, shop xử lý đổi trả chậm. Mình ghi nhận như vậy.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng nhận nhầm đơn của người khác shop xử lý đổi trả chậm mình ghi nhận như vậy
+RV0356,"Không hài lòng vì nhận nhầm đơn của người khác, phải mất công đổi trả. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,không hài lòng vì nhận nhầm đơn của người khác phải mất công đổi trả mình ghi nhận như vậy
+RV0357,"Mình mua giày, thấy màu đẹp, bên bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua giày thấy màu đẹp bên bán hỗ trợ tốt
+RV0358,"Dùng thử quần jean thì thấy không hoạt động, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử quần jean thì thấy không hoạt động cần kiểm tra chất lượng kỹ hơn
+RV0359,"đèn học đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,đèn học đẹp hơn mong đợi giao nhanh giá cũng hợp lý mình ghi nhận như vậy
+RV0360,"Hàng đúng mô tả nhưng giao quá chậm, shop phản hồi cũng chậm.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng giao quá chậm shop phản hồi cũng chậm
+RV0361,"Đã dùng vài ngày, balo chất lượng tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày balo chất lượng tốt không có lỗi gì
+RV0362,"đóng gói sơ sài, may là nồi chiên chưa hỏng hẳn.",Negative,packaging,no,,normal,đóng gói sơ sài may là nồi chiên chưa hỏng hẳn
+RV0363,"Gói hàng ổn, ship khá nhanh, sản phẩm chắc chắn.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm chắc chắn
+RV0364,"son đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,son đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý mình ghi nhận như vậy
+RV0365,"Mình hỏi về đồng hồ mà đổ lỗi cho khách, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về đồng hồ mà đổ lỗi cho khách rất mất thời gian
+RV0366,"Mình cần dùng gấp mà shipper giao nhầm giờ, trải nghiệm không tốt. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,mình cần dùng gấp mà shipper giao nhầm giờ trải nghiệm không tốt mình ghi nhận như vậy
+RV0367,"sách bị lỗi nhẹ, nhưng vấn đề chính là tư vấn không rõ ràng.",Negative,customer_service,yes,product_quality,mixed_topic,sách bị lỗi nhẹ nhưng vấn đề chính là tư vấn không rõ ràng
+RV0368,"Bao bì nhìn được nhưng sách màu bị phai, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng sách màu bị phai mình vẫn phải đánh giá thấp
+RV0369,"Hàng chuẩn, đúng mô tả, người bán đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn đúng mô tả người bán đổi trả rõ ràng nên mình hài lòng
+RV0370,"Cảm giác phí ship cao, giá trị nhận lại chưa ổn.",Negative,price,no,,normal,cảm giác phí ship cao giá trị nhận lại chưa ổn
+RV0371,"sách đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,sách đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0372,Mình không hài lòng vì bao bì rách khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì bao bì rách khi nhận hàng
+RV0373,"Gói hàng ổn, giao nhanh, sản phẩm hoạt động tốt. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm hoạt động tốt mình ghi nhận như vậy
+RV0374,"giao sai size, bao bì lại còn bị rách.",Negative,wrong_item,yes,packaging,mixed_topic,giao sai size bao bì lại còn bị rách
+RV0375,Mình đặt sạc dự phòng nhưng shop thiếu số lượng.,Negative,wrong_item,no,,normal,mình đặt sạc dự phòng nhưng shop thiếu số lượng
+RV0376,................ Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,random_text,mình ghi nhận như vậy
+RV0377,Không có gì để nhận xét. #1090,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét 1090
+RV0378,"Rất thích khăn tắm, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích khăn tắm rất đáng tiền phù hợp với nhu cầu
+RV0379,"Gói hàng ổn, giao nhanh, sản phẩm dùng ổn.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm dùng ổn
+RV0380,"Mình mua balo, thấy rất đáng tiền, shop nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua balo thấy rất đáng tiền shop nhắn tin lịch sự
+RV0381,"nhận nhầm đơn của người khác, không đúng với lựa chọn ban đầu. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,nhận nhầm đơn của người khác không đúng với lựa chọn ban đầu mình ghi nhận như vậy
+RV0382,sạc dự phòng thì tạm ổn nhưng đơn hàng giao thiếu thông báo.,Negative,delivery,no,,normal,sạc dự phòng thì tạm ổn nhưng đơn hàng giao thiếu thông báo
+RV0383,"Mình hỏi về khăn tắm mà đổ lỗi cho khách, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về khăn tắm mà đổ lỗi cho khách rất mất thời gian
+RV0384,"Mình mua đồng hồ, thấy vải đẹp, bên bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua đồng hồ thấy vải đẹp bên bán nhắn tin lịch sự
+RV0385,"thiếu số lượng, không đúng với lựa chọn ban đầu. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,thiếu số lượng không đúng với lựa chọn ban đầu mình ghi nhận như vậy
+RV0386,"đóng gói sơ sài, may là váy chưa hỏng hẳn.",Negative,packaging,no,,normal,đóng gói sơ sài may là váy chưa hỏng hẳn
+RV0387,"Đã dùng vài ngày, máy xay đúng mô tả, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày máy xay đúng mô tả không có lỗi gì
+RV0388,Sản phẩm bên trong tạm ổn nhưng hộp ướt. Hy vọng lần sau tốt hơn.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng hộp ướt hy vọng lần sau tốt hơn
+RV0389,"Rất thích áo, chất lượng tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích áo chất lượng tốt phù hợp với nhu cầu
+RV0390,"Vấn đề lớn nhất là trễ hẹn nhiều ngày, mong shop cải thiện khâu giao hàng. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,vấn đề lớn nhất là trễ hẹn nhiều ngày mong shop cải thiện khâu giao hàng mình ghi nhận như vậy
+RV0391,"Nhận quần jean mà hộp ướt, nhìn rất thiếu chuyên nghiệp. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,nhận quần jean mà hộp ướt nhìn rất thiếu chuyên nghiệp mình ghi nhận như vậy
+RV0392,Với mức giá này thì mua sale nhưng vẫn đắt.,Negative,price,no,,normal,với mức giá này thì mua sale nhưng vẫn đắt
+RV0393,"Nhận hàng xong mới thấy son không giống mô tả, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy son không giống mô tả không muốn mua lại
+RV0394,Mua hộ nên không rõ sản phẩm ra sao. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao đây là trải nghiệm cá nhân
+RV0395,"Khâu đóng gói kém, sản phẩm bị trầy do gói kém.",Negative,packaging,no,,normal,khâu đóng gói kém sản phẩm bị trầy do gói kém
+RV0396,"Hàng đúng mô tả nhưng mã vận đơn cập nhật sai, shop phản hồi cũng chậm.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng mã vận đơn cập nhật sai shop phản hồi cũng chậm
+RV0397,khăn tắm nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng.,Negative,product_quality,no,,normal,khăn tắm nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng
+RV0398,"Gói hàng ổn, giao đúng hẹn, sản phẩm đúng mô tả.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm đúng mô tả
+RV0399,"son đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,son đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý mình ghi nhận như vậy
+RV0400,"Mình mua máy xay, thấy mùi dễ chịu, người bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua máy xay thấy mùi dễ chịu người bán hỗ trợ tốt
+RV0401,"Hàng chuẩn, dùng ổn, người bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn dùng ổn người bán nhắn tin lịch sự nên mình hài lòng
+RV0402,"Hàng chuẩn, đúng mô tả, shop phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn đúng mô tả shop phản hồi nhanh nên mình hài lòng
+RV0403,"Mình thấy vừa mua xong đã giảm giá mạnh, nên chưa muốn mua lại. Mình ghi nhận như vậy.",Negative,price,no,,normal,mình thấy vừa mua xong đã giảm giá mạnh nên chưa muốn mua lại mình ghi nhận như vậy
+RV0404,sạc dự phòng nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng.,Negative,product_quality,no,,normal,sạc dự phòng nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng
+RV0405,"Gói hàng ổn, ship khá nhanh, sản phẩm dùng ổn.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm dùng ổn
+RV0406,"đồng hồ đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,đồng hồ đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0407,Mình đặt son nhưng shop đặt mẫu khác nhưng nhận mẫu này.,Negative,wrong_item,no,,normal,mình đặt son nhưng shop đặt mẫu khác nhưng nhận mẫu này
+RV0408,"nồi chiên dùng ổn, nhận hàng sớm, hộp còn nguyên.",Positive,no_issue,no,,normal,nồi chiên dùng ổn nhận hàng sớm hộp còn nguyên
+RV0409,"Mình hỏi về tai nghe mà xử lý khiếu nại lâu, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về tai nghe mà xử lý khiếu nại lâu rất mất thời gian
+RV0410,"Mình mua tai nghe, thấy xài mượt, shop phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua tai nghe thấy xài mượt shop phản hồi nhanh
+RV0411,"chuột máy tính đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,chuột máy tính đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0412,"Shop tư vấn được nhưng đóng gói sơ sài, không xứng với giá. Mình ghi nhận như vậy.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng đóng gói sơ sài không xứng với giá mình ghi nhận như vậy
+RV0413,"Khâu đóng gói kém, không có chống sốc.",Negative,packaging,no,,normal,khâu đóng gói kém không có chống sốc
+RV0414,"Gói hàng ổn, giao đúng hẹn, sản phẩm chất lượng tốt.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm chất lượng tốt
+RV0415,"giao hàng không đúng phân loại, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,giao hàng không đúng phân loại không đúng với lựa chọn ban đầu
+RV0416,................ Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,random_text,hy vọng lần sau tốt hơn
+RV0417,"nồi chiên đúng mô tả, giao nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,nồi chiên đúng mô tả giao nhanh bao bì sạch sẽ
+RV0418,"Rất thích mũ bảo hiểm, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích mũ bảo hiểm dùng ổn phù hợp với nhu cầu
+RV0419,Mình không hài lòng vì sản phẩm bị trầy do gói kém khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì sản phẩm bị trầy do gói kém khi nhận hàng
+RV0420,"Hàng chuẩn, xài mượt, cửa hàng hỗ trợ tốt nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt cửa hàng hỗ trợ tốt nên mình hài lòng
+RV0421,mũ bảo hiểm thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai.,Negative,delivery,no,,normal,mũ bảo hiểm thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai
+RV0422,Chưa dùng nên chưa biết chất lượng thế nào. #1084,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào 1084
+RV0423,"Gói hàng ổn, giao nhanh, sản phẩm chất lượng tốt.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm chất lượng tốt
+RV0424,"Gói hàng ổn, ship khá nhanh, sản phẩm mùi dễ chịu.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm mùi dễ chịu
+RV0425,"Hàng gì cũng được, cần xu. Mình ghi nhận như vậy.",Neutral,spam_or_irrelevant,no,,spam_xu,hàng gì cũng được cần xu mình ghi nhận như vậy
+RV0426,"áo màu bị phai, mình khá thất vọng.",Negative,product_quality,no,,normal,áo màu bị phai mình khá thất vọng
+RV0427,Chưa dùng nên chưa biết chất lượng thế nào. #1093,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào 1093
+RV0428,"Rất thích sạc dự phòng, mùi dễ chịu, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích sạc dự phòng mùi dễ chịu phù hợp với nhu cầu
+RV0429,"Mình cần dùng gấp mà giao quá chậm, trải nghiệm không tốt. Đây là trải nghiệm cá nhân.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao quá chậm trải nghiệm không tốt đây là trải nghiệm cá nhân
+RV0430,"Sản phẩm rất đáng tiền, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm rất đáng tiền hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV0431,Mua hộ nên không rõ sản phẩm ra sao.,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao
+RV0432,"Mình mua mũ bảo hiểm, thấy mùi dễ chịu, cửa hàng hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua mũ bảo hiểm thấy mùi dễ chịu cửa hàng hỗ trợ tốt
+RV0434,"không có chống sốc, may là đèn học chưa hỏng hẳn.",Negative,packaging,no,,normal,không có chống sốc may là đèn học chưa hỏng hẳn
+RV0435,"quần jean đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,quần jean đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0436,"Mình mua sách, thấy vải đẹp, cửa hàng hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua sách thấy vải đẹp cửa hàng hỗ trợ tốt
+RV0437,"quần jean bị lỗi nhẹ, nhưng vấn đề chính là hứa gọi lại nhưng không gọi.",Negative,customer_service,yes,product_quality,mixed_topic,quần jean bị lỗi nhẹ nhưng vấn đề chính là hứa gọi lại nhưng không gọi
+RV0438,"Sản phẩm chất lượng kém, khác xa kỳ vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,sản phẩm chất lượng kém khác xa kỳ vọng mình ghi nhận như vậy
+RV0439,"sách chất lượng kém, mình khá thất vọng.",Negative,product_quality,no,,normal,sách chất lượng kém mình khá thất vọng
+RV0440,"Sản phẩm mùi rất khó chịu, khác xa kỳ vọng. Hy vọng lần sau tốt hơn.",Negative,product_quality,no,,normal,sản phẩm mùi rất khó chịu khác xa kỳ vọng hy vọng lần sau tốt hơn
+RV0441,Sản phẩm có vấn đề nhưng không hỗ trợ đổi trả. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng không hỗ trợ đổi trả mình ghi nhận như vậy
+RV0442,sách nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng.,Negative,product_quality,no,,normal,sách nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng
+RV0443,"đèn học giao nhanh nhưng màu bị phai, thêm nữa hứa gọi lại nhưng không gọi.",Negative,product_quality,yes,delivery,mixed_topic,đèn học giao nhanh nhưng màu bị phai thêm nữa hứa gọi lại nhưng không gọi
+RV0444,"Đơn nồi chiên đợi rất lâu mới nhận được, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn nồi chiên đợi rất lâu mới nhận được hỏi thì không có cập nhật rõ
+RV0445,"Mình mua chuột máy tính, thấy xài mượt, người bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua chuột máy tính thấy xài mượt người bán nhắn tin lịch sự
+RV0446,"Rất thích áo, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích áo rất đáng tiền phù hợp với nhu cầu
+RV0447,"Dùng thử kem dưỡng thì thấy âm thanh rè, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử kem dưỡng thì thấy âm thanh rè cần kiểm tra chất lượng kỹ hơn
+RV0448,Mình không hài lòng vì xử lý khiếu nại lâu.,Negative,customer_service,no,,normal,mình không hài lòng vì xử lý khiếu nại lâu
+RV0449,"đặt mẫu khác nhưng nhận mẫu này, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,đặt mẫu khác nhưng nhận mẫu này không đúng với lựa chọn ban đầu
+RV0450,"kem dưỡng rất đáng tiền, đóng đơn nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,kem dưỡng rất đáng tiền đóng đơn nhanh bao bì sạch sẽ
+RV0451,"quần jean dùng ổn, giao đúng hẹn, niêm phong kỹ.",Positive,no_issue,no,,normal,quần jean dùng ổn giao đúng hẹn niêm phong kỹ
+RV0452,"Vấn đề lớn nhất là đợi rất lâu mới nhận được, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là đợi rất lâu mới nhận được mong shop cải thiện khâu giao hàng
+RV0453,"Rất thích ốp điện thoại, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích ốp điện thoại rất đáng tiền phù hợp với nhu cầu
+RV0454,"Giao hàng ổn nhưng giá hơi cao so với chất lượng, chất lượng chưa thuyết phục.",Negative,price,yes,product_quality,mixed_topic,giao hàng ổn nhưng giá hơi cao so với chất lượng chất lượng chưa thuyết phục
+RV0455,"Đánh giá sau, giờ lấy xu trước.",Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá sau giờ lấy xu trước
+RV0456,Với mức giá này thì giá hơi cao so với chất lượng.,Negative,price,no,,normal,với mức giá này thì giá hơi cao so với chất lượng
+RV0457,"váy tạm dùng được nhưng không đáng tiền, đóng gói cũng sơ sài.",Negative,price,yes,packaging,mixed_topic,váy tạm dùng được nhưng không đáng tiền đóng gói cũng sơ sài
+RV0458,"Rất thích son, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích son dùng ổn phù hợp với nhu cầu
+RV0459,"Không hài lòng vì gửi nhầm sản phẩm, phải mất công đổi trả. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,không hài lòng vì gửi nhầm sản phẩm phải mất công đổi trả mình ghi nhận như vậy
+RV0460,"Gói hàng ổn, đóng đơn nhanh, sản phẩm chắc chắn. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm chắc chắn hy vọng lần sau tốt hơn
+RV0461,"gửi nhầm sản phẩm, bao bì lại còn bị rách. Mình ghi nhận như vậy.",Negative,wrong_item,yes,packaging,mixed_topic,gửi nhầm sản phẩm bao bì lại còn bị rách mình ghi nhận như vậy
+RV0462,"mũ bảo hiểm đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,mũ bảo hiểm đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0463,"Vấn đề lớn nhất là vận chuyển chậm hơn dự kiến, mong shop cải thiện khâu giao hàng. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,vấn đề lớn nhất là vận chuyển chậm hơn dự kiến mong shop cải thiện khâu giao hàng mình ghi nhận như vậy
+RV0464,quần jean thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,quần jean thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai mình ghi nhận như vậy
+RV0465,"kem dưỡng giao nhanh nhưng dùng được một lúc là hỏng, thêm nữa giá hơi cao so với chất lượng.",Negative,product_quality,yes,delivery,mixed_topic,kem dưỡng giao nhanh nhưng dùng được một lúc là hỏng thêm nữa giá hơi cao so với chất lượng
+RV0466,Sản phẩm có vấn đề nhưng đổ lỗi cho khách. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng đổ lỗi cho khách mình ghi nhận như vậy
+RV0467,áo nhìn ngoài được nhưng thực tế màu bị phai.,Negative,product_quality,no,,normal,áo nhìn ngoài được nhưng thực tế màu bị phai
+RV0468,"Shop phản hồi được nhưng chất lượng chưa tương xứng với giá, mình thấy chưa đáng mua lại.",Negative,price,yes,customer_service,mixed_topic,shop phản hồi được nhưng chất lượng chưa tương xứng với giá mình thấy chưa đáng mua lại
+RV0469,"Trải nghiệm chăm sóc khách hàng kém, thái độ phản hồi khó chịu.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém thái độ phản hồi khó chịu
+RV0470,"Mình mua áo, thấy rất đáng tiền, người bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua áo thấy rất đáng tiền người bán đổi trả rõ ràng
+RV0471,Mình đặt nồi chiên nhưng shop gửi nhầm sản phẩm.,Negative,wrong_item,no,,normal,mình đặt nồi chiên nhưng shop gửi nhầm sản phẩm
+RV0472,Sản phẩm bên trong tạm ổn nhưng hộp ướt. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng hộp ướt mình ghi nhận như vậy
+RV0473,"Đơn sách giao quá chậm, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn sách giao quá chậm hỏi thì không có cập nhật rõ
+RV0474,kem dưỡng nhìn ngoài được nhưng thực tế bị lỗi.,Negative,product_quality,no,,normal,kem dưỡng nhìn ngoài được nhưng thực tế bị lỗi
+RV0475,Có lỗi phát sinh nhưng người bán hứa gọi lại nhưng không gọi.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng người bán hứa gọi lại nhưng không gọi
+RV0476,"Hàng chuẩn, xài mượt, bên bán phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt bên bán phản hồi nhanh nên mình hài lòng
+RV0477,giày thì tạm ổn nhưng đơn hàng shipper giao nhầm giờ.,Negative,delivery,no,,normal,giày thì tạm ổn nhưng đơn hàng shipper giao nhầm giờ
+RV0478,Sản phẩm có vấn đề nhưng nhắn tin không ai trả lời.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng nhắn tin không ai trả lời
+RV0479,"Dùng thử khăn tắm thì thấy dùng được một lúc là hỏng, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử khăn tắm thì thấy dùng được một lúc là hỏng cần kiểm tra chất lượng kỹ hơn
+RV0480,Shop cần kiểm tra đơn kỹ hơn vì gửi nhầm sản phẩm.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì gửi nhầm sản phẩm
+RV0481,"Đơn ốp điện thoại giao thiếu thông báo, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn ốp điện thoại giao thiếu thông báo hỏi thì không có cập nhật rõ
+RV0482,"Nhận hàng xong mới thấy balo không hoạt động, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy balo không hoạt động không muốn mua lại
+RV0483,Sản phẩm có vấn đề nhưng xử lý khiếu nại lâu. Hy vọng lần sau tốt hơn.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng xử lý khiếu nại lâu hy vọng lần sau tốt hơn
+RV0484,"Đã dùng vài ngày, sạc dự phòng chắc chắn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sạc dự phòng chắc chắn không có lỗi gì
+RV0485,"Sản phẩm pin tụt nhanh, khác xa kỳ vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,sản phẩm pin tụt nhanh khác xa kỳ vọng mình ghi nhận như vậy
+RV0486,"Mình mua son, thấy dùng ổn, bên bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua son thấy dùng ổn bên bán nhắn tin lịch sự
+RV0487,"sách chất lượng tốt, giao nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,sách chất lượng tốt giao nhanh bao bì sạch sẽ
+RV0488,"đồng hồ dùng được nhưng không có chống sốc, giao hàng cũng hơi lâu.",Negative,packaging,yes,delivery,mixed_topic,đồng hồ dùng được nhưng không có chống sốc giao hàng cũng hơi lâu
+RV0489,"Rất thích ốp điện thoại, xài mượt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích ốp điện thoại xài mượt phù hợp với nhu cầu
+RV0490,"Sản phẩm màu bị phai, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm màu bị phai khác xa kỳ vọng
+RV0491,Sản phẩm bên trong tạm ổn nhưng hộp bị móp.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng hộp bị móp
+RV0492,"chuột máy tính rất đáng tiền nhưng giao quá chậm, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,chuột máy tính rất đáng tiền nhưng giao quá chậm hộp cũng hơi móp
+RV0493,Đơn này bị lỗi phân loại: giao sai size.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại giao sai size
+RV0494,"đóng gói sơ sài, may là ốp điện thoại chưa hỏng hẳn.",Negative,packaging,no,,normal,đóng gói sơ sài may là ốp điện thoại chưa hỏng hẳn
+RV0495,"nồi chiên đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,nồi chiên đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý mình ghi nhận như vậy
+RV0496,"Shop tư vấn được nhưng đóng gói sơ sài, không xứng với giá.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng đóng gói sơ sài không xứng với giá
+RV0497,"đồng hồ màu đẹp, nhận hàng sớm, bao bì sạch sẽ.",Positive,no_issue,no,,normal,đồng hồ màu đẹp nhận hàng sớm bao bì sạch sẽ
+RV0498,"Shop trả lời ổn nhưng ốp điện thoại không giống mô tả, không hỗ trợ đổi trả.",Negative,product_quality,yes,customer_service,mixed_topic,shop trả lời ổn nhưng ốp điện thoại không giống mô tả không hỗ trợ đổi trả
+RV0499,"Rất thích váy, hoạt động tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích váy hoạt động tốt phù hợp với nhu cầu
+RV0500,Hàng không tệ nhưng vận chuyển chậm hơn dự kiến nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng vận chuyển chậm hơn dự kiến nên mình đánh giá thấp
+RV0501,"Sản phẩm chắc chắn, niêm phong kỹ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chắc chắn niêm phong kỹ lần sau sẽ ủng hộ tiếp
+RV0502,"Khâu đóng gói kém, hộp bị móp. Hy vọng lần sau tốt hơn.",Negative,packaging,no,,normal,khâu đóng gói kém hộp bị móp hy vọng lần sau tốt hơn
+RV0503,"Dùng thử nồi chiên thì thấy không giống mô tả, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử nồi chiên thì thấy không giống mô tả cần kiểm tra chất lượng kỹ hơn
+RV0504,Mình không hài lòng vì tem niêm phong bị bung khi nhận hàng. Đây là trải nghiệm cá nhân.,Negative,packaging,no,,normal,mình không hài lòng vì tem niêm phong bị bung khi nhận hàng đây là trải nghiệm cá nhân
+RV0505,"Không hài lòng vì giao hàng không đúng phân loại, phải mất công đổi trả. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,không hài lòng vì giao hàng không đúng phân loại phải mất công đổi trả mình ghi nhận như vậy
+RV0506,Không biết viết gì. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,irrelevant,không biết viết gì đây là trải nghiệm cá nhân
+RV0507,"Bao bì nhìn được nhưng đồng hồ không giống mô tả, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng đồng hồ không giống mô tả mình vẫn phải đánh giá thấp
+RV0508,"Khâu đóng gói kém, đóng gói sơ sài.",Negative,packaging,no,,normal,khâu đóng gói kém đóng gói sơ sài
+RV0509,"chuột máy tính đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,chuột máy tính đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý mình ghi nhận như vậy
+RV0510,"giày âm thanh rè, mình khá thất vọng.",Negative,product_quality,no,,normal,giày âm thanh rè mình khá thất vọng
+RV0511,Mình đặt sách nhưng shop đặt mẫu khác nhưng nhận mẫu này.,Negative,wrong_item,no,,normal,mình đặt sách nhưng shop đặt mẫu khác nhưng nhận mẫu này
+RV0512,"Shop giao rồi, chưa mở hộp. Mình ghi nhận như vậy.",Neutral,spam_or_irrelevant,no,,not_used,shop giao rồi chưa mở hộp mình ghi nhận như vậy
+RV0513,"Mình mua bàn phím, thấy xài mượt, người bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua bàn phím thấy xài mượt người bán đổi trả rõ ràng
+RV0514,"Hàng chuẩn, mùi dễ chịu, bên bán shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu bên bán shop tư vấn nhiệt tình nên mình hài lòng
+RV0515,Với mức giá này thì chất lượng chưa tương xứng với giá.,Negative,price,no,,normal,với mức giá này thì chất lượng chưa tương xứng với giá
+RV0516,"Rất thích giày, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích giày dùng ổn phù hợp với nhu cầu
+RV0517,"balo xài mượt, giao nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,balo xài mượt giao nhanh bọc chống sốc tốt
+RV0518,"váy giao nhanh nhưng không giống mô tả, thêm nữa giao quá chậm.",Negative,product_quality,yes,delivery,mixed_topic,váy giao nhanh nhưng không giống mô tả thêm nữa giao quá chậm
+RV0519,"bàn phím màu đẹp nhưng giao thiếu thông báo, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,bàn phím màu đẹp nhưng giao thiếu thông báo hộp cũng hơi móp
+RV0520,"Shop tư vấn được nhưng bao bì rách, không xứng với giá.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng bao bì rách không xứng với giá
+RV0521,Mình không hài lòng vì đổ lỗi cho khách.,Negative,customer_service,no,,normal,mình không hài lòng vì đổ lỗi cho khách
+RV0522,"máy xay bị lỗi nhẹ, nhưng vấn đề chính là thái độ phản hồi khó chịu.",Negative,customer_service,yes,product_quality,mixed_topic,máy xay bị lỗi nhẹ nhưng vấn đề chính là thái độ phản hồi khó chịu
+RV0523,"Nhận hàng xong mới thấy máy xay pin tụt nhanh, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy máy xay pin tụt nhanh không muốn mua lại
+RV0524,"Mình mua balo, thấy dùng ổn, shop nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua balo thấy dùng ổn shop nhắn tin lịch sự
+RV0525,"Mình mua khăn tắm, thấy rất đáng tiền, người bán nhắn tin lịch sự.",Positive,no_issue,no,,normal,mình mua khăn tắm thấy rất đáng tiền người bán nhắn tin lịch sự
+RV0526,"Mình mua ốp điện thoại, thấy hoạt động tốt, cửa hàng phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua ốp điện thoại thấy hoạt động tốt cửa hàng phản hồi nhanh
+RV0527,Không biết viết gì.,Neutral,spam_or_irrelevant,no,,irrelevant,không biết viết gì
+RV0528,"Rất thích nồi chiên, chất lượng tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích nồi chiên chất lượng tốt phù hợp với nhu cầu
+RV0529,"sách chất lượng tốt, nhận hàng sớm, bọc chống sốc tốt.",Positive,no_issue,no,,normal,sách chất lượng tốt nhận hàng sớm bọc chống sốc tốt
+RV0530,"máy xay màu bị phai, mình khá thất vọng.",Negative,product_quality,no,,normal,máy xay màu bị phai mình khá thất vọng
+RV0531,Đơn này bị lỗi phân loại: gửi nhầm sản phẩm. Hy vọng lần sau tốt hơn.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại gửi nhầm sản phẩm hy vọng lần sau tốt hơn
+RV0532,"Đã dùng vài ngày, sách chất lượng tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sách chất lượng tốt không có lỗi gì
+RV0533,"ốp điện thoại không hoạt động, mình khá thất vọng.",Negative,product_quality,no,,normal,ốp điện thoại không hoạt động mình khá thất vọng
+RV0534,"Giao khá nhanh nhưng thiếu phụ kiện, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng thiếu phụ kiện shop xử lý đổi trả chậm
+RV0535,Có lỗi phát sinh nhưng người bán thái độ phản hồi khó chịu.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng người bán thái độ phản hồi khó chịu
+RV0536,"Bao bì nhìn được nhưng sạc dự phòng màu bị phai, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng sạc dự phòng màu bị phai mình vẫn phải đánh giá thấp
+RV0537,Sản phẩm không quá tệ nhưng vừa mua xong đã giảm giá mạnh.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng vừa mua xong đã giảm giá mạnh
+RV0538,"Hàng đúng loại nhưng đóng gói sơ sài, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng đóng gói sơ sài làm mình lo sản phẩm bị hỏng
+RV0539,"Hàng đúng loại nhưng không có chống sốc, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng không có chống sốc làm mình lo sản phẩm bị hỏng
+RV0540,"ốp điện thoại hoạt động tốt nhưng giao quá chậm, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,ốp điện thoại hoạt động tốt nhưng giao quá chậm hộp cũng hơi móp
+RV0541,Đơn này bị lỗi phân loại: đặt mẫu khác nhưng nhận mẫu này. Đây là trải nghiệm cá nhân.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại đặt mẫu khác nhưng nhận mẫu này đây là trải nghiệm cá nhân
+RV0542,"Gói hàng ổn, đóng đơn nhanh, sản phẩm dùng ổn.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm dùng ổn
+RV0543,"Không hài lòng vì giao sai màu, phải mất công đổi trả. Mình đánh giá theo đơn này.",Negative,wrong_item,no,,normal,không hài lòng vì giao sai màu phải mất công đổi trả mình đánh giá theo đơn này
+RV0544,"Nhận hàng xong mới thấy đèn học không giống mô tả, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy đèn học không giống mô tả không muốn mua lại
+RV0545,Bình luận cho đủ ký tự nhận điểm. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,spam_xu,bình luận cho đủ ký tự nhận điểm mình ghi nhận như vậy
+RV0546,"quần jean không giống mô tả, mình khá thất vọng.",Negative,product_quality,no,,normal,quần jean không giống mô tả mình khá thất vọng
+RV0547,"Hàng chuẩn, đúng mô tả, bên bán hỗ trợ tốt nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn đúng mô tả bên bán hỗ trợ tốt nên mình hài lòng
+RV0548,Sản phẩm không quá tệ nhưng giá hơi cao so với chất lượng.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng giá hơi cao so với chất lượng
+RV0549,"Mình mua bình nước, thấy dùng ổn, bên bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua bình nước thấy dùng ổn bên bán đổi trả rõ ràng
+RV0550,Mình đặt áo nhưng shop gửi nhầm sản phẩm.,Negative,wrong_item,no,,normal,mình đặt áo nhưng shop gửi nhầm sản phẩm
+RV0551,"Sản phẩm không giống mô tả, khác xa kỳ vọng. Đây là trải nghiệm cá nhân.",Negative,product_quality,no,,normal,sản phẩm không giống mô tả khác xa kỳ vọng đây là trải nghiệm cá nhân
+RV0552,"Rất thích mũ bảo hiểm, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích mũ bảo hiểm đúng mô tả phù hợp với nhu cầu
+RV0553,"Mình mua đồng hồ, thấy đúng mô tả, cửa hàng hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua đồng hồ thấy đúng mô tả cửa hàng hỗ trợ tốt
+RV0554,"kem dưỡng bị lỗi nhẹ, nhưng vấn đề chính là đổ lỗi cho khách.",Negative,customer_service,yes,product_quality,mixed_topic,kem dưỡng bị lỗi nhẹ nhưng vấn đề chính là đổ lỗi cho khách
+RV0555,"Mình cần dùng gấp mà giao quá chậm, trải nghiệm không tốt.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao quá chậm trải nghiệm không tốt
+RV0556,"Rất thích balo, xài mượt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích balo xài mượt phù hợp với nhu cầu
+RV0557,"Shop trả lời ổn nhưng tai nghe đường may xấu, giao thiếu thông báo.",Negative,product_quality,yes,customer_service,mixed_topic,shop trả lời ổn nhưng tai nghe đường may xấu giao thiếu thông báo
+RV0558,"Sản phẩm không giống mô tả, khác xa kỳ vọng. Hy vọng lần sau tốt hơn.",Negative,product_quality,no,,normal,sản phẩm không giống mô tả khác xa kỳ vọng hy vọng lần sau tốt hơn
+RV0559,abc xyz nhận xu Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,spam_xu,abc xyz nhận xu đây là trải nghiệm cá nhân
+RV0560,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. Đây là trải nghiệm cá nhân.,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp đây là trải nghiệm cá nhân
+RV0561,Nhận xu nên đánh giá 5 sao. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,spam_xu,nhận xu nên đánh giá 5 sao mình ghi nhận như vậy
+RV0562,"váy đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,váy đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý mình ghi nhận như vậy
+RV0563,Sản phẩm có vấn đề nhưng nhắn tin không ai trả lời. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng nhắn tin không ai trả lời mình ghi nhận như vậy
+RV0564,"Không hài lòng vì giao sai màu, phải mất công đổi trả. Hy vọng lần sau tốt hơn.",Negative,wrong_item,no,,normal,không hài lòng vì giao sai màu phải mất công đổi trả hy vọng lần sau tốt hơn
+RV0565,"Dùng thử đồng hồ thì thấy không hoạt động, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử đồng hồ thì thấy không hoạt động cần kiểm tra chất lượng kỹ hơn
+RV0566,"Mình mua áo, thấy hoạt động tốt, cửa hàng phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua áo thấy hoạt động tốt cửa hàng phản hồi nhanh
+RV0567,"Hàng chuẩn, hoạt động tốt, cửa hàng shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn hoạt động tốt cửa hàng shop tư vấn nhiệt tình nên mình hài lòng
+RV0568,"thiếu số lượng, bao bì lại còn bị rách. Mình ghi nhận như vậy.",Negative,wrong_item,yes,packaging,mixed_topic,thiếu số lượng bao bì lại còn bị rách mình ghi nhận như vậy
+RV0569,"Đã dùng vài ngày, sách mùi dễ chịu, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sách mùi dễ chịu không có lỗi gì
+RV0570,"Mình đặt đúng phân loại nhưng thiếu phụ kiện, rất mất công kiểm tra lại.",Negative,wrong_item,yes,no_issue,mixed_topic,mình đặt đúng phân loại nhưng thiếu phụ kiện rất mất công kiểm tra lại
+RV0571,"Cảm giác mua sale nhưng vẫn đắt, giá trị nhận lại chưa ổn. Mình ghi nhận như vậy.",Negative,price,no,,normal,cảm giác mua sale nhưng vẫn đắt giá trị nhận lại chưa ổn mình ghi nhận như vậy
+RV0572,"Sản phẩm xài mượt, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm xài mượt bao bì sạch sẽ lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0573,"sách đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,sách đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0574,aaaaaaaaaaaa Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,random_text,aaaaaaaaaaaa mình ghi nhận như vậy
+RV0575,Shop cần kiểm tra đơn kỹ hơn vì đặt mẫu khác nhưng nhận mẫu này.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì đặt mẫu khác nhưng nhận mẫu này
+RV0576,sách dùng bình thường nhưng giá niêm yết gây hiểu nhầm.,Negative,price,no,,normal,sách dùng bình thường nhưng giá niêm yết gây hiểu nhầm
+RV0577,"gửi nhầm sản phẩm, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,gửi nhầm sản phẩm không đúng với lựa chọn ban đầu
+RV0578,Sản phẩm có vấn đề nhưng tư vấn không rõ ràng.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng tư vấn không rõ ràng
+RV0579,Nhận xu nên đánh giá 5 sao.,Neutral,spam_or_irrelevant,no,,spam_xu,nhận xu nên đánh giá 5 sao
+RV0580,"Trải nghiệm chăm sóc khách hàng kém, shop trả lời rất chậm.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém shop trả lời rất chậm
+RV0581,"Gói hàng ổn, ship khá nhanh, sản phẩm chất lượng tốt. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm chất lượng tốt mình ghi nhận như vậy
+RV0582,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. #636,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp 636
+RV0583,đèn học thì tạm ổn nhưng đơn hàng shipper giao nhầm giờ.,Negative,delivery,no,,normal,đèn học thì tạm ổn nhưng đơn hàng shipper giao nhầm giờ
+RV0584,"Đã dùng vài ngày, quần jean xài mượt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày quần jean xài mượt không có lỗi gì
+RV0585,"Rất thích giày, vải đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích giày vải đẹp phù hợp với nhu cầu
+RV0586,"Giao khá nhanh nhưng thiếu số lượng, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng thiếu số lượng shop xử lý đổi trả chậm
+RV0587,"Shop giao rồi, chưa mở hộp. Đây là trải nghiệm cá nhân.",Neutral,spam_or_irrelevant,no,,not_used,shop giao rồi chưa mở hộp đây là trải nghiệm cá nhân
+RV0588,"Đánh giá sau, giờ lấy xu trước. Hy vọng lần sau tốt hơn.",Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá sau giờ lấy xu trước hy vọng lần sau tốt hơn
+RV0589,"quần jean xài mượt, ship khá nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,quần jean xài mượt ship khá nhanh bao bì sạch sẽ
+RV0590,"Rất thích sạc dự phòng, vải đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích sạc dự phòng vải đẹp phù hợp với nhu cầu
+RV0591,"Không hài lòng vì thiếu phụ kiện, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì thiếu phụ kiện phải mất công đổi trả
+RV0592,"Đã dùng vài ngày, đèn học đúng mô tả, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày đèn học đúng mô tả không có lỗi gì
+RV0593,"váy tạm dùng được nhưng mua sale nhưng vẫn đắt, đóng gói cũng sơ sài.",Negative,price,yes,packaging,mixed_topic,váy tạm dùng được nhưng mua sale nhưng vẫn đắt đóng gói cũng sơ sài
+RV0594,"Không hài lòng vì giao sai màu, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì giao sai màu phải mất công đổi trả
+RV0595,"sạc dự phòng mùi rất khó chịu, mình khá thất vọng.",Negative,product_quality,no,,normal,sạc dự phòng mùi rất khó chịu mình khá thất vọng
+RV0596,"hộp bị móp, may là bàn phím chưa hỏng hẳn.",Negative,packaging,no,,normal,hộp bị móp may là bàn phím chưa hỏng hẳn
+RV0597,Mình đặt bình nước nhưng shop gửi nhầm sản phẩm.,Negative,wrong_item,no,,normal,mình đặt bình nước nhưng shop gửi nhầm sản phẩm
+RV0598,"Đã dùng vài ngày, quần jean hoạt động tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày quần jean hoạt động tốt không có lỗi gì
+RV0599,"Vấn đề lớn nhất là vận chuyển chậm hơn dự kiến, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là vận chuyển chậm hơn dự kiến mong shop cải thiện khâu giao hàng
+RV0600,Đơn này bị lỗi phân loại: nhận nhầm đơn của người khác.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại nhận nhầm đơn của người khác
+RV0601,"sạc dự phòng đúng mô tả, ship khá nhanh, đóng gói cẩn thận.",Positive,no_issue,no,,normal,sạc dự phòng đúng mô tả ship khá nhanh đóng gói cẩn thận
+RV0602,"ốp điện thoại đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,ốp điện thoại đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0603,"Gói hàng ổn, giao nhanh, sản phẩm hoạt động tốt.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm hoạt động tốt
+RV0604,"Đã dùng vài ngày, chuột máy tính vải đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày chuột máy tính vải đẹp không có lỗi gì
+RV0605,"Rất thích bình nước, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích bình nước đúng mô tả phù hợp với nhu cầu
+RV0606,"Hàng chuẩn, xài mượt, bên bán hỗ trợ tốt nên mình hài lòng. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt bên bán hỗ trợ tốt nên mình hài lòng hy vọng lần sau tốt hơn
+RV0607,"Mình mua giày, thấy màu đẹp, người bán shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua giày thấy màu đẹp người bán shop tư vấn nhiệt tình
+RV0608,"sách xài mượt, ship khá nhanh, bọc chống sốc tốt.",Positive,no_issue,no,,normal,sách xài mượt ship khá nhanh bọc chống sốc tốt
+RV0609,"mũ bảo hiểm đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,mũ bảo hiểm đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0610,Đơn này bị lỗi phân loại: đặt mẫu khác nhưng nhận mẫu này.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại đặt mẫu khác nhưng nhận mẫu này
+RV0611,"giày đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,giày đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0612,"Khâu đóng gói kém, hộp bị móp. Đây là trải nghiệm cá nhân.",Negative,packaging,no,,normal,khâu đóng gói kém hộp bị móp đây là trải nghiệm cá nhân
+RV0613,Mình không hài lòng vì không có chống sốc khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì không có chống sốc khi nhận hàng
+RV0614,Sản phẩm không quá tệ nhưng không đáng tiền. Hy vọng lần sau tốt hơn.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng không đáng tiền hy vọng lần sau tốt hơn
+RV0615,"Nhận nồi chiên mà tem niêm phong bị bung, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận nồi chiên mà tem niêm phong bị bung nhìn rất thiếu chuyên nghiệp
+RV0616,"Trải nghiệm chăm sóc khách hàng kém, nhắn tin không ai trả lời.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém nhắn tin không ai trả lời
+RV0617,"Mình hỏi về sạc dự phòng mà đổ lỗi cho khách, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về sạc dự phòng mà đổ lỗi cho khách rất mất thời gian
+RV0618,"Shop phản hồi được nhưng giá tăng bất thường, mình thấy chưa đáng mua lại.",Negative,price,yes,customer_service,mixed_topic,shop phản hồi được nhưng giá tăng bất thường mình thấy chưa đáng mua lại
+RV0619,Không biết viết gì. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,irrelevant,không biết viết gì mình ghi nhận như vậy
+RV0620,Có lỗi phát sinh nhưng cửa hàng thái độ phản hồi khó chịu.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng cửa hàng thái độ phản hồi khó chịu
+RV0621,"Vấn đề lớn nhất là hàng bị kẹt ở kho, mong shop cải thiện khâu giao hàng. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,vấn đề lớn nhất là hàng bị kẹt ở kho mong shop cải thiện khâu giao hàng hy vọng lần sau tốt hơn
+RV0622,"Gói hàng ổn, nhận hàng sớm, sản phẩm dùng ổn.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm dùng ổn
+RV0623,"Hàng chuẩn, xài mượt, người bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt người bán nhắn tin lịch sự nên mình hài lòng
+RV0624,Shop cần kiểm tra đơn kỹ hơn vì thiếu phụ kiện. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì thiếu phụ kiện mình ghi nhận như vậy
+RV0625,"nồi chiên đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,nồi chiên đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0626,Mình không hài lòng vì tư vấn không rõ ràng. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,mình không hài lòng vì tư vấn không rõ ràng mình ghi nhận như vậy
+RV0627,"Khâu đóng gói kém, hộp ướt.",Negative,packaging,no,,normal,khâu đóng gói kém hộp ướt
+RV0628,"Rất thích mũ bảo hiểm, màu đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích mũ bảo hiểm màu đẹp phù hợp với nhu cầu
+RV0629,"Sản phẩm màu đẹp, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm màu đẹp đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0630,"Mình mua bình nước, thấy vải đẹp, shop shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua bình nước thấy vải đẹp shop shop tư vấn nhiệt tình
+RV0631,"áo đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,áo đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0632,"Gói hàng ổn, đóng đơn nhanh, sản phẩm dùng ổn. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm dùng ổn mình ghi nhận như vậy
+RV0633,"Đã dùng vài ngày, bàn phím rất đáng tiền, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày bàn phím rất đáng tiền không có lỗi gì
+RV0634,"Hàng chuẩn, chắc chắn, người bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chắc chắn người bán nhắn tin lịch sự nên mình hài lòng
+RV0635,"sạc dự phòng đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,sạc dự phòng đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0636,"Đã dùng vài ngày, bình nước rất đáng tiền, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày bình nước rất đáng tiền không có lỗi gì
+RV0637,"Mình mua mũ bảo hiểm, thấy vải đẹp, cửa hàng shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua mũ bảo hiểm thấy vải đẹp cửa hàng shop tư vấn nhiệt tình
+RV0638,"Sản phẩm xài mượt, bọc chống sốc tốt, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm xài mượt bọc chống sốc tốt lần sau sẽ ủng hộ tiếp
+RV0639,"Bao bì nhìn được nhưng tai nghe màu bị phai, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng tai nghe màu bị phai mình vẫn phải đánh giá thấp
+RV0640,Hàng không tệ nhưng vận chuyển chậm hơn dự kiến nên mình đánh giá thấp. Hy vọng lần sau tốt hơn.,Negative,delivery,no,,normal,hàng không tệ nhưng vận chuyển chậm hơn dự kiến nên mình đánh giá thấp hy vọng lần sau tốt hơn
+RV0641,"đồng hồ rất đáng tiền, giao nhanh, niêm phong kỹ.",Positive,no_issue,no,,normal,đồng hồ rất đáng tiền giao nhanh niêm phong kỹ
+RV0642,"đặt mẫu khác nhưng nhận mẫu này, không đúng với lựa chọn ban đầu. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,đặt mẫu khác nhưng nhận mẫu này không đúng với lựa chọn ban đầu mình ghi nhận như vậy
+RV0643,"Sản phẩm dùng ổn, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm dùng ổn đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0644,Sản phẩm có vấn đề nhưng đổ lỗi cho khách. Hy vọng lần sau tốt hơn.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng đổ lỗi cho khách hy vọng lần sau tốt hơn
+RV0645,"Nhận hàng xong mới thấy áo màu bị phai, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy áo màu bị phai không muốn mua lại
+RV0646,"Mình cần dùng gấp mà giao quá chậm, trải nghiệm không tốt. Mình đánh giá theo đơn này.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao quá chậm trải nghiệm không tốt mình đánh giá theo đơn này
+RV0647,"Giao khá nhanh nhưng gửi nhầm sản phẩm, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng gửi nhầm sản phẩm shop xử lý đổi trả chậm
+RV0648,"Mình cần dùng gấp mà hàng bị kẹt ở kho, trải nghiệm không tốt.",Negative,delivery,no,,normal,mình cần dùng gấp mà hàng bị kẹt ở kho trải nghiệm không tốt
+RV0649,"Rất thích bàn phím, xài mượt, phù hợp với nhu cầu. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,rất thích bàn phím xài mượt phù hợp với nhu cầu mình ghi nhận như vậy
+RV0650,"Hàng chuẩn, chắc chắn, bên bán shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chắc chắn bên bán shop tư vấn nhiệt tình nên mình hài lòng
+RV0651,"Sản phẩm rất đáng tiền, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm rất đáng tiền đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0652,"Đã dùng vài ngày, váy dùng ổn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày váy dùng ổn không có lỗi gì
+RV0653,Đơn này bị lỗi phân loại: đặt mẫu khác nhưng nhận mẫu này. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại đặt mẫu khác nhưng nhận mẫu này mình ghi nhận như vậy
+RV0654,"Sản phẩm chắc chắn, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chắc chắn đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0655,"Mình mua chuột máy tính, thấy rất đáng tiền, cửa hàng hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua chuột máy tính thấy rất đáng tiền cửa hàng hỗ trợ tốt
+RV0656,"Mình mua balo, thấy chắc chắn, shop shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua balo thấy chắc chắn shop shop tư vấn nhiệt tình
+RV0657,"Vấn đề lớn nhất là đợi rất lâu mới nhận được, mong shop cải thiện khâu giao hàng. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,vấn đề lớn nhất là đợi rất lâu mới nhận được mong shop cải thiện khâu giao hàng mình ghi nhận như vậy
+RV0658,"Hàng gì cũng được, cần xu. Đây là trải nghiệm cá nhân.",Neutral,spam_or_irrelevant,no,,spam_xu,hàng gì cũng được cần xu đây là trải nghiệm cá nhân
+RV0659,"Sản phẩm đúng mô tả, niêm phong kỹ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm đúng mô tả niêm phong kỹ lần sau sẽ ủng hộ tiếp
+RV0660,"giày rất đáng tiền, nhận hàng sớm, niêm phong kỹ.",Positive,no_issue,no,,normal,giày rất đáng tiền nhận hàng sớm niêm phong kỹ
+RV0661,"Dùng thử bàn phím thì thấy bị lỗi, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử bàn phím thì thấy bị lỗi cần kiểm tra chất lượng kỹ hơn
+RV0662,"Mình cần dùng gấp mà hàng bị kẹt ở kho, trải nghiệm không tốt. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,mình cần dùng gấp mà hàng bị kẹt ở kho trải nghiệm không tốt mình ghi nhận như vậy
+RV0663,"Vấn đề lớn nhất là shipper giao nhầm giờ, mong shop cải thiện khâu giao hàng.",Negative,delivery,no,,normal,vấn đề lớn nhất là shipper giao nhầm giờ mong shop cải thiện khâu giao hàng
+RV0664,Cho đủ chữ để nhận thưởng. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,spam_xu,cho đủ chữ để nhận thưởng hy vọng lần sau tốt hơn
+RV0665,"Bao bì nhìn được nhưng tai nghe pin tụt nhanh, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng tai nghe pin tụt nhanh mình vẫn phải đánh giá thấp
+RV0666,"Dùng thử tai nghe thì thấy đường may xấu, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử tai nghe thì thấy đường may xấu cần kiểm tra chất lượng kỹ hơn
+RV0667,"Mình cần dùng gấp mà trễ hẹn nhiều ngày, trải nghiệm không tốt. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,mình cần dùng gấp mà trễ hẹn nhiều ngày trải nghiệm không tốt hy vọng lần sau tốt hơn
+RV0668,Có lỗi phát sinh nhưng cửa hàng tư vấn không rõ ràng.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng cửa hàng tư vấn không rõ ràng
+RV0669,"Rất thích nồi chiên, chắc chắn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích nồi chiên chắc chắn phù hợp với nhu cầu
+RV0670,Sản phẩm có vấn đề nhưng xử lý khiếu nại lâu. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng xử lý khiếu nại lâu mình ghi nhận như vậy
+RV0671,"Rất thích tai nghe, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích tai nghe dùng ổn phù hợp với nhu cầu
+RV0672,"Cảm giác giá niêm yết gây hiểu nhầm, giá trị nhận lại chưa ổn.",Negative,price,no,,normal,cảm giác giá niêm yết gây hiểu nhầm giá trị nhận lại chưa ổn
+RV0673,Bình luận cho đủ ký tự nhận điểm. #1092,Neutral,spam_or_irrelevant,no,,spam_xu,bình luận cho đủ ký tự nhận điểm 1092
+RV0674,"Mình hỏi về bàn phím mà thái độ phản hồi khó chịu, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về bàn phím mà thái độ phản hồi khó chịu rất mất thời gian
+RV0675,Nhận xu nên đánh giá 5 sao. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,spam_xu,nhận xu nên đánh giá 5 sao hy vọng lần sau tốt hơn
+RV0676,Sản phẩm có vấn đề nhưng hứa gọi lại nhưng không gọi. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng hứa gọi lại nhưng không gọi mình ghi nhận như vậy
+RV0677,"đèn học đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,đèn học đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0678,Với mức giá này thì giá tăng bất thường. Mình ghi nhận như vậy.,Negative,price,no,,normal,với mức giá này thì giá tăng bất thường mình ghi nhận như vậy
+RV0679,Hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp. Hy vọng lần sau tốt hơn.,Negative,delivery,no,,normal,hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp hy vọng lần sau tốt hơn
+RV0680,"Đơn giao hơi chậm, thêm nữa đổ lỗi cho khách nên mình không hài lòng. Mình ghi nhận như vậy.",Negative,customer_service,yes,delivery,mixed_topic,đơn giao hơi chậm thêm nữa đổ lỗi cho khách nên mình không hài lòng mình ghi nhận như vậy
+RV0681,"đồng hồ bị lỗi nhẹ, nhưng vấn đề chính là shop trả lời rất chậm.",Negative,customer_service,yes,product_quality,mixed_topic,đồng hồ bị lỗi nhẹ nhưng vấn đề chính là shop trả lời rất chậm
+RV0682,"ốp điện thoại đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,ốp điện thoại đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0683,"Sản phẩm mùi dễ chịu, niêm phong kỹ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu niêm phong kỹ lần sau sẽ ủng hộ tiếp
+RV0684,"bàn phím dùng được nhưng không có chống sốc, giao hàng cũng hơi lâu.",Negative,packaging,yes,delivery,mixed_topic,bàn phím dùng được nhưng không có chống sốc giao hàng cũng hơi lâu
+RV0685,đồng hồ dùng bình thường nhưng phí ship cao.,Negative,price,no,,normal,đồng hồ dùng bình thường nhưng phí ship cao
+RV0686,"Mình hỏi về giày mà nhắn tin không ai trả lời, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về giày mà nhắn tin không ai trả lời rất mất thời gian
+RV0687,"Hàng gì cũng được, cần xu.",Neutral,spam_or_irrelevant,no,,spam_xu,hàng gì cũng được cần xu
+RV0688,"Đã dùng vài ngày, đồng hồ chắc chắn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày đồng hồ chắc chắn không có lỗi gì
+RV0689,"giày pin tụt nhanh, mình khá thất vọng.",Negative,product_quality,no,,normal,giày pin tụt nhanh mình khá thất vọng
+RV0690,"Nhận ốp điện thoại mà hộp ướt, nhìn rất thiếu chuyên nghiệp. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,nhận ốp điện thoại mà hộp ướt nhìn rất thiếu chuyên nghiệp mình ghi nhận như vậy
+RV0691,"quần jean đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,quần jean đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý mình ghi nhận như vậy
+RV0692,"hộp ướt, may là tai nghe chưa hỏng hẳn.",Negative,packaging,no,,normal,hộp ướt may là tai nghe chưa hỏng hẳn
+RV0693,"Đơn ốp điện thoại hàng bị kẹt ở kho, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn ốp điện thoại hàng bị kẹt ở kho hỏi thì không có cập nhật rõ
+RV0694,"tai nghe đúng mô tả, ship khá nhanh, đóng gói cẩn thận.",Positive,no_issue,no,,normal,tai nghe đúng mô tả ship khá nhanh đóng gói cẩn thận
+RV0695,Mua theo bạn nên chưa sử dụng.,Neutral,spam_or_irrelevant,no,,not_used,mua theo bạn nên chưa sử dụng
+RV0696,"Sản phẩm màu đẹp, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm màu đẹp bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0697,Mình đặt nồi chiên nhưng shop gửi nhầm sản phẩm. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,mình đặt nồi chiên nhưng shop gửi nhầm sản phẩm mình ghi nhận như vậy
+RV0698,"Hàng gì cũng được, cần xu. Mình đánh giá theo đơn này.",Neutral,spam_or_irrelevant,no,,spam_xu,hàng gì cũng được cần xu mình đánh giá theo đơn này
+RV0699,Mình không hài lòng vì tư vấn không rõ ràng.,Negative,customer_service,no,,normal,mình không hài lòng vì tư vấn không rõ ràng
+RV0700,"bình nước đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,bình nước đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0701,quần jean nhìn ngoài được nhưng thực tế pin tụt nhanh.,Negative,product_quality,no,,normal,quần jean nhìn ngoài được nhưng thực tế pin tụt nhanh
+RV0702,"Bao bì nhìn được nhưng sạc dự phòng dùng được một lúc là hỏng, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng sạc dự phòng dùng được một lúc là hỏng mình vẫn phải đánh giá thấp
+RV0703,Đơn này bị lỗi phân loại: nhận nhầm đơn của người khác. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại nhận nhầm đơn của người khác mình ghi nhận như vậy
+RV0704,"Không hài lòng vì giao sai màu, phải mất công đổi trả. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,không hài lòng vì giao sai màu phải mất công đổi trả mình ghi nhận như vậy
+RV0705,"Hàng chuẩn, vải đẹp, cửa hàng phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn vải đẹp cửa hàng phản hồi nhanh nên mình hài lòng
+RV0707,"Gói hàng ổn, nhận hàng sớm, sản phẩm đúng mô tả.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm đúng mô tả
+RV0708,Bình luận cho đủ ký tự nhận điểm. Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,spam_xu,bình luận cho đủ ký tự nhận điểm mình đánh giá theo đơn này
+RV0709,"sách đường may xấu, mình khá thất vọng.",Negative,product_quality,no,,normal,sách đường may xấu mình khá thất vọng
+RV0710,"Rất thích máy xay, chất lượng tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích máy xay chất lượng tốt phù hợp với nhu cầu
+RV0711,"Bao bì nhìn được nhưng kem dưỡng bị lỗi, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng kem dưỡng bị lỗi mình vẫn phải đánh giá thấp
+RV0712,"Đã dùng vài ngày, bình nước hoạt động tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày bình nước hoạt động tốt không có lỗi gì
+RV0713,"Nhận sạc dự phòng mà hộp bị móp, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận sạc dự phòng mà hộp bị móp nhìn rất thiếu chuyên nghiệp
+RV0714,"Hàng chuẩn, chắc chắn, shop shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chắc chắn shop shop tư vấn nhiệt tình nên mình hài lòng
+RV0715,"nồi chiên chất lượng tốt, đóng đơn nhanh, niêm phong kỹ.",Positive,no_issue,no,,normal,nồi chiên chất lượng tốt đóng đơn nhanh niêm phong kỹ
+RV0716,"Hàng chuẩn, hoạt động tốt, người bán đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn hoạt động tốt người bán đổi trả rõ ràng nên mình hài lòng
+RV0717,"giày bị lỗi, mình khá thất vọng.",Negative,product_quality,no,,normal,giày bị lỗi mình khá thất vọng
+RV0718,"Shop tư vấn được nhưng gói hàng nhìn rất cũ, không xứng với giá.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng gói hàng nhìn rất cũ không xứng với giá
+RV0719,"Hàng đúng loại nhưng sản phẩm bị trầy do gói kém, làm mình lo sản phẩm bị hỏng. Mình ghi nhận như vậy.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng sản phẩm bị trầy do gói kém làm mình lo sản phẩm bị hỏng mình ghi nhận như vậy
+RV0720,Sản phẩm không quá tệ nhưng mua sale nhưng vẫn đắt.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng mua sale nhưng vẫn đắt
+RV0721,"Sản phẩm mùi rất khó chịu, khác xa kỳ vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,sản phẩm mùi rất khó chịu khác xa kỳ vọng mình ghi nhận như vậy
+RV0722,"Gói hàng ổn, giao đúng hẹn, sản phẩm hoạt động tốt.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm hoạt động tốt
+RV0723,"Rất thích bàn phím, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích bàn phím rất đáng tiền phù hợp với nhu cầu
+RV0724,"tai nghe đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,tai nghe đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0725,Chưa dùng nên chưa biết chất lượng thế nào. #1074,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào 1074
+RV0726,"Đã dùng vài ngày, son vải đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày son vải đẹp không có lỗi gì
+RV0727,"bàn phím đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,bàn phím đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV0728,"Gói hàng ổn, giao đúng hẹn, sản phẩm xài mượt. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm xài mượt hy vọng lần sau tốt hơn
+RV0729,"Mình mua đèn học, thấy hoạt động tốt, cửa hàng phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua đèn học thấy hoạt động tốt cửa hàng phản hồi nhanh
+RV0730,"Mình mua mũ bảo hiểm, thấy xài mượt, bên bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua mũ bảo hiểm thấy xài mượt bên bán hỗ trợ tốt
+RV0731,"tai nghe giao nhanh nhưng mùi rất khó chịu, thêm nữa trễ hẹn nhiều ngày.",Negative,product_quality,yes,delivery,mixed_topic,tai nghe giao nhanh nhưng mùi rất khó chịu thêm nữa trễ hẹn nhiều ngày
+RV0732,"Sản phẩm chắc chắn, bọc chống sốc tốt, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm chắc chắn bọc chống sốc tốt lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0733,Hàng không tệ nhưng shipper giao nhầm giờ nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng shipper giao nhầm giờ nên mình đánh giá thấp
+RV0734,"Rất thích khăn tắm, rất đáng tiền, phù hợp với nhu cầu. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,rất thích khăn tắm rất đáng tiền phù hợp với nhu cầu mình ghi nhận như vậy
+RV0735,Hàng không tệ nhưng trễ hẹn nhiều ngày nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng trễ hẹn nhiều ngày nên mình đánh giá thấp
+RV0736,Đơn này bị lỗi phân loại: thiếu số lượng. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại thiếu số lượng mình ghi nhận như vậy
+RV0737,"Đã dùng vài ngày, quần jean màu đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày quần jean màu đẹp không có lỗi gì
+RV0738,"Đã dùng vài ngày, sạc dự phòng rất đáng tiền, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sạc dự phòng rất đáng tiền không có lỗi gì
+RV0740,"Mình mua đồng hồ, thấy mùi dễ chịu, shop phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua đồng hồ thấy mùi dễ chịu shop phản hồi nhanh
+RV0741,"Mình đặt đúng phân loại nhưng giao sai size, rất mất công kiểm tra lại.",Negative,wrong_item,yes,no_issue,mixed_topic,mình đặt đúng phân loại nhưng giao sai size rất mất công kiểm tra lại
+RV0742,"son vải đẹp nhưng hàng bị kẹt ở kho, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,son vải đẹp nhưng hàng bị kẹt ở kho hộp cũng hơi móp
+RV0743,Mình đặt son nhưng shop giao sai size.,Negative,wrong_item,no,,normal,mình đặt son nhưng shop giao sai size
+RV0744,"Trải nghiệm chăm sóc khách hàng kém, nhắn tin không ai trả lời. Mình ghi nhận như vậy.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém nhắn tin không ai trả lời mình ghi nhận như vậy
+RV0745,"Sản phẩm chất lượng kém, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm chất lượng kém khác xa kỳ vọng
+RV0746,ốp điện thoại nhìn ngoài được nhưng thực tế âm thanh rè.,Negative,product_quality,no,,normal,ốp điện thoại nhìn ngoài được nhưng thực tế âm thanh rè
+RV0747,"Giao khá nhanh nhưng nhận nhầm đơn của người khác, shop xử lý đổi trả chậm. Hy vọng lần sau tốt hơn.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng nhận nhầm đơn của người khác shop xử lý đổi trả chậm hy vọng lần sau tốt hơn
+RV0748,Ổn Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,too_short,ổn đây là trải nghiệm cá nhân
+RV0749,"Đã dùng vài ngày, mũ bảo hiểm chắc chắn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày mũ bảo hiểm chắc chắn không có lỗi gì
+RV0750,"Đã dùng vài ngày, ốp điện thoại rất đáng tiền, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày ốp điện thoại rất đáng tiền không có lỗi gì
+RV0751,đèn học thì tạm ổn nhưng đơn hàng trễ hẹn nhiều ngày. Mình ghi nhận như vậy.,Negative,delivery,no,,normal,đèn học thì tạm ổn nhưng đơn hàng trễ hẹn nhiều ngày mình ghi nhận như vậy
+RV0752,"Sản phẩm âm thanh rè, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm âm thanh rè khác xa kỳ vọng
+RV0753,"sách không hoạt động, mình khá thất vọng.",Negative,product_quality,no,,normal,sách không hoạt động mình khá thất vọng
+RV0754,"Nhận kem dưỡng mà không có chống sốc, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận kem dưỡng mà không có chống sốc nhìn rất thiếu chuyên nghiệp
+RV0755,"đồng hồ không giống mô tả, mình khá thất vọng.",Negative,product_quality,no,,normal,đồng hồ không giống mô tả mình khá thất vọng
+RV0756,Đơn này bị lỗi phân loại: thiếu số lượng.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại thiếu số lượng
+RV0757,Chưa dùng nên chưa biết chất lượng thế nào. #1098,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào 1098
+RV0758,máy xay nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng.,Negative,product_quality,no,,normal,máy xay nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng
+RV0759,"ốp điện thoại bị lỗi nhẹ, nhưng vấn đề chính là tư vấn không rõ ràng.",Negative,customer_service,yes,product_quality,mixed_topic,ốp điện thoại bị lỗi nhẹ nhưng vấn đề chính là tư vấn không rõ ràng
+RV0760,"Mình hỏi về sách mà shop trả lời rất chậm, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về sách mà shop trả lời rất chậm rất mất thời gian
+RV0761,"Hàng chuẩn, hoạt động tốt, cửa hàng phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn hoạt động tốt cửa hàng phản hồi nhanh nên mình hài lòng
+RV0762,"chuột máy tính màu đẹp, đóng đơn nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,chuột máy tính màu đẹp đóng đơn nhanh bao bì sạch sẽ
+RV0763,"Nhận hàng xong mới thấy sách mùi rất khó chịu, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy sách mùi rất khó chịu không muốn mua lại
+RV0764,"Trải nghiệm chăm sóc khách hàng kém, không hỗ trợ đổi trả.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém không hỗ trợ đổi trả
+RV0765,"Đã dùng vài ngày, váy vải đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày váy vải đẹp không có lỗi gì
+RV0766,"Đã dùng vài ngày, áo mùi dễ chịu, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày áo mùi dễ chịu không có lỗi gì
+RV0767,"đóng gói sơ sài, may là áo chưa hỏng hẳn.",Negative,packaging,no,,normal,đóng gói sơ sài may là áo chưa hỏng hẳn
+RV0768,"mũ bảo hiểm màu đẹp nhưng đợi rất lâu mới nhận được, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,mũ bảo hiểm màu đẹp nhưng đợi rất lâu mới nhận được hộp cũng hơi móp
+RV0769,nồi chiên thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến.,Negative,delivery,no,,normal,nồi chiên thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến
+RV0770,"Sản phẩm màu đẹp, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm màu đẹp hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV0771,"Sản phẩm không giống mô tả, khác xa kỳ vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,sản phẩm không giống mô tả khác xa kỳ vọng mình ghi nhận như vậy
+RV0772,"váy dùng ổn nhưng đợi rất lâu mới nhận được, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,váy dùng ổn nhưng đợi rất lâu mới nhận được trải nghiệm mua hàng bị ảnh hưởng
+RV0773,"Đã dùng vài ngày, áo hoạt động tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày áo hoạt động tốt không có lỗi gì
+RV0774,"Gói hàng ổn, giao đúng hẹn, sản phẩm chắc chắn.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm chắc chắn
+RV0775,Có lỗi phát sinh nhưng người bán tư vấn không rõ ràng. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng người bán tư vấn không rõ ràng mình ghi nhận như vậy
+RV0776,"quần jean màu bị phai, mình khá thất vọng.",Negative,product_quality,no,,normal,quần jean màu bị phai mình khá thất vọng
+RV0777,"Trải nghiệm chăm sóc khách hàng kém, đổ lỗi cho khách.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém đổ lỗi cho khách
+RV0778,"Đã dùng vài ngày, mũ bảo hiểm màu đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày mũ bảo hiểm màu đẹp không có lỗi gì
+RV0779,"đèn học đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,đèn học đẹp hơn mong đợi giao nhanh giá cũng hợp lý hy vọng lần sau tốt hơn
+RV0780,"Mình mua quần jean, thấy vải đẹp, người bán phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua quần jean thấy vải đẹp người bán phản hồi nhanh
+RV0781,"Mình hỏi về khăn tắm mà nhắn tin không ai trả lời, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về khăn tắm mà nhắn tin không ai trả lời rất mất thời gian
+RV0782,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp. Hy vọng lần sau tốt hơn.,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp hy vọng lần sau tốt hơn
+RV0783,"Đánh giá sau, giờ lấy xu trước. Mình đánh giá theo đơn này.",Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá sau giờ lấy xu trước mình đánh giá theo đơn này
+RV0784,"Nhận hàng xong mới thấy mũ bảo hiểm mùi rất khó chịu, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy mũ bảo hiểm mùi rất khó chịu không muốn mua lại
+RV0785,"Đơn máy xay giao thiếu thông báo, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn máy xay giao thiếu thông báo hỏi thì không có cập nhật rõ
+RV0786,"Mình muốn đổi size nhưng shop trả lời rất chậm, trải nghiệm rất tệ.",Negative,customer_service,yes,wrong_item,mixed_topic,mình muốn đổi size nhưng shop trả lời rất chậm trải nghiệm rất tệ
+RV0787,"Gói hàng ổn, giao đúng hẹn, sản phẩm chất lượng tốt. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm chất lượng tốt mình ghi nhận như vậy
+RV0788,"Đã dùng vài ngày, áo dùng ổn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày áo dùng ổn không có lỗi gì
+RV0789,"Hàng đúng mô tả nhưng giao thiếu thông báo, shop phản hồi cũng chậm.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng giao thiếu thông báo shop phản hồi cũng chậm
+RV0790,đồng hồ nhìn ngoài được nhưng thực tế âm thanh rè.,Negative,product_quality,no,,normal,đồng hồ nhìn ngoài được nhưng thực tế âm thanh rè
+RV0791,"Sản phẩm mùi dễ chịu, hộp còn nguyên, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu hộp còn nguyên lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0792,"Mình mua son, thấy xài mượt, bên bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua son thấy xài mượt bên bán hỗ trợ tốt
+RV0793,"Gói hàng ổn, giao đúng hẹn, sản phẩm xài mượt.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm xài mượt
+RV0794,Mua hộ nên không rõ sản phẩm ra sao. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao mình ghi nhận như vậy
+RV0795,"Mình mua quần jean, thấy màu đẹp, bên bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua quần jean thấy màu đẹp bên bán đổi trả rõ ràng
+RV0796,Mình không hài lòng vì bao bì rách khi nhận hàng. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,mình không hài lòng vì bao bì rách khi nhận hàng mình ghi nhận như vậy
+RV0797,"Đã dùng vài ngày, chuột máy tính đúng mô tả, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày chuột máy tính đúng mô tả không có lỗi gì
+RV0798,Không có gì để nhận xét. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét mình ghi nhận như vậy
+RV0799,"Trải nghiệm chăm sóc khách hàng kém, tư vấn không rõ ràng. Mình ghi nhận như vậy.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém tư vấn không rõ ràng mình ghi nhận như vậy
+RV0800,"Dùng thử váy thì thấy âm thanh rè, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử váy thì thấy âm thanh rè cần kiểm tra chất lượng kỹ hơn
+RV0801,"Gói hàng ổn, đóng đơn nhanh, sản phẩm mùi dễ chịu.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm mùi dễ chịu
+RV0802,"máy xay đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,máy xay đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV0803,Tạm Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,too_short,tạm mình ghi nhận như vậy
+RV0804,"Hàng đúng mô tả nhưng trễ hẹn nhiều ngày, shop phản hồi cũng chậm. Hy vọng lần sau tốt hơn.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng trễ hẹn nhiều ngày shop phản hồi cũng chậm hy vọng lần sau tốt hơn
+RV0805,"Rất thích ốp điện thoại, vải đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích ốp điện thoại vải đẹp phù hợp với nhu cầu
+RV0806,Mình đặt bình nước nhưng shop đặt mẫu khác nhưng nhận mẫu này.,Negative,wrong_item,no,,normal,mình đặt bình nước nhưng shop đặt mẫu khác nhưng nhận mẫu này
+RV0807,"Đơn giao hơi chậm, thêm nữa đổ lỗi cho khách nên mình không hài lòng.",Negative,customer_service,yes,delivery,mixed_topic,đơn giao hơi chậm thêm nữa đổ lỗi cho khách nên mình không hài lòng
+RV0808,"Vấn đề lớn nhất là trễ hẹn nhiều ngày, mong shop cải thiện khâu giao hàng. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,vấn đề lớn nhất là trễ hẹn nhiều ngày mong shop cải thiện khâu giao hàng hy vọng lần sau tốt hơn
+RV0809,"máy xay chất lượng kém, mình khá thất vọng.",Negative,product_quality,no,,normal,máy xay chất lượng kém mình khá thất vọng
+RV0810,"Hàng chuẩn, chắc chắn, bên bán shop tư vấn nhiệt tình nên mình hài lòng. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,hàng chuẩn chắc chắn bên bán shop tư vấn nhiệt tình nên mình hài lòng mình ghi nhận như vậy
+RV0811,Mua hộ nên không rõ sản phẩm ra sao. #1070,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao 1070
+RV0812,Mình không hài lòng vì shop trả lời rất chậm. Mình ghi nhận như vậy.,Negative,customer_service,no,,normal,mình không hài lòng vì shop trả lời rất chậm mình ghi nhận như vậy
+RV0813,"Sản phẩm mùi dễ chịu, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0814,ok Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,too_short,ok mình ghi nhận như vậy
+RV0815,Nhận xu nên đánh giá 5 sao. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,spam_xu,nhận xu nên đánh giá 5 sao đây là trải nghiệm cá nhân
+RV0816,"Hàng chuẩn, hoạt động tốt, bên bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn hoạt động tốt bên bán nhắn tin lịch sự nên mình hài lòng
+RV0817,"đèn học xài mượt, nhận hàng sớm, niêm phong kỹ.",Positive,no_issue,no,,normal,đèn học xài mượt nhận hàng sớm niêm phong kỹ
+RV0818,áo thì tạm ổn nhưng đơn hàng giao thiếu thông báo.,Negative,delivery,no,,normal,áo thì tạm ổn nhưng đơn hàng giao thiếu thông báo
+RV0819,"Không hài lòng vì đặt mẫu khác nhưng nhận mẫu này, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì đặt mẫu khác nhưng nhận mẫu này phải mất công đổi trả
+RV0820,"Dùng thử đồng hồ thì thấy mùi rất khó chịu, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử đồng hồ thì thấy mùi rất khó chịu cần kiểm tra chất lượng kỹ hơn
+RV0821,"Hàng chuẩn, đúng mô tả, người bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn đúng mô tả người bán nhắn tin lịch sự nên mình hài lòng
+RV0822,Shop cần kiểm tra đơn kỹ hơn vì giao sai màu.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì giao sai màu
+RV0823,Shop cần kiểm tra đơn kỹ hơn vì thiếu số lượng.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì thiếu số lượng
+RV0824,"kem dưỡng vải đẹp nhưng hàng bị kẹt ở kho, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,kem dưỡng vải đẹp nhưng hàng bị kẹt ở kho hộp cũng hơi móp
+RV0825,balo thì tạm ổn nhưng đơn hàng giao thiếu thông báo.,Negative,delivery,no,,normal,balo thì tạm ổn nhưng đơn hàng giao thiếu thông báo
+RV0826,"sạc dự phòng bị lỗi, mình khá thất vọng.",Negative,product_quality,no,,normal,sạc dự phòng bị lỗi mình khá thất vọng
+RV0827,Đơn này bị lỗi phân loại: nhận nhầm đơn của người khác. Hy vọng lần sau tốt hơn.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại nhận nhầm đơn của người khác hy vọng lần sau tốt hơn
+RV0828,"Mình mua quần jean, thấy chắc chắn, người bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua quần jean thấy chắc chắn người bán đổi trả rõ ràng
+RV0829,"Đã dùng vài ngày, bình nước xài mượt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày bình nước xài mượt không có lỗi gì
+RV0830,Mình không hài lòng vì tem niêm phong bị bung khi nhận hàng. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,mình không hài lòng vì tem niêm phong bị bung khi nhận hàng mình ghi nhận như vậy
+RV0831,"sách dùng ổn nhưng hàng bị kẹt ở kho, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,sách dùng ổn nhưng hàng bị kẹt ở kho hộp cũng hơi móp
+RV0832,"máy xay đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,máy xay đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV0833,"Trải nghiệm chăm sóc khách hàng kém, không hỗ trợ đổi trả. Mình ghi nhận như vậy.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém không hỗ trợ đổi trả mình ghi nhận như vậy
+RV0834,"Dùng thử váy thì thấy dùng được một lúc là hỏng, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử váy thì thấy dùng được một lúc là hỏng cần kiểm tra chất lượng kỹ hơn
+RV0835,"áo đường may xấu, mình khá thất vọng.",Negative,product_quality,no,,normal,áo đường may xấu mình khá thất vọng
+RV0836,"gửi nhầm sản phẩm, không đúng với lựa chọn ban đầu. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,gửi nhầm sản phẩm không đúng với lựa chọn ban đầu mình ghi nhận như vậy
+RV0837,"váy dùng ổn nhưng giao quá chậm, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,váy dùng ổn nhưng giao quá chậm hộp cũng hơi móp
+RV0838,"Nhận kem dưỡng mà hộp ướt, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận kem dưỡng mà hộp ướt nhìn rất thiếu chuyên nghiệp
+RV0839,Sản phẩm có vấn đề nhưng đổ lỗi cho khách.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng đổ lỗi cho khách
+RV0840,"quần jean mùi dễ chịu, giao đúng hẹn, bao bì sạch sẽ.",Positive,no_issue,no,,normal,quần jean mùi dễ chịu giao đúng hẹn bao bì sạch sẽ
+RV0841,"Cảm giác mua sale nhưng vẫn đắt, giá trị nhận lại chưa ổn.",Negative,price,no,,normal,cảm giác mua sale nhưng vẫn đắt giá trị nhận lại chưa ổn
+RV0842,"Đơn giao hơi chậm, thêm nữa thái độ phản hồi khó chịu nên mình không hài lòng.",Negative,customer_service,yes,delivery,mixed_topic,đơn giao hơi chậm thêm nữa thái độ phản hồi khó chịu nên mình không hài lòng
+RV0843,"Gói hàng ổn, ship khá nhanh, sản phẩm màu đẹp.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm màu đẹp
+RV0844,"Shop tư vấn được nhưng gói hàng nhìn rất cũ, không xứng với giá. Mình ghi nhận như vậy.",Negative,packaging,yes,price,mixed_topic,shop tư vấn được nhưng gói hàng nhìn rất cũ không xứng với giá mình ghi nhận như vậy
+RV0845,"Bao bì nhìn được nhưng mũ bảo hiểm dùng được một lúc là hỏng, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng mũ bảo hiểm dùng được một lúc là hỏng mình vẫn phải đánh giá thấp
+RV0846,"Hàng chuẩn, mùi dễ chịu, bên bán đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu bên bán đổi trả rõ ràng nên mình hài lòng
+RV0847,"áo màu đẹp, giao nhanh, niêm phong kỹ.",Positive,no_issue,no,,normal,áo màu đẹp giao nhanh niêm phong kỹ
+RV0848,"giao sai size, không đúng với lựa chọn ban đầu. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,giao sai size không đúng với lựa chọn ban đầu mình ghi nhận như vậy
+RV0849,"Mình mua máy xay, thấy hoạt động tốt, bên bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua máy xay thấy hoạt động tốt bên bán đổi trả rõ ràng
+RV0850,"đóng gói sơ sài, may là bình nước chưa hỏng hẳn.",Negative,packaging,no,,normal,đóng gói sơ sài may là bình nước chưa hỏng hẳn
+RV0851,Cho đủ chữ để nhận thưởng. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,spam_xu,cho đủ chữ để nhận thưởng mình ghi nhận như vậy
+RV0852,"Trải nghiệm chăm sóc khách hàng kém, tư vấn không rõ ràng.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém tư vấn không rõ ràng
+RV0853,bình nước nhìn ngoài được nhưng thực tế không hoạt động.,Negative,product_quality,no,,normal,bình nước nhìn ngoài được nhưng thực tế không hoạt động
+RV0854,"Mình cần dùng gấp mà giao quá chậm, trải nghiệm không tốt. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao quá chậm trải nghiệm không tốt hy vọng lần sau tốt hơn
+RV0855,Tạm Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,too_short,tạm hy vọng lần sau tốt hơn
+RV0856,balo thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến.,Negative,delivery,no,,normal,balo thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến
+RV0857,"Không hài lòng vì nhận nhầm đơn của người khác, phải mất công đổi trả.",Negative,wrong_item,no,,normal,không hài lòng vì nhận nhầm đơn của người khác phải mất công đổi trả
+RV0858,"Rất thích kem dưỡng, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích kem dưỡng đúng mô tả phù hợp với nhu cầu
+RV0859,"Khâu đóng gói kém, gói hàng nhìn rất cũ. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,khâu đóng gói kém gói hàng nhìn rất cũ mình ghi nhận như vậy
+RV0860,"giày đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,giày đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0861,"Sản phẩm dùng ổn, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm dùng ổn hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV0862,"Nhận hàng xong mới thấy mũ bảo hiểm không giống mô tả, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy mũ bảo hiểm không giống mô tả không muốn mua lại
+RV0863,"Không hài lòng vì thiếu phụ kiện, phải mất công đổi trả. Mình ghi nhận như vậy.",Negative,wrong_item,no,,normal,không hài lòng vì thiếu phụ kiện phải mất công đổi trả mình ghi nhận như vậy
+RV0864,"Gói hàng ổn, nhận hàng sớm, sản phẩm rất đáng tiền.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm rất đáng tiền
+RV0865,"Shop trả lời ổn nhưng son mùi rất khó chịu, giao quá chậm.",Negative,product_quality,yes,customer_service,mixed_topic,shop trả lời ổn nhưng son mùi rất khó chịu giao quá chậm
+RV0866,"giao sai size, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,giao sai size không đúng với lựa chọn ban đầu
+RV0867,"Nhận hàng xong mới thấy máy xay chất lượng kém, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy máy xay chất lượng kém không muốn mua lại
+RV0868,"giày bị lỗi, mình khá thất vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,giày bị lỗi mình khá thất vọng mình ghi nhận như vậy
+RV0869,"Sản phẩm mùi dễ chịu, bọc chống sốc tốt, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu bọc chống sốc tốt lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0870,"Mình cần dùng gấp mà giao quá chậm, trải nghiệm không tốt. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao quá chậm trải nghiệm không tốt mình ghi nhận như vậy
+RV0871,"Hàng chuẩn, xài mượt, bên bán nhắn tin lịch sự nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt bên bán nhắn tin lịch sự nên mình hài lòng
+RV0872,"Gói hàng ổn, đóng đơn nhanh, sản phẩm xài mượt. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm xài mượt hy vọng lần sau tốt hơn
+RV0873,Đơn này bị lỗi phân loại: giao sai size. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại giao sai size mình ghi nhận như vậy
+RV0874,"Gói hàng ổn, giao đúng hẹn, sản phẩm hoạt động tốt. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm hoạt động tốt mình ghi nhận như vậy
+RV0875,"Hàng chuẩn, đúng mô tả, shop đổi trả rõ ràng nên mình hài lòng. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,hàng chuẩn đúng mô tả shop đổi trả rõ ràng nên mình hài lòng mình ghi nhận như vậy
+RV0876,"Rất thích mũ bảo hiểm, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích mũ bảo hiểm rất đáng tiền phù hợp với nhu cầu
+RV0877,"đèn học đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,đèn học đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0878,Ổn Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,too_short,ổn mình ghi nhận như vậy
+RV0879,"quần jean đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,quần jean đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0880,"Mình muốn đổi size nhưng tư vấn không rõ ràng, trải nghiệm rất tệ.",Negative,customer_service,yes,wrong_item,mixed_topic,mình muốn đổi size nhưng tư vấn không rõ ràng trải nghiệm rất tệ
+RV0881,"bàn phím dùng được một lúc là hỏng, mình khá thất vọng.",Negative,product_quality,no,,normal,bàn phím dùng được một lúc là hỏng mình khá thất vọng
+RV0882,"bình nước dùng được một lúc là hỏng, mình khá thất vọng.",Negative,product_quality,no,,normal,bình nước dùng được một lúc là hỏng mình khá thất vọng
+RV0883,Mình không hài lòng vì nhắn tin không ai trả lời.,Negative,customer_service,no,,normal,mình không hài lòng vì nhắn tin không ai trả lời
+RV0884,"Sản phẩm xài mượt, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm xài mượt đóng gói cẩn thận lần sau sẽ ủng hộ tiếp
+RV0885,"Sản phẩm dùng ổn, niêm phong kỹ, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm dùng ổn niêm phong kỹ lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0886,váy thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến.,Negative,delivery,no,,normal,váy thì tạm ổn nhưng đơn hàng vận chuyển chậm hơn dự kiến
+RV0887,"Đã dùng vài ngày, khăn tắm xài mượt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày khăn tắm xài mượt không có lỗi gì
+RV0888,"Mình mua balo, thấy dùng ổn, bên bán đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua balo thấy dùng ổn bên bán đổi trả rõ ràng
+RV0889,"Nhận đèn học mà bao bì rách, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận đèn học mà bao bì rách nhìn rất thiếu chuyên nghiệp
+RV0890,"ốp điện thoại màu đẹp, đóng đơn nhanh, bao bì sạch sẽ.",Positive,no_issue,no,,normal,ốp điện thoại màu đẹp đóng đơn nhanh bao bì sạch sẽ
+RV0891,aaaaaaaaaaaa Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,random_text,aaaaaaaaaaaa mình đánh giá theo đơn này
+RV0892,Hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng hàng bị kẹt ở kho nên mình đánh giá thấp
+RV0893,Với mức giá này thì giá tăng bất thường. Đây là trải nghiệm cá nhân.,Negative,price,no,,normal,với mức giá này thì giá tăng bất thường đây là trải nghiệm cá nhân
+RV0894,"Mình thấy mua sale nhưng vẫn đắt, nên chưa muốn mua lại. Mình ghi nhận như vậy.",Negative,price,no,,normal,mình thấy mua sale nhưng vẫn đắt nên chưa muốn mua lại mình ghi nhận như vậy
+RV0895,"hộp ướt, may là váy chưa hỏng hẳn.",Negative,packaging,no,,normal,hộp ướt may là váy chưa hỏng hẳn
+RV0896,"Gói hàng ổn, ship khá nhanh, sản phẩm màu đẹp. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm màu đẹp hy vọng lần sau tốt hơn
+RV0897,"Hàng chuẩn, xài mượt, bên bán hỗ trợ tốt nên mình hài lòng. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,hàng chuẩn xài mượt bên bán hỗ trợ tốt nên mình hài lòng mình ghi nhận như vậy
+RV0898,"gửi nhầm sản phẩm, bao bì lại còn bị rách.",Negative,wrong_item,yes,packaging,mixed_topic,gửi nhầm sản phẩm bao bì lại còn bị rách
+RV0899,"Mình cần dùng gấp mà shipper giao nhầm giờ, trải nghiệm không tốt.",Negative,delivery,no,,normal,mình cần dùng gấp mà shipper giao nhầm giờ trải nghiệm không tốt
+RV0900,quần jean thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai.,Negative,delivery,no,,normal,quần jean thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai
+RV0901,"Hàng chuẩn, dùng ổn, cửa hàng đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn dùng ổn cửa hàng đổi trả rõ ràng nên mình hài lòng
+RV0902,"Nhận hàng xong mới thấy đồng hồ pin tụt nhanh, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy đồng hồ pin tụt nhanh không muốn mua lại
+RV0903,good good good xu xu xu Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,spam_xu,good good good xu xu xu đây là trải nghiệm cá nhân
+RV0904,"Rất thích đồng hồ, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích đồng hồ rất đáng tiền phù hợp với nhu cầu
+RV0905,"Hàng chuẩn, chất lượng tốt, người bán phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chất lượng tốt người bán phản hồi nhanh nên mình hài lòng
+RV0906,"Mình cần dùng gấp mà trễ hẹn nhiều ngày, trải nghiệm không tốt. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,mình cần dùng gấp mà trễ hẹn nhiều ngày trải nghiệm không tốt mình ghi nhận như vậy
+RV0907,Shop cần kiểm tra đơn kỹ hơn vì thiếu số lượng. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì thiếu số lượng mình ghi nhận như vậy
+RV0908,Đơn này bị lỗi phân loại: giao sai màu.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại giao sai màu
+RV0909,Chưa dùng nên chưa biết chất lượng thế nào. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào hy vọng lần sau tốt hơn
+RV0910,"mũ bảo hiểm mùi rất khó chịu, mình khá thất vọng.",Negative,product_quality,no,,normal,mũ bảo hiểm mùi rất khó chịu mình khá thất vọng
+RV0911,"kem dưỡng rất đáng tiền, ship khá nhanh, hộp còn nguyên.",Positive,no_issue,no,,normal,kem dưỡng rất đáng tiền ship khá nhanh hộp còn nguyên
+RV0913,"Hàng đúng loại nhưng hộp bị móp, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng hộp bị móp làm mình lo sản phẩm bị hỏng
+RV0914,"đồng hồ hoạt động tốt, giao đúng hẹn, đóng gói cẩn thận.",Positive,no_issue,no,,normal,đồng hồ hoạt động tốt giao đúng hẹn đóng gói cẩn thận
+RV0915,"Mình mua son, thấy vải đẹp, shop hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua son thấy vải đẹp shop hỗ trợ tốt
+RV0916,"váy dùng được một lúc là hỏng, mình khá thất vọng.",Negative,product_quality,no,,normal,váy dùng được một lúc là hỏng mình khá thất vọng
+RV0917,"quần jean tạm dùng được nhưng giá niêm yết gây hiểu nhầm, đóng gói cũng sơ sài.",Negative,price,yes,packaging,mixed_topic,quần jean tạm dùng được nhưng giá niêm yết gây hiểu nhầm đóng gói cũng sơ sài
+RV0918,"Nhận mũ bảo hiểm mà gói hàng nhìn rất cũ, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận mũ bảo hiểm mà gói hàng nhìn rất cũ nhìn rất thiếu chuyên nghiệp
+RV0919,Với mức giá này thì không đáng tiền.,Negative,price,no,,normal,với mức giá này thì không đáng tiền
+RV0920,Chưa dùng nên chưa biết chất lượng thế nào. Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào mình đánh giá theo đơn này
+RV0921,ốp điện thoại nhìn ngoài được nhưng thực tế âm thanh rè. Mình ghi nhận như vậy.,Negative,product_quality,no,,normal,ốp điện thoại nhìn ngoài được nhưng thực tế âm thanh rè mình ghi nhận như vậy
+RV0922,"Đã dùng vài ngày, đèn học màu đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày đèn học màu đẹp không có lỗi gì
+RV0923,Sản phẩm bên trong tạm ổn nhưng sản phẩm bị trầy do gói kém. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng sản phẩm bị trầy do gói kém mình ghi nhận như vậy
+RV0924,"Khâu đóng gói kém, bao bì rách.",Negative,packaging,no,,normal,khâu đóng gói kém bao bì rách
+RV0925,Shop cần kiểm tra đơn kỹ hơn vì thiếu phụ kiện. Hy vọng lần sau tốt hơn.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì thiếu phụ kiện hy vọng lần sau tốt hơn
+RV0926,"Sản phẩm màu đẹp, niêm phong kỹ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm màu đẹp niêm phong kỹ lần sau sẽ ủng hộ tiếp
+RV0927,"Rất thích váy, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích váy rất đáng tiền phù hợp với nhu cầu
+RV0928,Với mức giá này thì giá tăng bất thường.,Negative,price,no,,normal,với mức giá này thì giá tăng bất thường
+RV0929,"Rất thích bình nước, hoạt động tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích bình nước hoạt động tốt phù hợp với nhu cầu
+RV0930,"Giao khá nhanh nhưng đặt mẫu khác nhưng nhận mẫu này, shop xử lý đổi trả chậm.",Negative,wrong_item,yes,customer_service,mixed_topic,giao khá nhanh nhưng đặt mẫu khác nhưng nhận mẫu này shop xử lý đổi trả chậm
+RV0931,"Sản phẩm dùng ổn, niêm phong kỹ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm dùng ổn niêm phong kỹ lần sau sẽ ủng hộ tiếp
+RV0932,"chuột máy tính đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,chuột máy tính đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV0933,Mua hộ nên không rõ sản phẩm ra sao. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,not_used,mua hộ nên không rõ sản phẩm ra sao hy vọng lần sau tốt hơn
+RV0934,Không có gì để nhận xét.,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét
+RV0935,"Sản phẩm hoạt động tốt, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm hoạt động tốt bao bì sạch sẽ lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0936,"Mình muốn đổi size nhưng hứa gọi lại nhưng không gọi, trải nghiệm rất tệ.",Negative,customer_service,yes,wrong_item,mixed_topic,mình muốn đổi size nhưng hứa gọi lại nhưng không gọi trải nghiệm rất tệ
+RV0937,Sản phẩm có vấn đề nhưng hứa gọi lại nhưng không gọi.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng hứa gọi lại nhưng không gọi
+RV0938,"Sản phẩm chất lượng tốt, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chất lượng tốt bao bì sạch sẽ lần sau sẽ ủng hộ tiếp
+RV0939,"nhận nhầm đơn của người khác, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,nhận nhầm đơn của người khác không đúng với lựa chọn ban đầu
+RV0940,Mình đặt khăn tắm nhưng shop giao sai size.,Negative,wrong_item,no,,normal,mình đặt khăn tắm nhưng shop giao sai size
+RV0941,"Rất thích balo, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích balo rất đáng tiền phù hợp với nhu cầu
+RV0942,"Dùng thử bình nước thì thấy không giống mô tả, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử bình nước thì thấy không giống mô tả cần kiểm tra chất lượng kỹ hơn
+RV0943,"Mình mua tai nghe, thấy chất lượng tốt, bên bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua tai nghe thấy chất lượng tốt bên bán hỗ trợ tốt
+RV0944,"giày đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,giày đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0945,Mình không hài lòng vì tem niêm phong bị bung khi nhận hàng.,Negative,packaging,no,,normal,mình không hài lòng vì tem niêm phong bị bung khi nhận hàng
+RV0946,"giao sai size, không đúng với lựa chọn ban đầu. Hy vọng lần sau tốt hơn.",Negative,wrong_item,no,,normal,giao sai size không đúng với lựa chọn ban đầu hy vọng lần sau tốt hơn
+RV0948,Mình không hài lòng vì đóng gói sơ sài khi nhận hàng. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,mình không hài lòng vì đóng gói sơ sài khi nhận hàng mình ghi nhận như vậy
+RV0949,"đặt mẫu khác nhưng nhận mẫu này, bao bì lại còn bị rách.",Negative,wrong_item,yes,packaging,mixed_topic,đặt mẫu khác nhưng nhận mẫu này bao bì lại còn bị rách
+RV0950,"Mình hỏi về máy xay mà không hỗ trợ đổi trả, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về máy xay mà không hỗ trợ đổi trả rất mất thời gian
+RV0951,balo thì tạm ổn nhưng đơn hàng hàng bị kẹt ở kho.,Negative,delivery,no,,normal,balo thì tạm ổn nhưng đơn hàng hàng bị kẹt ở kho
+RV0952,"không có chống sốc, may là bình nước chưa hỏng hẳn.",Negative,packaging,no,,normal,không có chống sốc may là bình nước chưa hỏng hẳn
+RV0953,"Mình mua bình nước, thấy vải đẹp, cửa hàng shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua bình nước thấy vải đẹp cửa hàng shop tư vấn nhiệt tình
+RV0954,"Bao bì nhìn được nhưng chuột máy tính không hoạt động, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng chuột máy tính không hoạt động mình vẫn phải đánh giá thấp
+RV0955,"Đã dùng vài ngày, khăn tắm mùi dễ chịu, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày khăn tắm mùi dễ chịu không có lỗi gì
+RV0956,"Shop giao rồi, chưa mở hộp. Mình đánh giá theo đơn này.",Neutral,spam_or_irrelevant,no,,not_used,shop giao rồi chưa mở hộp mình đánh giá theo đơn này
+RV0957,"thiếu số lượng, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,thiếu số lượng không đúng với lựa chọn ban đầu
+RV0958,"máy xay rất đáng tiền, nhận hàng sớm, bao bì sạch sẽ.",Positive,no_issue,no,,normal,máy xay rất đáng tiền nhận hàng sớm bao bì sạch sẽ
+RV0959,Chưa dùng nên chưa biết chất lượng thế nào.,Neutral,spam_or_irrelevant,no,,not_used,chưa dùng nên chưa biết chất lượng thế nào
+RV0960,"Mình mua máy xay, thấy xài mượt, cửa hàng shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua máy xay thấy xài mượt cửa hàng shop tư vấn nhiệt tình
+RV0961,"Khâu đóng gói kém, đóng gói sơ sài. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,khâu đóng gói kém đóng gói sơ sài mình ghi nhận như vậy
+RV0962,"Dùng thử váy thì thấy pin tụt nhanh, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử váy thì thấy pin tụt nhanh cần kiểm tra chất lượng kỹ hơn
+RV0963,"Mình hỏi về đèn học mà hứa gọi lại nhưng không gọi, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về đèn học mà hứa gọi lại nhưng không gọi rất mất thời gian
+RV0964,"kem dưỡng rất đáng tiền nhưng giao quá chậm, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,kem dưỡng rất đáng tiền nhưng giao quá chậm hộp cũng hơi móp
+RV0965,Sản phẩm có vấn đề nhưng thái độ phản hồi khó chịu.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng thái độ phản hồi khó chịu
+RV0966,"balo chất lượng tốt nhưng trễ hẹn nhiều ngày, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,balo chất lượng tốt nhưng trễ hẹn nhiều ngày hộp cũng hơi móp
+RV0967,"chuột máy tính đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,chuột máy tính đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV0968,"Shop trả lời ổn nhưng son đường may xấu, xử lý khiếu nại lâu.",Negative,product_quality,yes,customer_service,mixed_topic,shop trả lời ổn nhưng son đường may xấu xử lý khiếu nại lâu
+RV0969,"Dùng thử tai nghe thì thấy mùi rất khó chịu, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử tai nghe thì thấy mùi rất khó chịu cần kiểm tra chất lượng kỹ hơn
+RV0970,"Sản phẩm màu đẹp, đóng gói cẩn thận, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm màu đẹp đóng gói cẩn thận lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV0971,"Bao bì nhìn được nhưng son mùi rất khó chịu, mình vẫn phải đánh giá thấp.",Negative,product_quality,yes,packaging,mixed_topic,bao bì nhìn được nhưng son mùi rất khó chịu mình vẫn phải đánh giá thấp
+RV0972,Shop cần kiểm tra đơn kỹ hơn vì nhận nhầm đơn của người khác.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì nhận nhầm đơn của người khác
+RV0973,"Hàng chuẩn, mùi dễ chịu, người bán đổi trả rõ ràng nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn mùi dễ chịu người bán đổi trả rõ ràng nên mình hài lòng
+RV0974,Mình không hài lòng vì hộp bị móp khi nhận hàng. Hy vọng lần sau tốt hơn.,Negative,packaging,no,,normal,mình không hài lòng vì hộp bị móp khi nhận hàng hy vọng lần sau tốt hơn
+RV0975,"Dùng thử bàn phím thì thấy âm thanh rè, cần kiểm tra chất lượng kỹ hơn. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,dùng thử bàn phím thì thấy âm thanh rè cần kiểm tra chất lượng kỹ hơn mình ghi nhận như vậy
+RV0976,"Sản phẩm mùi rất khó chịu, khác xa kỳ vọng.",Negative,product_quality,no,,normal,sản phẩm mùi rất khó chịu khác xa kỳ vọng
+RV0977,"Gói hàng ổn, giao đúng hẹn, sản phẩm chất lượng tốt. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn giao đúng hẹn sản phẩm chất lượng tốt hy vọng lần sau tốt hơn
+RV0978,Mình không hài lòng vì không có chống sốc khi nhận hàng. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,mình không hài lòng vì không có chống sốc khi nhận hàng mình ghi nhận như vậy
+RV0979,"tai nghe chất lượng kém, mình khá thất vọng.",Negative,product_quality,no,,normal,tai nghe chất lượng kém mình khá thất vọng
+RV0980,"Đã dùng vài ngày, sách màu đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày sách màu đẹp không có lỗi gì
+RV0981,"thiếu phụ kiện, bao bì lại còn bị rách.",Negative,wrong_item,yes,packaging,mixed_topic,thiếu phụ kiện bao bì lại còn bị rách
+RV0982,Nói chung là vậy thôi. Mình ghi nhận như vậy.,Neutral,spam_or_irrelevant,no,,irrelevant,nói chung là vậy thôi mình ghi nhận như vậy
+RV0983,"Gói hàng ổn, giao nhanh, sản phẩm vải đẹp.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm vải đẹp
+RV0984,Nói chung là vậy thôi.,Neutral,spam_or_irrelevant,no,,irrelevant,nói chung là vậy thôi
+RV0985,Hàng không tệ nhưng giao thiếu thông báo nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng giao thiếu thông báo nên mình đánh giá thấp
+RV0986,"Rất thích áo, dùng ổn, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích áo dùng ổn phù hợp với nhu cầu
+RV0987,váy nhìn ngoài được nhưng thực tế không hoạt động.,Negative,product_quality,no,,normal,váy nhìn ngoài được nhưng thực tế không hoạt động
+RV0988,Không có gì để nhận xét. Mình đánh giá theo đơn này.,Neutral,spam_or_irrelevant,no,,irrelevant,không có gì để nhận xét mình đánh giá theo đơn này
+RV0989,Cho đủ chữ để nhận thưởng. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,spam_xu,cho đủ chữ để nhận thưởng đây là trải nghiệm cá nhân
+RV0990,Đơn này bị lỗi phân loại: gửi nhầm sản phẩm.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại gửi nhầm sản phẩm
+RV0991,"Gói hàng ổn, ship khá nhanh, sản phẩm vải đẹp.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm vải đẹp
+RV0992,"giao sai size, bao bì lại còn bị rách. Mình ghi nhận như vậy.",Negative,wrong_item,yes,packaging,mixed_topic,giao sai size bao bì lại còn bị rách mình ghi nhận như vậy
+RV0993,"Sản phẩm chắc chắn, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm chắc chắn hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV0994,"Shop giao rồi, chưa mở hộp. Hy vọng lần sau tốt hơn.",Neutral,spam_or_irrelevant,no,,not_used,shop giao rồi chưa mở hộp hy vọng lần sau tốt hơn
+RV0995,Đơn này bị lỗi phân loại: thiếu phụ kiện.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại thiếu phụ kiện
+RV0996,"Mình hỏi về ốp điện thoại mà xử lý khiếu nại lâu, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về ốp điện thoại mà xử lý khiếu nại lâu rất mất thời gian
+RV0997,good good good xu xu xu Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,spam_xu,good good good xu xu xu hy vọng lần sau tốt hơn
+RV0998,Hàng không tệ nhưng mã vận đơn cập nhật sai nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng mã vận đơn cập nhật sai nên mình đánh giá thấp
+RV0999,"Đã dùng vài ngày, mũ bảo hiểm chất lượng tốt, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày mũ bảo hiểm chất lượng tốt không có lỗi gì
+RV1000,"Hàng đúng mô tả nhưng trễ hẹn nhiều ngày, shop phản hồi cũng chậm. Mình ghi nhận như vậy.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng trễ hẹn nhiều ngày shop phản hồi cũng chậm mình ghi nhận như vậy
+RV1001,Ổn Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,too_short,ổn hy vọng lần sau tốt hơn
+RV1002,"Rất thích sạc dự phòng, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích sạc dự phòng đúng mô tả phù hợp với nhu cầu
+RV1003,"Mình mua váy, thấy đúng mô tả, người bán hỗ trợ tốt.",Positive,no_issue,no,,normal,mình mua váy thấy đúng mô tả người bán hỗ trợ tốt
+RV1004,Sản phẩm bên trong tạm ổn nhưng tem niêm phong bị bung.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng tem niêm phong bị bung
+RV1005,"nồi chiên giao nhanh nhưng bị lỗi, thêm nữa giá hơi cao so với chất lượng.",Negative,product_quality,yes,delivery,mixed_topic,nồi chiên giao nhanh nhưng bị lỗi thêm nữa giá hơi cao so với chất lượng
+RV1006,"Sản phẩm mùi dễ chịu, bao bì sạch sẽ, lần sau sẽ ủng hộ tiếp. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu bao bì sạch sẽ lần sau sẽ ủng hộ tiếp mình ghi nhận như vậy
+RV1007,"Mình mua quần jean, thấy đúng mô tả, cửa hàng shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua quần jean thấy đúng mô tả cửa hàng shop tư vấn nhiệt tình
+RV1008,"đèn học dùng ổn nhưng đợi rất lâu mới nhận được, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,đèn học dùng ổn nhưng đợi rất lâu mới nhận được trải nghiệm mua hàng bị ảnh hưởng
+RV1009,"Mình thấy vừa mua xong đã giảm giá mạnh, nên chưa muốn mua lại. Hy vọng lần sau tốt hơn.",Negative,price,no,,normal,mình thấy vừa mua xong đã giảm giá mạnh nên chưa muốn mua lại hy vọng lần sau tốt hơn
+RV1010,"Mình thấy mua sale nhưng vẫn đắt, nên chưa muốn mua lại.",Negative,price,no,,normal,mình thấy mua sale nhưng vẫn đắt nên chưa muốn mua lại
+RV1011,Đánh giá để nhận xu thôi. Đây là trải nghiệm cá nhân.,Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá để nhận xu thôi đây là trải nghiệm cá nhân
+RV1012,"Đơn ốp điện thoại vận chuyển chậm hơn dự kiến, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn ốp điện thoại vận chuyển chậm hơn dự kiến hỏi thì không có cập nhật rõ
+RV1013,"Khâu đóng gói kém, tem niêm phong bị bung.",Negative,packaging,no,,normal,khâu đóng gói kém tem niêm phong bị bung
+RV1014,Sản phẩm bên trong tạm ổn nhưng không có chống sốc. Mình ghi nhận như vậy.,Negative,packaging,no,,normal,sản phẩm bên trong tạm ổn nhưng không có chống sốc mình ghi nhận như vậy
+RV1015,"Nhận hàng xong mới thấy mũ bảo hiểm chất lượng kém, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy mũ bảo hiểm chất lượng kém không muốn mua lại
+RV1016,"Mình mua quần jean, thấy chắc chắn, cửa hàng đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua quần jean thấy chắc chắn cửa hàng đổi trả rõ ràng
+RV1017,"Dùng thử bình nước thì thấy bị lỗi, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử bình nước thì thấy bị lỗi cần kiểm tra chất lượng kỹ hơn
+RV1018,"Đã dùng vài ngày, bình nước chắc chắn, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày bình nước chắc chắn không có lỗi gì
+RV1019,"Gói hàng ổn, đóng đơn nhanh, sản phẩm chất lượng tốt.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm chất lượng tốt
+RV1020,Sản phẩm không quá tệ nhưng giá tăng bất thường.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng giá tăng bất thường
+RV1021,"Rất thích mũ bảo hiểm, vải đẹp, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích mũ bảo hiểm vải đẹp phù hợp với nhu cầu
+RV1022,"Hàng chuẩn, chắc chắn, bên bán phản hồi nhanh nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn chắc chắn bên bán phản hồi nhanh nên mình hài lòng
+RV1023,"Mình hỏi về đồng hồ mà hứa gọi lại nhưng không gọi, rất mất thời gian.",Negative,customer_service,no,,normal,mình hỏi về đồng hồ mà hứa gọi lại nhưng không gọi rất mất thời gian
+RV1024,"Khâu đóng gói kém, hộp bị móp. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,khâu đóng gói kém hộp bị móp mình ghi nhận như vậy
+RV1025,"Nhận máy xay mà không có chống sốc, nhìn rất thiếu chuyên nghiệp.",Negative,packaging,no,,normal,nhận máy xay mà không có chống sốc nhìn rất thiếu chuyên nghiệp
+RV1026,Sản phẩm có vấn đề nhưng nhắn tin không ai trả lời. Hy vọng lần sau tốt hơn.,Negative,customer_service,no,,normal,sản phẩm có vấn đề nhưng nhắn tin không ai trả lời hy vọng lần sau tốt hơn
+RV1027,balo thì tạm ổn nhưng đơn hàng đợi rất lâu mới nhận được.,Negative,delivery,no,,normal,balo thì tạm ổn nhưng đơn hàng đợi rất lâu mới nhận được
+RV1028,"son chắc chắn nhưng vận chuyển chậm hơn dự kiến, hộp cũng hơi móp.",Negative,delivery,yes,packaging,mixed_topic,son chắc chắn nhưng vận chuyển chậm hơn dự kiến hộp cũng hơi móp
+RV1029,"Nhận hàng xong mới thấy giày bị lỗi, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy giày bị lỗi không muốn mua lại
+RV1030,"Đơn mũ bảo hiểm giao thiếu thông báo, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn mũ bảo hiểm giao thiếu thông báo hỏi thì không có cập nhật rõ
+RV1031,"Mình mua quần jean, thấy chắc chắn, shop phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua quần jean thấy chắc chắn shop phản hồi nhanh
+RV1032,"Hàng chuẩn, hoạt động tốt, bên bán shop tư vấn nhiệt tình nên mình hài lòng.",Positive,no_issue,no,,normal,hàng chuẩn hoạt động tốt bên bán shop tư vấn nhiệt tình nên mình hài lòng
+RV1033,"sạc dự phòng không giống mô tả, mình khá thất vọng.",Negative,product_quality,no,,normal,sạc dự phòng không giống mô tả mình khá thất vọng
+RV1034,"Khâu đóng gói kém, hộp bị móp.",Negative,packaging,no,,normal,khâu đóng gói kém hộp bị móp
+RV1035,"Rất thích váy, chất lượng tốt, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích váy chất lượng tốt phù hợp với nhu cầu
+RV1036,"Gói hàng ổn, nhận hàng sớm, sản phẩm chắc chắn.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm chắc chắn
+RV1037,"Mình mua quần jean, thấy mùi dễ chịu, cửa hàng đổi trả rõ ràng.",Positive,no_issue,no,,normal,mình mua quần jean thấy mùi dễ chịu cửa hàng đổi trả rõ ràng
+RV1038,"Đã dùng vài ngày, chuột máy tính màu đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày chuột máy tính màu đẹp không có lỗi gì
+RV1039,Sản phẩm không quá tệ nhưng không đáng tiền. Mình ghi nhận như vậy.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng không đáng tiền mình ghi nhận như vậy
+RV1040,"Hàng gì cũng được, cần xu. Hy vọng lần sau tốt hơn.",Neutral,spam_or_irrelevant,no,,spam_xu,hàng gì cũng được cần xu hy vọng lần sau tốt hơn
+RV1041,"Đơn ốp điện thoại trễ hẹn nhiều ngày, hỏi thì không có cập nhật rõ.",Negative,delivery,no,,normal,đơn ốp điện thoại trễ hẹn nhiều ngày hỏi thì không có cập nhật rõ
+RV1042,"đồng hồ dùng ổn nhưng shipper giao nhầm giờ, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,đồng hồ dùng ổn nhưng shipper giao nhầm giờ trải nghiệm mua hàng bị ảnh hưởng
+RV1043,"Hàng đúng loại nhưng gói hàng nhìn rất cũ, làm mình lo sản phẩm bị hỏng.",Negative,packaging,yes,no_issue,mixed_topic,hàng đúng loại nhưng gói hàng nhìn rất cũ làm mình lo sản phẩm bị hỏng
+RV1044,"Mình mua váy, thấy màu đẹp, cửa hàng shop tư vấn nhiệt tình.",Positive,no_issue,no,,normal,mình mua váy thấy màu đẹp cửa hàng shop tư vấn nhiệt tình
+RV1045,"đồng hồ dùng ổn nhưng trễ hẹn nhiều ngày, trải nghiệm mua hàng bị ảnh hưởng.",Negative,delivery,yes,no_issue,mixed_topic,đồng hồ dùng ổn nhưng trễ hẹn nhiều ngày trải nghiệm mua hàng bị ảnh hưởng
+RV1046,"Rất thích sách, rất đáng tiền, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích sách rất đáng tiền phù hợp với nhu cầu
+RV1047,"khăn tắm bị lỗi nhẹ, nhưng vấn đề chính là tư vấn không rõ ràng.",Negative,customer_service,yes,product_quality,mixed_topic,khăn tắm bị lỗi nhẹ nhưng vấn đề chính là tư vấn không rõ ràng
+RV1048,"Hàng đúng mô tả nhưng trễ hẹn nhiều ngày, shop phản hồi cũng chậm.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng trễ hẹn nhiều ngày shop phản hồi cũng chậm
+RV1049,"giao sai màu, không đúng với lựa chọn ban đầu.",Negative,wrong_item,no,,normal,giao sai màu không đúng với lựa chọn ban đầu
+RV1050,Shop cần kiểm tra đơn kỹ hơn vì thiếu phụ kiện.,Negative,wrong_item,no,,normal,shop cần kiểm tra đơn kỹ hơn vì thiếu phụ kiện
+RV1051,Có lỗi phát sinh nhưng bên bán tư vấn không rõ ràng.,Negative,customer_service,no,,normal,có lỗi phát sinh nhưng bên bán tư vấn không rõ ràng
+RV1052,"quần jean giao nhanh nhưng dùng được một lúc là hỏng, thêm nữa vận chuyển chậm hơn dự kiến.",Negative,product_quality,yes,delivery,mixed_topic,quần jean giao nhanh nhưng dùng được một lúc là hỏng thêm nữa vận chuyển chậm hơn dự kiến
+RV1053,Đơn này bị lỗi phân loại: gửi nhầm sản phẩm. Mình ghi nhận như vậy.,Negative,wrong_item,no,,normal,đơn này bị lỗi phân loại gửi nhầm sản phẩm mình ghi nhận như vậy
+RV1054,"Sản phẩm mùi dễ chịu, hộp còn nguyên, lần sau sẽ ủng hộ tiếp.",Positive,no_issue,no,,normal,sản phẩm mùi dễ chịu hộp còn nguyên lần sau sẽ ủng hộ tiếp
+RV1055,"Mình cần dùng gấp mà trễ hẹn nhiều ngày, trải nghiệm không tốt.",Negative,delivery,no,,normal,mình cần dùng gấp mà trễ hẹn nhiều ngày trải nghiệm không tốt
+RV1056,Mình không hài lòng vì thái độ phản hồi khó chịu.,Negative,customer_service,no,,normal,mình không hài lòng vì thái độ phản hồi khó chịu
+RV1057,"áo màu đẹp, ship khá nhanh, niêm phong kỹ.",Positive,no_issue,no,,normal,áo màu đẹp ship khá nhanh niêm phong kỹ
+RV1058,"Vấn đề lớn nhất là vận chuyển chậm hơn dự kiến, mong shop cải thiện khâu giao hàng. Hy vọng lần sau tốt hơn.",Negative,delivery,no,,normal,vấn đề lớn nhất là vận chuyển chậm hơn dự kiến mong shop cải thiện khâu giao hàng hy vọng lần sau tốt hơn
+RV1059,"Mình cần dùng gấp mà giao thiếu thông báo, trải nghiệm không tốt. Mình ghi nhận như vậy.",Negative,delivery,no,,normal,mình cần dùng gấp mà giao thiếu thông báo trải nghiệm không tốt mình ghi nhận như vậy
+RV1060,"Gói hàng ổn, nhận hàng sớm, sản phẩm vải đẹp.",Positive,no_issue,no,,normal,gói hàng ổn nhận hàng sớm sản phẩm vải đẹp
+RV1061,"Không hài lòng vì giao sai màu, phải mất công đổi trả. Đây là trải nghiệm cá nhân.",Negative,wrong_item,no,,normal,không hài lòng vì giao sai màu phải mất công đổi trả đây là trải nghiệm cá nhân
+RV1062,"son đẹp hơn mong đợi, giao đúng hẹn, giá cũng hợp lý.",Positive,no_issue,no,,normal,son đẹp hơn mong đợi giao đúng hẹn giá cũng hợp lý
+RV1063,"Mình cần dùng gấp mà đợi rất lâu mới nhận được, trải nghiệm không tốt.",Negative,delivery,no,,normal,mình cần dùng gấp mà đợi rất lâu mới nhận được trải nghiệm không tốt
+RV1064,"sạc dự phòng dùng được nhưng không có chống sốc, giao hàng cũng hơi lâu.",Negative,packaging,yes,delivery,mixed_topic,sạc dự phòng dùng được nhưng không có chống sốc giao hàng cũng hơi lâu
+RV1065,"áo đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,áo đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý mình ghi nhận như vậy
+RV1066,"váy dùng được một lúc là hỏng, mình khá thất vọng. Mình ghi nhận như vậy.",Negative,product_quality,no,,normal,váy dùng được một lúc là hỏng mình khá thất vọng mình ghi nhận như vậy
+RV1067,"Đơn giao hơi chậm, thêm nữa không hỗ trợ đổi trả nên mình không hài lòng.",Negative,customer_service,yes,delivery,mixed_topic,đơn giao hơi chậm thêm nữa không hỗ trợ đổi trả nên mình không hài lòng
+RV1068,Hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp.,Negative,delivery,no,,normal,hàng không tệ nhưng giao quá chậm nên mình đánh giá thấp
+RV1069,"khăn tắm đẹp hơn mong đợi, đóng đơn nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,khăn tắm đẹp hơn mong đợi đóng đơn nhanh giá cũng hợp lý
+RV1070,Nói chung là vậy thôi. Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,irrelevant,nói chung là vậy thôi hy vọng lần sau tốt hơn
+RV1071,"Mình thấy không đáng tiền, nên chưa muốn mua lại. Mình ghi nhận như vậy.",Negative,price,no,,normal,mình thấy không đáng tiền nên chưa muốn mua lại mình ghi nhận như vậy
+RV1072,"Gói hàng ổn, giao nhanh, sản phẩm rất đáng tiền.",Positive,no_issue,no,,normal,gói hàng ổn giao nhanh sản phẩm rất đáng tiền
+RV1073,"son đẹp hơn mong đợi, nhận hàng sớm, giá cũng hợp lý.",Positive,no_issue,no,,normal,son đẹp hơn mong đợi nhận hàng sớm giá cũng hợp lý
+RV1075,"Nhận hàng xong mới thấy sách âm thanh rè, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy sách âm thanh rè không muốn mua lại
+RV1076,"Gói hàng ổn, đóng đơn nhanh, sản phẩm vải đẹp.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm vải đẹp
+RV1077,sạc dự phòng nhìn ngoài được nhưng thực tế âm thanh rè.,Negative,product_quality,no,,normal,sạc dự phòng nhìn ngoài được nhưng thực tế âm thanh rè
+RV1078,"không có chống sốc, may là kem dưỡng chưa hỏng hẳn.",Negative,packaging,no,,normal,không có chống sốc may là kem dưỡng chưa hỏng hẳn
+RV1079,"Khâu đóng gói kém, không có chống sốc. Mình ghi nhận như vậy.",Negative,packaging,no,,normal,khâu đóng gói kém không có chống sốc mình ghi nhận như vậy
+RV1080,"Đã dùng vài ngày, nồi chiên màu đẹp, không có lỗi gì.",Positive,no_issue,no,,normal,đã dùng vài ngày nồi chiên màu đẹp không có lỗi gì
+RV1081,"bàn phím đẹp hơn mong đợi, giao nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,bàn phím đẹp hơn mong đợi giao nhanh giá cũng hợp lý
+RV1082,"Trải nghiệm chăm sóc khách hàng kém, thái độ phản hồi khó chịu. Mình ghi nhận như vậy.",Negative,customer_service,no,,normal,trải nghiệm chăm sóc khách hàng kém thái độ phản hồi khó chịu mình ghi nhận như vậy
+RV1083,sách thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai.,Negative,delivery,no,,normal,sách thì tạm ổn nhưng đơn hàng mã vận đơn cập nhật sai
+RV1084,aaaaaaaaaaaa Hy vọng lần sau tốt hơn.,Neutral,spam_or_irrelevant,no,,random_text,aaaaaaaaaaaa hy vọng lần sau tốt hơn
+RV1085,"Rất thích bàn phím, đúng mô tả, phù hợp với nhu cầu.",Positive,no_issue,no,,normal,rất thích bàn phím đúng mô tả phù hợp với nhu cầu
+RV1086,váy dùng bình thường nhưng giá tăng bất thường.,Negative,price,no,,normal,váy dùng bình thường nhưng giá tăng bất thường
+RV1087,"Gói hàng ổn, ship khá nhanh, sản phẩm mùi dễ chịu. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm mùi dễ chịu mình ghi nhận như vậy
+RV1088,"tai nghe xài mượt, nhận hàng sớm, niêm phong kỹ.",Positive,no_issue,no,,normal,tai nghe xài mượt nhận hàng sớm niêm phong kỹ
+RV1089,váy nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng.,Negative,product_quality,no,,normal,váy nhìn ngoài được nhưng thực tế dùng được một lúc là hỏng
+RV1090,"váy đẹp hơn mong đợi, ship khá nhanh, giá cũng hợp lý.",Positive,no_issue,no,,normal,váy đẹp hơn mong đợi ship khá nhanh giá cũng hợp lý
+RV1091,"Đánh giá sau, giờ lấy xu trước. Mình ghi nhận như vậy.",Neutral,spam_or_irrelevant,no,,spam_xu,đánh giá sau giờ lấy xu trước mình ghi nhận như vậy
+RV1092,Sản phẩm không quá tệ nhưng không đáng tiền.,Negative,price,no,,normal,sản phẩm không quá tệ nhưng không đáng tiền
+RV1093,"Hàng đúng mô tả nhưng vận chuyển chậm hơn dự kiến, shop phản hồi cũng chậm.",Negative,delivery,yes,customer_service,mixed_topic,hàng đúng mô tả nhưng vận chuyển chậm hơn dự kiến shop phản hồi cũng chậm
+RV1094,"Mình mua váy, thấy xài mượt, shop phản hồi nhanh.",Positive,no_issue,no,,normal,mình mua váy thấy xài mượt shop phản hồi nhanh
+RV1095,"Gói hàng ổn, đóng đơn nhanh, sản phẩm chắc chắn. Mình ghi nhận như vậy.",Positive,no_issue,no,,normal,gói hàng ổn đóng đơn nhanh sản phẩm chắc chắn mình ghi nhận như vậy
+RV1096,"váy xài mượt, giao nhanh, hộp còn nguyên.",Positive,no_issue,no,,normal,váy xài mượt giao nhanh hộp còn nguyên
+RV1097,"Nhận hàng xong mới thấy son âm thanh rè, không muốn mua lại.",Negative,product_quality,no,,normal,nhận hàng xong mới thấy son âm thanh rè không muốn mua lại
+RV1098,"Gói hàng ổn, ship khá nhanh, sản phẩm chất lượng tốt. Hy vọng lần sau tốt hơn.",Positive,no_issue,no,,normal,gói hàng ổn ship khá nhanh sản phẩm chất lượng tốt hy vọng lần sau tốt hơn
+RV1099,"Dùng thử bàn phím thì thấy âm thanh rè, cần kiểm tra chất lượng kỹ hơn.",Negative,product_quality,no,,normal,dùng thử bàn phím thì thấy âm thanh rè cần kiểm tra chất lượng kỹ hơn
+RV1100,Cho đủ chữ để nhận thưởng.,Neutral,spam_or_irrelevant,no,,spam_xu,cho đủ chữ để nhận thưởng

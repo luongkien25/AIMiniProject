@@ -1,0 +1,28 @@
+Input rows: 1333
+Cleaned unique real rows: 1327
+Natural neutral rows: 362
+Generated neutral rows: 0
+Final rows: 1327
+
+Sentiment distribution:
+sentiment_label
+positive    576
+negative    389
+neutral     362
+
+Issue distribution:
+issue_label
+no_issue              581
+damaged_defective     376
+packaging             114
+product_quality        50
+wrong_missing_item     43
+seller_service         34
+shipping_delivery      29
+material_comfort       29
+price_value            22
+color_design           19
+spam_irrelevant        18
+size_fit               12
+
+Ambiguous mixed cue rows for review: 227
