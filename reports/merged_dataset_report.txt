@@ -1,40 +1,72 @@
-ai_generated: 1092
-real_review: 1109
-shopee_real_scraped: 1327
-Rows before dedup: 3528
-Duplicate/empty rows removed: 7
-Final rows: 3521
+Báo Cáo Dataset Đã Gộp
+Cập nhật: 2026-05-10
 
-Source distribution:
-source
-shopee_real_scraped    1327
-real_review            1102
-ai_generated           1092
+File dữ liệu chính dùng để train:
+data/processed/merged_preprocessed_reviews.csv
 
-Sentiment distribution:
+Tổng số dòng:
+3517
+
+Các cột trong file:
+review_id
+review_text
 sentiment_label
-positive    1394
-negative    1383
-neutral      744
-
-Issue distribution:
 issue_label
-no_issue                  1022
-damaged_defective          583
-product_quality            346
-packaging                  275
-shipping_delivery          237
-wrong_missing_item         192
-material_comfort           168
-price_value                142
-spam_irrelevant            126
-color_design                88
-customer_service            80
-audio_quality               71
-seller_service              64
-size_fit                    52
-device_performance          18
-connectivity_bluetooth      17
-battery_charging            16
-camera_performance          13
-general_feedback            11
+is_multi_topic
+secondary_issue
+comment_type
+source
+processed_text
+
+Phân bố nguồn dữ liệu:
+shopee_real_scraped: 1323
+real_review: 1102
+ai_generated: 1092
+
+Phân bố sentiment_label:
+positive: 1394
+negative: 1381
+neutral: 742
+
+Phân bố issue_label sau khi gom nhóm:
+product_quality: 1064
+no_issue: 1021
+product_attribute: 307
+packaging: 275
+shipping_delivery: 237
+wrong_missing_item: 192
+seller_service: 144
+price_value: 142
+spam_irrelevant: 124
+general_feedback: 11
+
+Quy tắc gom nhãn issue_label:
+
+Nhóm product_quality gồm:
+damaged_defective
+product_quality
+device_performance
+audio_quality
+camera_performance
+connectivity_bluetooth
+battery_charging
+
+Nhóm product_attribute gồm:
+material_comfort
+color_design
+size_fit
+
+Các nhãn giữ nguyên:
+no_issue
+packaging
+shipping_delivery
+wrong_missing_item
+seller_service
+price_value
+spam_irrelevant
+general_feedback
+
+Lý do gom nhãn:
+Một số nhãn issue ban đầu có quá ít mẫu, làm cho mô hình học không ổn định và
+làm giảm Macro F1. Việc gom các nhãn nhỏ có ý nghĩa gần nhau giúp bài toán phân
+loại vấn đề phù hợp hơn với kích thước dataset hiện tại.

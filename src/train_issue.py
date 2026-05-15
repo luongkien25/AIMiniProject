@@ -51,7 +51,7 @@ def main():
     if missing_columns:
         missing = ", ".join(sorted(missing_columns))
         raise ValueError(f"Missing required columns: {missing}")
-
+    
     df = df.dropna(subset=["processed_text", "issue_label"]).copy()
 
     X = df["processed_text"].fillna("")
@@ -86,7 +86,7 @@ def main():
                     "macro_f1": macro_f1,
                 }
             )
-
+            
             print("=" * 72)
             print("Task: Issue Classification")
             print("Feature:", feature_name)

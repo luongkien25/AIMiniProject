@@ -1,0 +1,35 @@
+Task: Sentiment Classification
+Feature: TF-IDF Unigram + Bigram
+Model: Logistic Regression
+Accuracy: 0.8636
+Macro F1: 0.8570
+
+              precision    recall  f1-score   support
+
+    negative       0.88      0.87      0.87       276
+     neutral       0.81      0.83      0.82       149
+    positive       0.88      0.88      0.88       279
+
+    accuracy                           0.86       704
+   macro avg       0.86      0.86      0.86       704
+weighted avg       0.86      0.86      0.86       704
+
+
+Giải thích metric:
+- Accuracy: tỷ lệ dự đoán đúng trên toàn bộ tập test.
+- Precision: trong các mẫu được dự đoán là một nhãn, có bao nhiêu mẫu dự đoán đúng.
+- Recall: trong các mẫu thật sự thuộc một nhãn, mô hình tìm đúng được bao nhiêu mẫu.
+- F1-score: trung bình điều hòa giữa precision và recall.
+- Macro F1: trung bình F1 của các lớp, mỗi lớp có trọng số ngang nhau. Chỉ số này quan trọng khi dữ liệu có nhiều lớp hoặc phân bố nhãn không đều.
+- Confusion matrix: bảng thể hiện mô hình dự đoán đúng và nhầm lẫn giữa các lớp. Đường chéo chính là dự đoán đúng, các ô ngoài đường chéo là dự đoán sai.
+
+Nhận xét:
+- Các nhầm lẫn đáng chú ý:
+  + Nhãn thật `negative` bị dự đoán thành `positive`: 23 mẫu.
+  + Nhãn thật `positive` bị dự đoán thành `negative`: 19 mẫu.
+  + Nhãn thật `positive` bị dự đoán thành `neutral`: 15 mẫu.
+  + Nhãn thật `neutral` bị dự đoán thành `negative`: 15 mẫu.
+  + Nhãn thật `negative` bị dự đoán thành `neutral`: 13 mẫu.
+  + Nhãn thật `neutral` bị dự đoán thành `positive`: 11 mẫu.
+- Với sentiment classification, lớp `neutral` thường khó hơn vì nhiều bình luận có từ như `ok`, `tạm`, `ổn`, `5 sao` hoặc nội dung nhận xu.
+- Mô hình hoạt động tốt hơn khi dùng bigram vì học được các cụm như `không tốt`, `giao chậm`, `sai màu`, `bị lỗi`.

@@ -1,0 +1,43 @@
+Task: Issue Classification
+Feature: TF-IDF Unigram
+Model: Linear SVM
+Accuracy: 0.7330
+Macro F1: 0.7734
+
+                    precision    recall  f1-score   support
+
+  general_feedback       1.00      1.00      1.00         2
+          no_issue       0.77      0.72      0.74       204
+         packaging       0.72      0.80      0.76        55
+       price_value       0.62      0.82      0.71        28
+ product_attribute       0.62      0.74      0.68        62
+   product_quality       0.74      0.67      0.70       213
+    seller_service       0.68      0.79      0.73        29
+ shipping_delivery       0.80      0.77      0.79        48
+   spam_irrelevant       0.79      0.92      0.85        25
+wrong_missing_item       0.77      0.79      0.78        38
+
+          accuracy                           0.73       704
+         macro avg       0.75      0.80      0.77       704
+      weighted avg       0.74      0.73      0.73       704
+
+
+Giải thích metric:
+- Accuracy: tỷ lệ dự đoán đúng trên toàn bộ tập test.
+- Precision: trong các mẫu được dự đoán là một nhãn, có bao nhiêu mẫu dự đoán đúng.
+- Recall: trong các mẫu thật sự thuộc một nhãn, mô hình tìm đúng được bao nhiêu mẫu.
+- F1-score: trung bình điều hòa giữa precision và recall.
+- Macro F1: trung bình F1 của các lớp, mỗi lớp có trọng số ngang nhau. Chỉ số này quan trọng khi dữ liệu có nhiều lớp hoặc phân bố nhãn không đều.
+- Confusion matrix: bảng thể hiện mô hình dự đoán đúng và nhầm lẫn giữa các lớp. Đường chéo chính là dự đoán đúng, các ô ngoài đường chéo là dự đoán sai.
+
+Nhận xét:
+- Các nhầm lẫn đáng chú ý:
+  + Nhãn thật `product_quality` bị dự đoán thành `no_issue`: 28 mẫu.
+  + Nhãn thật `no_issue` bị dự đoán thành `product_quality`: 27 mẫu.
+  + Nhãn thật `no_issue` bị dự đoán thành `product_attribute`: 12 mẫu.
+  + Nhãn thật `product_quality` bị dự đoán thành `product_attribute`: 11 mẫu.
+  + Nhãn thật `product_quality` bị dự đoán thành `price_value`: 10 mẫu.
+  + Nhãn thật `product_attribute` bị dự đoán thành `product_quality`: 9 mẫu.
+- Issue classification khó hơn sentiment vì có nhiều nhãn hơn và một số nhãn có ý nghĩa gần nhau.
+- Sau khi gom các nhãn issue quá chi tiết, Macro F1 cải thiện rõ vì mô hình học các nhóm vấn đề ổn định hơn.
+- Một số nhầm lẫn giữa `no_issue` và `product_quality` là hợp lý vì nhiều bình luận vừa mô tả sản phẩm vừa không nêu lỗi rõ ràng.
