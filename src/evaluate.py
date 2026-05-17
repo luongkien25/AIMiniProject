@@ -17,20 +17,27 @@ from sklearn.metrics import (
     f1_score,
 )
 from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.svm import LinearSVC
 
+from predict import get_safe_issue_rule_override
 
-DATA_PATH = Path("data/processed/merged_preprocessed_reviews.csv")
+
+SENTIMENT_DATA_PATH = Path(
+    "data/processed/shopee_reviews_clean_classified_codex_sentiment_guideline_v4_accuracy.csv"
+)
+ISSUE_DATA_PATH = Path("data/processed/shopee_reviews_issue_augmented_reviewed.csv")
 REPORTS_DIR = Path("reports")
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
+TEXT_COLUMN = "cleaned_review"
 
 
 TASK_CONFIGS = {
     "sentiment": {
         "task_name": "Sentiment Classification",
-        "label_column": "sentiment_label",
+        "data_path": SENTIMENT_DATA_PATH,
+        "label_column": "sentiment",
         "feature_name": "TF-IDF Unigram + Bigram",
         "vectorizer": {
             "ngram_range": (1, 2),
@@ -48,21 +55,40 @@ TASK_CONFIGS = {
     },
     "issue": {
         "task_name": "Issue Classification",
-        "label_column": "issue_label",
-        "feature_name": "TF-IDF Unigram",
-        "vectorizer": {
-            "ngram_range": (1, 1),
-            "max_features": 10000,
-            "min_df": 2,
-            "sublinear_tf": True,
-        },
-        "model_name": "Linear SVM",
+        "data_path": ISSUE_DATA_PATH,
+        "label_column": "issue",
+        "feature_name": "TF-IDF Word + Char",
+        "vectorizer": FeatureUnion(
+            [
+                (
+                    "word",
+                    TfidfVectorizer(
+                        analyzer="word",
+                        ngram_range=(1, 2),
+                        max_features=10000,
+                        min_df=2,
+                        sublinear_tf=True,
+                    ),
+                ),
+                (
+                    "char",
+                    TfidfVectorizer(
+                        analyzer="char_wb",
+                        ngram_range=(3, 5),
+                        max_features=20000,
+                        min_df=2,
+                        sublinear_tf=True,
+                    ),
+                ),
+            ]
+        ),
+        "model_name": "Linear SVM + Safe Issue Rules",
         "model": LinearSVC(
             class_weight="balanced",
-            C=1.5,
+            C=1.0,
         ),
+        "issue_rule_override": "safe",
         "labels": [
-            "general_feedback",
             "no_issue",
             "packaging",
             "price_value",
@@ -88,9 +114,15 @@ METRIC_EXPLANATION = """Giải thích metric:
 
 
 def build_pipeline(config):
+    vectorizer_config = config["vectorizer"]
+    if isinstance(vectorizer_config, dict):
+        vectorizer = TfidfVectorizer(**vectorizer_config)
+    else:
+        vectorizer = vectorizer_config
+
     return Pipeline(
         steps=[
-            ("tfidf", TfidfVectorizer(**config["vectorizer"])),
+            ("features", vectorizer),
             ("classifier", config["model"]),
         ]
     )
@@ -198,15 +230,18 @@ def save_classification_report(task_key, config, y_true, y_pred, labels, accurac
 
 
 def evaluate_task(df, task_key, config):
-    required_columns = {"processed_text", config["label_column"]}
+    required_columns = {TEXT_COLUMN, config["label_column"]}
+    if config.get("issue_rule_override") == "safe":
+        required_columns.add("review_text")
+
     missing_columns = required_columns.difference(df.columns)
     if missing_columns:
         missing = ", ".join(sorted(missing_columns))
         raise ValueError(f"Missing required columns for {task_key}: {missing}")
 
-    task_df = df.dropna(subset=["processed_text", config["label_column"]]).copy()
+    task_df = df.dropna(subset=[TEXT_COLUMN, config["label_column"]]).copy()
 
-    X = task_df["processed_text"].fillna("")
+    X = task_df[TEXT_COLUMN].fillna("")
     y = task_df[config["label_column"]].astype(str)
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -220,6 +255,9 @@ def evaluate_task(df, task_key, config):
     pipeline = build_pipeline(config)
     pipeline.fit(X_train, y_train)
     y_pred = pipeline.predict(X_test)
+
+    if config.get("issue_rule_override") == "safe":
+        y_pred = apply_safe_issue_rules(task_df.loc[X_test.index], y_pred)
 
     labels = [label for label in config["labels"] if label in set(y)]
     accuracy = accuracy_score(y_test, y_pred)
@@ -254,12 +292,23 @@ def evaluate_task(df, task_key, config):
     print("Saved confusion matrix:", matrix_path)
 
 
+def apply_safe_issue_rules(test_df, model_predictions):
+    predictions = []
+    for model_prediction, (_, row) in zip(model_predictions, test_df.iterrows()):
+        rule_issue, _ = get_safe_issue_rule_override(
+            str(row.get("review_text", "")),
+            str(row.get(TEXT_COLUMN, "")),
+        )
+        predictions.append(rule_issue or model_prediction)
+
+    return predictions
+
+
 def main():
     REPORTS_DIR.mkdir(exist_ok=True)
 
-    df = pd.read_csv(DATA_PATH)
-
     for task_key, config in TASK_CONFIGS.items():
+        df = pd.read_csv(config["data_path"])
         evaluate_task(df, task_key, config)
 
 

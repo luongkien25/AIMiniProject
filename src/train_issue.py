@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -5,26 +7,62 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, f1_score
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import FeatureUnion
 from sklearn.svm import LinearSVC
 
 
-DATA_PATH = "data/processed/merged_preprocessed_reviews.csv"
+DATA_PATH = os.environ.get(
+    "ISSUE_DATA_PATH",
+    "data/processed/shopee_reviews_issue_augmented_reviewed.csv",
+)
+TEXT_COLUMN = "cleaned_review"
+LABEL_COLUMN = "issue"
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
 
 FEATURE_CONFIGS = {
-    "TF-IDF Unigram": {
-        "ngram_range": (1, 1),
-        "max_features": 10000,
-        "min_df": 2,
-        "sublinear_tf": True,
-    },
-    "TF-IDF Unigram + Bigram": {
-        "ngram_range": (1, 2),
-        "max_features": 10000,
-        "min_df": 2,
-        "sublinear_tf": True,
-    },
+    "TF-IDF Unigram": TfidfVectorizer(
+        ngram_range=(1, 1),
+        max_features=10000,
+        min_df=2,
+        sublinear_tf=True,
+    ),
+    "TF-IDF Unigram + Bigram": TfidfVectorizer(
+        ngram_range=(1, 2),
+        max_features=10000,
+        min_df=2,
+        sublinear_tf=True,
+    ),
+    "TF-IDF Unigram + Bigram + Trigram": TfidfVectorizer(
+        ngram_range=(1, 3),
+        max_features=20000,
+        min_df=2,
+        sublinear_tf=True,
+    ),
+    "TF-IDF Word + Char": FeatureUnion(
+        [
+            (
+                "word",
+                TfidfVectorizer(
+                    analyzer="word",
+                    ngram_range=(1, 2),
+                    max_features=10000,
+                    min_df=2,
+                    sublinear_tf=True,
+                ),
+            ),
+            (
+                "char",
+                TfidfVectorizer(
+                    analyzer="char_wb",
+                    ngram_range=(3, 5),
+                    max_features=20000,
+                    min_df=2,
+                    sublinear_tf=True,
+                ),
+            ),
+        ]
+    ),
 }
 
 
@@ -38,7 +76,7 @@ def build_models():
         ),
         "Linear SVM": LinearSVC(
             class_weight="balanced",
-            C=1.5,
+            C=1.0,
         ),
     }
 
@@ -46,16 +84,16 @@ def build_models():
 def main():
     df = pd.read_csv(DATA_PATH)
 
-    required_columns = {"processed_text", "issue_label"}
+    required_columns = {TEXT_COLUMN, LABEL_COLUMN}
     missing_columns = required_columns.difference(df.columns)
     if missing_columns:
         missing = ", ".join(sorted(missing_columns))
         raise ValueError(f"Missing required columns: {missing}")
     
-    df = df.dropna(subset=["processed_text", "issue_label"]).copy()
+    df = df.dropna(subset=[TEXT_COLUMN, LABEL_COLUMN]).copy()
 
-    X = df["processed_text"].fillna("")
-    y = df["issue_label"].astype(str)
+    X = df[TEXT_COLUMN].fillna("")
+    y = df[LABEL_COLUMN].astype(str)
 
     X_train, X_test, y_train, y_test = train_test_split(
         X,
@@ -67,8 +105,7 @@ def main():
 
     results = []
 
-    for feature_name, vectorizer_params in FEATURE_CONFIGS.items():
-        vectorizer = TfidfVectorizer(**vectorizer_params)
+    for feature_name, vectorizer in FEATURE_CONFIGS.items():
         X_train_vec = vectorizer.fit_transform(X_train)
         X_test_vec = vectorizer.transform(X_test)
 

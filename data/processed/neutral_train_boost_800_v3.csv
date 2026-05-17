@@ -1,0 +1,801 @@
+﻿id,review_text,cleaned_review,sentiment,issue,source
+boost_neutral_0589,"sua tam nhin dung loai, hoi nhe, van chap nhan dc 0:05",sua tam nhin dung loai hoi nhe van chap nhan dc 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0153,"hat dieu nhin bth, chx test ky thoi",hat dieu nhin bth chx test ky thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0285,"moi mo goi xem qua, dong goi cung duoc, chua khen che duoc nhieu 0:08",moi mo goi xem qua dong goi cung duoc chua khen che duoc nhieu 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0613,"tien nao cua nay, chat luong can dung them moi biet nhe",tien nao cua nay chat luong can dung them moi biet nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0207,"moi mo goi xem qua, dong goi cx dc, chx khen che dc nhieu",moi mo goi xem qua dong goi cx dc chx khen che dc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0634,tui gia re nen cung tam a,tui gia re nen cung tam a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0553,"tai nghe nhin dung loai, hoi long leo nhe, van chap nhan duoc 0:05",tai nghe nhin dung loai hoi long leo nhe van chap nhan duoc 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0393,"chat luong tam on, de dung them roi tinh 0:05",chat luong tam on de dung them roi tinh 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0538,"form hoi co ban, nhin cung ok",form hoi co ban nhin cung ok,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0185,"den ngu dung co ban chac on, chx dung lau nen chx biet a",den ngu dung co ban chac on chx dung lau nen chx biet a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0325,"dung thu ly thuy tinh thay bth, chua ket luan duoc a",dung thu ly thuy tinh thay bth chua ket luan duoc a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0432,"chat luong tam on, chua dung lau nen chua biet 0:08",chat luong tam on chua dung lau nen chua biet 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0782,nhan hang roi danh gia truoc 0:05,nhan hang roi danh gia truoc 0 05,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0788,"tu van o muc tam, chua co gi de nhan xet them a",tu van o muc tam chua co gi de nhan xet them a,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0043,"sua rua mat nhin bth, hien tai chua thay gi ro nhe",sua rua mat nhin bth hien tai chua thay gi ro nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0369,"sac ko qua xin nhung cx ko te, dung tam",sac ko qua xin nhung cx ko te dung tam,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0571,"son mau nhin tam, chat lieu bth, chua co gi dac biet 0:10",son mau nhin tam chat lieu bth chua co gi dac biet 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0710,"ship ko nhanh cung ko qua cham, hang nhan du",ship ko nhanh cung ko qua cham hang nhan du,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0674,"don toi noi roi, giao hoi lau nhung van nhan du",don toi noi roi giao hoi lau nhung van nhan du,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0319,"hang nhan du, mau cung on, danh gia tam vay 0:10",hang nhan du mau cung on danh gia tam vay 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0754,viet cho du ky tu nhan xu nhe,viet cho du ky tu nhan xu nhe,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0582,am thanh hoi nhat mau nhung tong the tam nha,am thanh hoi nhat mau nhung tong the tam nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0523,"banh trang nhin dung loai, hoi nho, van chap nhan duoc nha",banh trang nhin dung loai hoi nho van chap nhan duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0047,"hang nhan du, nhin kha on, cho 4 sao truoc",hang nhan du nhin kha on cho 4 sao truoc,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0511,"tham nhin dung loai, hoi lau, van chap nhan duoc nhe",tham nhin dung loai hoi lau van chap nhan duoc nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0786,"shop phan hoi bth, hang moi nhan nen chx noi nhieu nhe",shop phan hoi bth hang moi nhan nen chx noi nhieu nhe,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0330,"cam len thay nhe, dung tam on, can dung them 0:10",cam len thay nhe dung tam on can dung them 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0639,voi tam gia nay thi mk thay bth,voi tam gia nay thi mk thay bth,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0790,"tu van o muc tam, chua co gi de nhan xet them",tu van o muc tam chua co gi de nhan xet them,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0347,vo hoi binh thuong nhung van dung duoc,vo hoi binh thuong nhung van dung duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0654,cap sac voi gia nay k doi hoi nhieu,cap sac voi gia nay k doi hoi nhieu,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0546,chat lieu hoi kho mo nhung tong the tam,chat lieu hoi kho mo nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0648,"mua luc sale nen thay tam on, chua danh gia lau dai 0:10",mua luc sale nen thay tam on chua danh gia lau dai 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0537,"khau trang mau nhin tam, chat lieu bth, chua co gi dac biet a",khau trang mau nhin tam chat lieu bth chua co gi dac biet a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0799,"tu van o muc tam, chua co gi de nhan xet them nha",tu van o muc tam chua co gi de nhan xet them nha,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0742,"goi hang bth, nhan hang bth 0:08",goi hang bth nhan hang bth 0 08,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0386,"cam len thay nhe, nhin kha on, can dung them nhe",cam len thay nhe nhin kha on can dung them nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0109,"hang nhan du, giao hang binh thuong, 0:10",hang nhan du giao hang binh thuong 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0114,"moi mo goi xem qua, dong goi cung duoc, chua khen che duoc nhieu nhe",moi mo goi xem qua dong goi cung duoc chua khen che duoc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0118,"moi mo goi xem qua, dung tam on, chx khen che duoc nhieu nhe",moi mo goi xem qua dung tam on chx khen che duoc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0662,"gia re nen hoi don gian, chap nhan dc 0:08",gia re nen hoi don gian chap nhan dc 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0592,"bong tai nhin dung loai, hoi binh thuong, van chap nhan duoc a",bong tai nhin dung loai hoi binh thuong van chap nhan duoc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0673,"thoi gian giao tam chap nhan, hang nhan du 0:05",thoi gian giao tam chap nhan hang nhan du 0 05,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0690,"ship khong nhanh cx khong qua cham, hang nhan du",ship khong nhanh cx khong qua cham hang nhan du,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0666,ke nho so voi gia thi tam a,ke nho so voi gia thi tam a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0456,"tai nghe k qua xin nhung cx k te, dung tam a",tai nghe k qua xin nhung cx k te dung tam a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0179,"kiem so hat dieu thi o muc tam, chua co gi noi bat 0:08",kiem so hat dieu thi o muc tam chua co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0374,"dung thu kem duong thay bth, chua ket luan duoc nhe",dung thu kem duong thay bth chua ket luan duoc nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0097,"moi nhan day deo, dung tam on, can dung them moi biet thoi",moi nhan day deo dung tam on can dung them moi biet thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0570,"ke nho nhin dung loai, hoi mong, van chap nhan dc 0:08",ke nho nhin dung loai hoi mong van chap nhan dc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0019,"moi nhan day deo, giao hang binh thuong, can dung them moi biet",moi nhan day deo giao hang binh thuong can dung them moi biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0316,"son dung co ban chac on, chua dung lau nen chua biet nhe",son dung co ban chac on chua dung lau nen chua biet nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0113,"hang nhan du, nhan du hang, danh gia tam vay nha",hang nhan du nhan du hang danh gia tam vay nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0587,"day deo nhin dung loai, hoi binh thuong, van chap nhan duoc 0:08",day deo nhin dung loai hoi binh thuong van chap nhan duoc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0390,sua tam hoi lau nhung van dung dc thoi,sua tam hoi lau nhung van dung dc thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0633,son so voi gia thi tam,son so voi gia thi tam,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0300,"moi nhan sua rua mat, dong goi cung duoc, chua dung lau nen chua biet nhe",moi nhan sua rua mat dong goi cung duoc chua dung lau nen chua biet nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0461,"moi test so qua thay on, hoi bth mot chut",moi test so qua thay on hoi bth mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0225,"ly thuy tinh nhin bth, hien tai chua thay gi ro thoi",ly thuy tinh nhin bth hien tai chua thay gi ro thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0528,"day deo nhin dung loai, hoi nhe, van chap nhan duoc thoi",day deo nhin dung loai hoi nhe van chap nhan duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0769,video ko lien quan nha,video ko lien quan nha,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0257,"moi mo goi xem qua, giao hang binh thuong, chua khen che duoc nhieu",moi mo goi xem qua giao hang binh thuong chua khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0136,"hang nhan du, dung tam on, tam de 4 sao",hang nhan du dung tam on tam de 4 sao,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0406,"dung thu ke nho thay bth, chua ket luan dc 0:05",dung thu ke nho thay bth chua ket luan dc 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0377,"cam len thay nhe, mau cung on, can dung them",cam len thay nhe mau cung on can dung them,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0687,"don toi noi roi, giao hoi lau nhung van nhan du a",don toi noi roi giao hoi lau nhung van nhan du a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0286,"hang nhan du, nhan du hang, cho 4 sao truoc",hang nhan du nhan du hang cho 4 sao truoc,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0409,"den ngu khong qua xin nhung cung khong te, dung tam 0:10",den ngu khong qua xin nhung cung khong te dung tam 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0636,"voi gia nay k doi hoi nhieu, chat luong can dung them moi biet 0:05",voi gia nay k doi hoi nhieu chat luong can dung them moi biet 0 05,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0604,banh trang gia nay thi chap nhan dc 0:08,banh trang gia nay thi chap nhan dc 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0644,"gia nay thi chap nhan dc, chat luong can dung them moi biet 0:05",gia nay thi chap nhan dc chat luong can dung them moi biet 0 05,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0376,sua tam hoi long leo nhe nhung van dung dc nha,sua tam hoi long leo nhe nhung van dung dc nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0518,"den ngu nhin dung loai, hoi binh thuong, van chap nhan duoc",den ngu nhin dung loai hoi binh thuong van chap nhan duoc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0214,"cap sac dung co ban chac on, moi xem so qua nhe",cap sac dung co ban chac on moi xem so qua nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0735,"bao bi tam duoc, nhan hang binh thuong 0:05",bao bi tam duoc nhan hang binh thuong 0 05,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0748,"boc hang co ban, chx dung sp ben trong",boc hang co ban chx dung sp ben trong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0784,nhan hang roi danh gia truoc nhe,nhan hang roi danh gia truoc nhe,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0236,"hang nhan du, dung tam on, danh gia tam vay a",hang nhan du dung tam on danh gia tam vay a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0551,mau ngoai hoi khac anh sang nhung nhin cung tam nhe,mau ngoai hoi khac anh sang nhung nhin cung tam nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0237,"sua tam dung co ban chac on, moi xem so qua nhe",sua tam dung co ban chac on moi xem so qua nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0159,"sua rua mat nhin bth, de dung them roi tinh 0:05",sua rua mat nhin bth de dung them roi tinh 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0729,"goi hang binh thuong, chua dung san pham ben trong",goi hang binh thuong chua dung san pham ben trong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0780,cho du chu thoi nha nhe,cho du chu thoi nha nhe,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0360,"chat luong tam on, chua test ky thoi",chat luong tam on chua test ky thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0065,"kiem so son thi o muc tam, chx co gi noi bat 0:05",kiem so son thi o muc tam chx co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0395,"sua tam khong qua xin nhung cung khong te, dung tam 0:05",sua tam khong qua xin nhung cung khong te dung tam 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0115,"dep dung co ban chac on, de dung them roi tinh",dep dung co ban chac on de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0541,"kho ga mau nhin tam, chat lieu bth, chua co gi dac biet nha",kho ga mau nhin tam chat lieu bth chua co gi dac biet nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0331,ao hoi don gian nhung van dung dc,ao hoi don gian nhung van dung dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0128,"vong tay dung co ban chac on, moi xem so qua thoi",vong tay dung co ban chac on moi xem so qua thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0249,"ly thuy tinh dung co ban chac on, moi xem so qua nha",ly thuy tinh dung co ban chac on moi xem so qua nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0312,"kiem so son thi o muc tam, chua co gi noi bat nha",kiem so son thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0500,"form hoi co ban, nhin kha on nhe",form hoi co ban nhin kha on nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0162,"hang nhan du, dong goi cung dc, cho 4 sao truoc 0:08",hang nhan du dong goi cung dc cho 4 sao truoc 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0203,"kiem so cap sac thi o muc tam, chua co gi noi bat 0:05",kiem so cap sac thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0302,"kiem so banh trang thi o muc tam, chua co gi noi bat a",kiem so banh trang thi o muc tam chua co gi noi bat a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0738,"hop ngoai hoi mop nhe nhung hang ben trong on, mk moi kiem tra so 0:05",hop ngoai hoi mop nhe nhung hang ben trong on mk moi kiem tra so 0 05,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0345,"moi test so qua thay on, hoi bth mot chut 0:08",moi test so qua thay on hoi bth mot chut 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0235,"vay nhin bth, de dung them roi tinh",vay nhin bth de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0219,"ly thuy tinh nhin bth, chua test ky nhe",ly thuy tinh nhin bth chua test ky nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0740,"bao bi tam duoc, chua dung san pham ben trong",bao bi tam duoc chua dung san pham ben trong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0678,"don toi noi roi, giao hang binh thuong",don toi noi roi giao hang binh thuong,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0379,"dung thu tai nghe thay bth, chua ket luan dc",dung thu tai nghe thay bth chua ket luan dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0054,"kho ga dung co ban chac on, moi xem so qua thoi",kho ga dung co ban chac on moi xem so qua thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0143,"kiem so banh trang thi o muc tam, chua co gi noi bat 0:08",kiem so banh trang thi o muc tam chua co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0205,"moi nhan khan, nhin cung ok, chua dung lau nen chua biet nhe",moi nhan khan nhin cung ok chua dung lau nen chua biet nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0139,"moi nhan ly thuy tinh, dung tam on, de dung them roi tinh thoi",moi nhan ly thuy tinh dung tam on de dung them roi tinh thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0712,"giao hang binh thuong, hang nhan du 0:10",giao hang binh thuong hang nhan du 0 10,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0436,"moi test so qua thay on, hoi binh thuong mot chut",moi test so qua thay on hoi binh thuong mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0619,voi tam gia nay thi minh thay bth 0:08,voi tam gia nay thi minh thay bth 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0478,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc 0:10,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0195,"kem duong nhin bth, de dung them roi tinh nhe",kem duong nhin bth de dung them roi tinh nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0166,"binh nuoc dung co ban chac on, hien tai chua thay gi ro 0:10",binh nuoc dung co ban chac on hien tai chua thay gi ro 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0033,"moi mo goi xem qua, nhin kha on, chua khen che dc nhieu 0:10",moi mo goi xem qua nhin kha on chua khen che dc nhieu 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0051,"sac nhin bth, chua dung lau nen chua biet 0:10",sac nhin bth chua dung lau nen chua biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0761,cho du chu thoi nha 0:05,cho du chu thoi nha 0 05,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0186,"hang nhan du, nhin kha on, nhe",hang nhan du nhin kha on nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0365,"chat luong tam on, can dung them moi biet thoi",chat luong tam on can dung them moi biet thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0007,"moi nhan ke nho, nhan du hang, de dung them roi tinh a",moi nhan ke nho nhan du hang de dung them roi tinh a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0696,"don toi noi roi, don toi hoi lau nhe nhung van on 0:08",don toi noi roi don toi hoi lau nhe nhung van on 0 08,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0756,viet cho du ky tu nhan xu 0:05,viet cho du ky tu nhan xu 0 05,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0423,sua tam hoi nhat mau nhung van dung duoc,sua tam hoi nhat mau nhung van dung duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0123,"hat dieu dung co ban chac on, can dung them moi biet nha",hat dieu dung co ban chac on can dung them moi biet nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0424,"cam len thay nhe, nhin cung ok, can dung them nha",cam len thay nhe nhin cung ok can dung them nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0426,"chat luong tam on, chua test ky 0:08",chat luong tam on chua test ky 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0346,"chat luong tam on, moi xem so qua",chat luong tam on moi xem so qua,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0727,"boc hang co ban, chua dung san pham ben trong",boc hang co ban chua dung san pham ben trong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0150,"mieng dan nhin bth, can dung them moi biet",mieng dan nhin bth can dung them moi biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0126,"kiem so sac thi o muc tam, chx co gi noi bat nhe",kiem so sac thi o muc tam chx co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0206,"moi mo goi xem qua, dong goi cung duoc, chua khen che duoc nhieu",moi mo goi xem qua dong goi cung duoc chua khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0623,giay gia nay thi chap nhan duoc,giay gia nay thi chap nhan duoc,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0046,"kiem so sac thi o muc tam, chua co gi noi bat",kiem so sac thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0352,"dung thu son thay bth, chua ket luan dc",dung thu son thay bth chua ket luan dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0744,"tui goi don gian, nhan hang bth",tui goi don gian nhan hang bth,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0700,"don toi noi roi, giao hang binh thuong 0:08",don toi noi roi giao hang binh thuong 0 08,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0705,"don toi noi roi, ship ko nhanh cx ko qua cham 0:05",don toi noi roi ship ko nhanh cx ko qua cham 0 05,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0564,"form hoi co ban, dong goi cung duoc",form hoi co ban dong goi cung duoc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0573,"op dien thoai nhin dung loai, hoi rong, van chap nhan duoc 0:10",op dien thoai nhin dung loai hoi rong van chap nhan duoc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0089,"quat mini dung co ban chac on, de dung them roi tinh 0:05",quat mini dung co ban chac on de dung them roi tinh 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0011,"hang nhan du, dong goi cung duoc, 0:10",hang nhan du dong goi cung duoc 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0521,"sua rua mat nhin dung loai, hoi nho, van chap nhan duoc thoi",sua rua mat nhin dung loai hoi nho van chap nhan duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0659,"gia re nen hoi lau, chap nhan duoc",gia re nen hoi lau chap nhan duoc,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0335,"cam len thay nhe, mau cung on, can dung them thoi",cam len thay nhe mau cung on can dung them thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0472,"ke nho mau nhin tam, chat lieu bth, chua co gi dac biet 0:10",ke nho mau nhin tam chat lieu bth chua co gi dac biet 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0439,"sua rua mat khong qua xin nhung cx khong te, dung tam 0:08",sua rua mat khong qua xin nhung cx khong te dung tam 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0449,"son khong qua xin nhung cung khong te, dung tam 0:05",son khong qua xin nhung cung khong te dung tam 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0261,"moi mo goi xem qua, nhin kha on, chx khen che dc nhieu thoi",moi mo goi xem qua nhin kha on chx khen che dc nhieu thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0497,chat lieu hoi nho nhung tong the tam thoi,chat lieu hoi nho nhung tong the tam thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0586,bao bi hoi binh thuong nhung tong the tam thoi,bao bi hoi binh thuong nhung tong the tam thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0447,"cam len thay nhe, nhin cung ok, can dung them 0:10",cam len thay nhe nhin cung ok can dung them 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0495,"sac nhin dung loai, hoi lau, van chap nhan duoc nha",sac nhin dung loai hoi lau van chap nhan duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0030,"moi mo goi xem qua, giao hang binh thuong, chua khen che duoc nhieu 0:05",moi mo goi xem qua giao hang binh thuong chua khen che duoc nhieu 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0580,"banh trang nhin dung loai, hoi binh thuong, van chap nhan dc",banh trang nhin dung loai hoi binh thuong van chap nhan dc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0189,"kiem so tai nghe thi o muc tam, chua co gi noi bat a",kiem so tai nghe thi o muc tam chua co gi noi bat a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0554,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc a,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0692,"don toi noi roi, don toi hoi lau nhe nhung van on a",don toi noi roi don toi hoi lau nhe nhung van on a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0708,"don toi noi roi, giao hoi lau nhung van nhan du nha",don toi noi roi giao hoi lau nhung van nhan du nha,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0072,"moi mo goi xem qua, mau cx on, chua khen che dc nhieu nha",moi mo goi xem qua mau cx on chua khen che dc nhieu nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0581,pin hoi binh thuong nhung tong the tam 0:05,pin hoi binh thuong nhung tong the tam 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0172,"moi nhan moc treo, mau cx on, moi nhan nen chx danh gia ky 0:10",moi nhan moc treo mau cx on moi nhan nen chx danh gia ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0429,"chat luong tam on, moi xem so qua a",chat luong tam on moi xem so qua a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0694,"shipper giao nhu bth, moi nhan nen chx danh gia ky a",shipper giao nhu bth moi nhan nen chx danh gia ky a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0653,"mua sale thi tam on, chat luong can dung them moi biet nha",mua sale thi tam on chat luong can dung them moi biet nha,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0800,"tu van o muc tam, chua co gi de nhan xet them 0:08",tu van o muc tam chua co gi de nhan xet them 0 08,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0637,"gia re nen hoi mong, chap nhan duoc",gia re nen hoi mong chap nhan duoc,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0060,"hang nhan du, nhin kha on,",hang nhan du nhin kha on,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0645,"gia re nen hoi rong, chap nhan dc a",gia re nen hoi rong chap nhan dc a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0281,"moi nhan hat dieu, dong goi cung duoc, chua test ky a",moi nhan hat dieu dong goi cung duoc chua test ky a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0245,"den ngu nhin bth, can dung them moi biet 0:08",den ngu nhin bth can dung them moi biet 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0482,"form hoi co ban, dung tam on nha",form hoi co ban dung tam on nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0627,khau trang so voi gia thi tam nha,khau trang so voi gia thi tam nha,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0443,"dung thu sua rua mat thay bth, chx ket luan duoc 0:10",dung thu sua rua mat thay bth chx ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0165,"moi nhan sac, mau cung on, can dung them moi biet 0:10",moi nhan sac mau cung on can dung them moi biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0227,"kiem so banh trang thi o muc tam, chua co gi noi bat 0:10",kiem so banh trang thi o muc tam chua co gi noi bat 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0557,duong may hoi nho nhung tong the tam a,duong may hoi nho nhung tong the tam a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0480,"form hoi co ban, dong goi cx duoc nha",form hoi co ban dong goi cx duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0492,"bong tai nhin dung loai, hoi binh thuong, van chap nhan dc nhe",bong tai nhin dung loai hoi binh thuong van chap nhan dc nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0598,"banh trang nhin dung loai, hoi kho mo, van chap nhan duoc thoi",banh trang nhin dung loai hoi kho mo van chap nhan duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0414,"moi test so qua thay on, hoi kho mo mot chut",moi test so qua thay on hoi kho mo mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0099,"hang nhan du, nhin cung ok,",hang nhan du nhin cung ok,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0569,mau ngoai hoi khac anh sang nhung nhin cung tam 0:05,mau ngoai hoi khac anh sang nhung nhin cung tam 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0359,"moi test so qua thay on, hoi don gian mot chut",moi test so qua thay on hoi don gian mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0412,"moi test so qua thay on, hoi kho mo mot chut a",moi test so qua thay on hoi kho mo mot chut a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0349,"binh nuoc khong qua xin nhung cx khong te, dung tam 0:05",binh nuoc khong qua xin nhung cx khong te dung tam 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0749,"boc hang co ban, chua dung san pham ben trong 0:10",boc hang co ban chua dung san pham ben trong 0 10,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0425,"kem duong khong qua xin nhung cung khong te, dung tam 0:10",kem duong khong qua xin nhung cung khong te dung tam 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0556,chat vai hoi nhat mau nhung tong the tam a,chat vai hoi nhat mau nhung tong the tam a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0476,"sua tam mau nhin tam, chat lieu bth, chua co gi dac biet thoi",sua tam mau nhin tam chat lieu bth chua co gi dac biet thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0765,cho du chu thoi nha,cho du chu thoi nha,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0606,voi tam gia nay thi minh thay bth nha,voi tam gia nay thi minh thay bth nha,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0083,"moi mo goi xem qua, dong goi cung duoc, chx khen che duoc nhieu thoi",moi mo goi xem qua dong goi cung duoc chx khen che duoc nhieu thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0101,"kiem so vay thi o muc tam, chua co gi noi bat nha",kiem so vay thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0036,"tham nhin bth, hien tai chua thay gi ro nha",tham nhin bth hien tai chua thay gi ro nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0250,"vo dung co ban chac on, moi nhan nen chua danh gia ky 0:08",vo dung co ban chac on moi nhan nen chua danh gia ky 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0380,"chat luong tam on, de dung them roi tinh nhe",chat luong tam on de dung them roi tinh nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0658,ly thuy tinh tien nao cua nay 0:10,ly thuy tinh tien nao cua nay 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0363,"dung thu ly thuy tinh thay bth, chua ket luan duoc",dung thu ly thuy tinh thay bth chua ket luan duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0361,"cam len thay nhe, nhin cx ok, can dung them thoi",cam len thay nhe nhin cx ok can dung them thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0044,"kiem so dep thi o muc tam, chx co gi noi bat 0:05",kiem so dep thi o muc tam chx co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0008,"day deo nhin bth, can dung them moi biet 0:08",day deo nhin bth can dung them moi biet 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0053,"kiem so quan thi o muc tam, chua co gi noi bat nha",kiem so quan thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0175,"but highlight nhin bth, chua test ky a",but highlight nhin bth chua test ky a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0770,nhan hang roi danh gia truoc 0:10,nhan hang roi danh gia truoc 0 10,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0003,"ao nhin bth, de dung them roi tinh",ao nhin bth de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0488,form hoi rong nhung tong the tam,form hoi rong nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0714,"shipper giao nhu binh thuong, moi xem so qua a",shipper giao nhu binh thuong moi xem so qua a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0544,"form hoi co ban, nhan du hang thoi",form hoi co ban nhan du hang thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0434,"dung thu tai nghe thay bth, chx ket luan duoc 0:10",dung thu tai nghe thay bth chx ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0190,"moi nhan kem duong, dung tam on, chua test ky thoi",moi nhan kem duong dung tam on chua test ky thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0297,"kiem so tai nghe thi o muc tam, chx co gi noi bat a",kiem so tai nghe thi o muc tam chx co gi noi bat a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0383,"chat luong tam on, moi nhan nen chua danh gia ky a",chat luong tam on moi nhan nen chua danh gia ky a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0188,"ly thuy tinh dung co ban chac on, can dung them moi biet 0:10",ly thuy tinh dung co ban chac on can dung them moi biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0320,"tui nhin bth, chx test ky nhe",tui nhin bth chx test ky nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0533,"cap sac mau nhin tam, chat lieu bth, chua co gi dac biet 0:10",cap sac mau nhin tam chat lieu bth chua co gi dac biet 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0367,sac hoi lau nhung van dung duoc nhe,sac hoi lau nhung van dung duoc nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0534,"form hoi co ban, giao hang binh thuong 0:10",form hoi co ban giao hang binh thuong 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0701,"don toi noi roi, giao hoi lau nhung van nhan du nhe",don toi noi roi giao hoi lau nhung van nhan du nhe,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0753,danh gia nhan xu thoi 0:10,danh gia nhan xu thoi 0 10,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0421,"cam len thay nhe, nhan du hang, can dung them 0:05",cam len thay nhe nhan du hang can dung them 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0734,"boc hang co ban, minh moi kiem tra so thoi",boc hang co ban minh moi kiem tra so thoi,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0405,"dung thu son thay bth, chua ket luan duoc",dung thu son thay bth chua ket luan duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0048,"kiem so vay thi o muc tam, chua co gi noi bat 0:05",kiem so vay thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0595,kich thuoc hoi lech nhe so voi minh nghi nhung van dung dc nha,kich thuoc hoi lech nhe so voi minh nghi nhung van dung dc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0366,"chat luong tam on, de dung them roi tinh a",chat luong tam on de dung them roi tinh a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0397,son hoi nho nhung van dung duoc 0:08,son hoi nho nhung van dung duoc 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0062,"moi mo goi xem qua, giao hang binh thuong, chua khen che duoc nhieu nha",moi mo goi xem qua giao hang binh thuong chua khen che duoc nhieu nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0576,"khau trang nhin dung loai, hoi mong, van chap nhan duoc thoi",khau trang nhin dung loai hoi mong van chap nhan duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0002,"hang nhan du, cam len tam duoc, danh gia tam vay 0:08",hang nhan du cam len tam duoc danh gia tam vay 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0441,"cam len thay nhe, nhan du hang, can dung them",cam len thay nhe nhan du hang can dung them,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0688,"don toi noi roi, ship ko nhanh cung ko qua cham a",don toi noi roi ship ko nhanh cung ko qua cham a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0247,"kiem so tui thi o muc tam, chua co gi noi bat",kiem so tui thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0617,"mua luc sale nen thay tam on, chx danh gia lau dai",mua luc sale nen thay tam on chx danh gia lau dai,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0052,"kiem so sua rua mat thi o muc tam, chua co gi noi bat nha",kiem so sua rua mat thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0070,"binh nuoc nhin bth, chua test ky",binh nuoc nhin bth chua test ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0733,"dong goi k dep lam nhung hang van on, chua dung san pham ben trong",dong goi k dep lam nhung hang van on chua dung san pham ben trong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0496,kich thuoc hoi lech nhe so voi minh nghi nhung van dung dc 0:05,kich thuoc hoi lech nhe so voi minh nghi nhung van dung dc 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0344,"chat luong tam on, chua test ky",chat luong tam on chua test ky,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0081,"moi nhan hop dung, nhin cx ok, chx dung lau nen chx biet",moi nhan hop dung nhin cx ok chx dung lau nen chx biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0294,"hang nhan du, dung tam on, 0:05",hang nhan du dung tam on 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0171,"kiem so hop dung thi o muc tam, chua co gi noi bat 0:05",kiem so hop dung thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0608,hat dieu tien nao cua nay,hat dieu tien nao cua nay,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0741,"boc hang co ban, mk moi kiem tra so",boc hang co ban mk moi kiem tra so,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0117,"moi mo goi xem qua, nhan du hang, chx khen che duoc nhieu 0:08",moi mo goi xem qua nhan du hang chx khen che duoc nhieu 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0498,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc nha,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0470,mau ngoai hoi khac anh sang nhung nhin cung tam nha,mau ngoai hoi khac anh sang nhung nhin cung tam nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0343,"dung thu khau trang thay bth, chua ket luan duoc 0:08",dung thu khau trang thay bth chua ket luan duoc 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0275,"moi nhan tham, nhan du hang, de dung them roi tinh 0:08",moi nhan tham nhan du hang de dung them roi tinh 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0176,"kiem so vo thi o muc tam, chua co gi noi bat nha",kiem so vo thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0389,"moi test so qua thay on, hoi nhe mot chut 0:05",moi test so qua thay on hoi nhe mot chut 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0339,"chat luong tam on, chx test ky 0:10",chat luong tam on chx test ky 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0451,kem duong hoi nho nhung van dung duoc nhe,kem duong hoi nho nhung van dung duoc nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0725,"tui goi don gian, mk moi kiem tra so thoi",tui goi don gian mk moi kiem tra so thoi,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0071,"moi nhan sua tam, dong goi cung duoc, hien tai chua thay gi ro nhe",moi nhan sua tam dong goi cung duoc hien tai chua thay gi ro nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0059,"kho ga nhin bth, chua test ky",kho ga nhin bth chua test ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0763,hinh anh chi mang tinh nhan xu,hinh anh chi mang tinh nhan xu,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0774,hinh anh chi mang tinh nhan xu 0:10,hinh anh chi mang tinh nhan xu 0 10,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0173,"moi mo goi xem qua, mau cx on, chx khen che duoc nhieu nhe",moi mo goi xem qua mau cx on chx khen che duoc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0079,"kiem so but highlight thi o muc tam, chua co gi noi bat nha",kiem so but highlight thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0430,"cam len thay nhe, nhin cung ok, can dung them a",cam len thay nhe nhin cung ok can dung them a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0157,"kiem so ke nho thi o muc tam, chx co gi noi bat nhe",kiem so ke nho thi o muc tam chx co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0563,"banh trang mau nhin tam, chat lieu bth, chua co gi dac biet 0:08",banh trang mau nhin tam chat lieu bth chua co gi dac biet 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0158,"moi nhan sua rua mat, giao hang binh thuong, can dung them moi biet",moi nhan sua rua mat giao hang binh thuong can dung them moi biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0600,"form hoi co ban, dong goi cung duoc a",form hoi co ban dong goi cung duoc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0296,"hang nhan du, nhan du hang, danh gia tam vay 0:10",hang nhan du nhan du hang danh gia tam vay 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0287,"kiem so ao thi o muc tam, chua co gi noi bat 0:05",kiem so ao thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0269,"kiem so bong tai thi o muc tam, chua co gi noi bat",kiem so bong tai thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0427,mieng dan hoi don gian nhung van dung duoc 0:10,mieng dan hoi don gian nhung van dung duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0372,"cam len thay nhe, nhan du hang, can dung them 0:08",cam len thay nhe nhan du hang can dung them 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0388,"ly thuy tinh khong qua xin nhung cung khong te, dung tam 0:08",ly thuy tinh khong qua xin nhung cung khong te dung tam 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0201,"dep nhin bth, moi xem so qua",dep nhin bth moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0001,"den ngu nhin bth, moi nhan nen chua danh gia ky 0:08",den ngu nhin bth moi nhan nen chua danh gia ky 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0364,"dung thu vo thay bth, chua ket luan duoc nha",dung thu vo thay bth chua ket luan duoc nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0752,video khong lien quan nha a,video khong lien quan nha a,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0056,"kiem so khan thi o muc tam, chua co gi noi bat thoi",kiem so khan thi o muc tam chua co gi noi bat thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0477,bao bi hoi don gian nhung tong the tam a,bao bi hoi don gian nhung tong the tam a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0027,"hang nhan du, nhin cung ok, tam de 4 sao",hang nhan du nhin cung ok tam de 4 sao,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0404,quat mini hoi mong nhung van dung dc 0:10,quat mini hoi mong nhung van dung dc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0244,"moi nhan kem duong, dong goi cung duoc, moi nhan nen chua danh gia ky 0:10",moi nhan kem duong dong goi cung duoc moi nhan nen chua danh gia ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0420,"cam len thay nhe, giao hang binh thuong, can dung them 0:08",cam len thay nhe giao hang binh thuong can dung them 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0093,"vo nhin bth, moi xem so qua 0:05",vo nhin bth moi xem so qua 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0444,"but highlight k qua xin nhung cx k te, dung tam",but highlight k qua xin nhung cx k te dung tam,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0718,"hop ngoai hoi mop nhe nhung hang ben trong on, minh moi kiem tra so",hop ngoai hoi mop nhe nhung hang ben trong on minh moi kiem tra so,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0197,"kho ga dung co ban chac on, chx dung lau nen chx biet nha",kho ga dung co ban chac on chx dung lau nen chx biet nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0736,"dong goi khong dep lam nhung hang van on, nhan hang binh thuong",dong goi khong dep lam nhung hang van on nhan hang binh thuong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0731,"bao bi tam duoc, minh moi kiem tra so",bao bi tam duoc minh moi kiem tra so,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0685,"giao hoi lau nhung van nhan du, de dung them roi tinh",giao hoi lau nhung van nhan du de dung them roi tinh,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0196,"moi mo goi xem qua, dung tam on, chua khen che duoc nhieu a",moi mo goi xem qua dung tam on chua khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0182,"moi nhan hat dieu, nhin cung ok, chua dung lau nen chua biet 0:08",moi nhan hat dieu nhin cung ok chua dung lau nen chua biet 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0777,danh gia nhan xu thoi nha,danh gia nhan xu thoi nha,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0119,"khan dung co ban chac on, hien tai chx thay gi ro nha",khan dung co ban chac on hien tai chx thay gi ro nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0233,"vo nhin bth, hien tai chua thay gi ro a",vo nhin bth hien tai chua thay gi ro a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0076,"sua tam nhin bth, moi xem so qua thoi",sua tam nhin bth moi xem so qua thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0762,video khong lien quan nha 0:08,video khong lien quan nha 0 08,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0355,"moi test so qua thay on, hoi long leo nhe mot chut a",moi test so qua thay on hoi long leo nhe mot chut a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0485,"form hoi co ban, cam len tam duoc 0:05",form hoi co ban cam len tam duoc 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0505,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc nhe,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0481,bao bi hoi lau nhung tong the tam,bao bi hoi lau nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0322,"moi test so qua thay on, hoi lau mot chut",moi test so qua thay on hoi lau mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0069,"moi nhan tai nghe, mau cung on, hien tai chua thay gi ro 0:08",moi nhan tai nghe mau cung on hien tai chua thay gi ro 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0092,"moi nhan day deo, nhin cung ok, moi nhan nen chua danh gia ky a",moi nhan day deo nhin cung ok moi nhan nen chua danh gia ky a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0394,"day deo khong qua xin nhung cung khong te, dung tam 0:08",day deo khong qua xin nhung cung khong te dung tam 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0792,"shop xac nhan don nhu binh thuong, san pham chua test ky",shop xac nhan don nhu binh thuong san pham chua test ky,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0181,"sua rua mat dung co ban chac on, can dung them moi biet 0:10",sua rua mat dung co ban chac on can dung them moi biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0771,hinh anh chi mang tinh nhan xu 0:05,hinh anh chi mang tinh nhan xu 0 05,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0479,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc nhe,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0661,"tien nao cua nay, chat luong can dung them moi biet 0:10",tien nao cua nay chat luong can dung them moi biet 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0499,"hop dung mau nhin tam, chat lieu bth, chx co gi dac biet",hop dung mau nhin tam chat lieu bth chx co gi dac biet,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0350,"moi test so qua thay on, hoi kho mo mot chut nhe",moi test so qua thay on hoi kho mo mot chut nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0655,kem duong tien nao cua nay nhe,kem duong tien nao cua nay nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0163,"vay dung co ban chac on, can dung them moi biet nha",vay dung co ban chac on can dung them moi biet nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0433,"dung thu kho ga thay bth, chx ket luan duoc 0:10",dung thu kho ga thay bth chx ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0721,"dong goi ko dep lam nhung hang van on, nhan hang bth nhe",dong goi ko dep lam nhung hang van on nhan hang bth nhe,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0121,"khan nhin bth, moi xem so qua",khan nhin bth moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0471,"day deo mau nhin tam, chat lieu bth, chua co gi dac biet a",day deo mau nhin tam chat lieu bth chua co gi dac biet a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0057,"moi mo goi xem qua, nhan du hang, chua khen che duoc nhieu a",moi mo goi xem qua nhan du hang chua khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0087,"kem duong nhin bth, de dung them roi tinh nha",kem duong nhin bth de dung them roi tinh nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0337,"dung thu vo thay bth, chua ket luan duoc 0:10",dung thu vo thay bth chua ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0453,khan hoi nhat mau nhung van dung duoc a,khan hoi nhat mau nhung van dung duoc a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0732,"dong goi k dep lam nhung hang van on, chua dung sp ben trong a",dong goi k dep lam nhung hang van on chua dung sp ben trong a,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0593,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc thoi,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0647,"so voi gia thi tam, chat luong can dung them moi biet nhe",so voi gia thi tam chat luong can dung them moi biet nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0715,"don toi noi roi, thoi gian giao tam chap nhan",don toi noi roi thoi gian giao tam chap nhan,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0440,hat dieu hoi binh thuong nhung van dung dc,hat dieu hoi binh thuong nhung van dung dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0530,am thanh hoi rong nhung tong the tam,am thanh hoi rong nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0416,"vo khong qua xin nhung cx khong te, dung tam nha",vo khong qua xin nhung cx khong te dung tam nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0403,ao hoi nho nhung van dung duoc 0:10,ao hoi nho nhung van dung duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0031,"moi nhan sua rua mat, giao hang binh thuong, de dung them roi tinh 0:08",moi nhan sua rua mat giao hang binh thuong de dung them roi tinh 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0663,voi tam gia nay thi minh thay bth nhe,voi tam gia nay thi minh thay bth nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0317,"moi mo goi xem qua, mau cung on, chua khen che duoc nhieu nhe",moi mo goi xem qua mau cung on chua khen che duoc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0599,mui huong hoi nho nhung tong the tam,mui huong hoi nho nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0061,"moi nhan den ngu, dong goi cx dc, hien tai chx thay gi ro a",moi nhan den ngu dong goi cx dc hien tai chx thay gi ro a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0022,"hang nhan du, nhan du hang,",hang nhan du nhan du hang,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0575,bao bi hoi long leo nhe nhung tong the tam thoi,bao bi hoi long leo nhe nhung tong the tam thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0284,"hang nhan du, cam len tam duoc, cho 4 sao truoc a",hang nhan du cam len tam duoc cho 4 sao truoc a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0174,"kiem so hat dieu thi o muc tam, chua co gi noi bat a",kiem so hat dieu thi o muc tam chua co gi noi bat a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0783,hinh anh chi mang tinh nhan xu nhe,hinh anh chi mang tinh nhan xu nhe,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0793,"chua trao doi voi shop nhieu, don xu ly bth 0:10",chua trao doi voi shop nhieu don xu ly bth 0 10,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0773,viet cho du ky tu nhan xu a,viet cho du ky tu nhan xu a,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0535,"form hoi co ban, nhan du hang",form hoi co ban nhan du hang,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0459,"chat luong tam on, de dung them roi tinh thoi",chat luong tam on de dung them roi tinh thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0460,"bong tai khong qua xin nhung cung khong te, dung tam 0:05",bong tai khong qua xin nhung cung khong te dung tam 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0632,"mua sale thi tam on, chat luong can dung them moi biet nhe",mua sale thi tam on chat luong can dung them moi biet nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0167,"banh trang nhin bth, moi nhan nen chua danh gia ky",banh trang nhin bth moi nhan nen chua danh gia ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0098,"kiem so kho ga thi o muc tam, chua co gi noi bat 0:05",kiem so kho ga thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0468,form hoi lau nhung tong the tam 0:10,form hoi lau nhung tong the tam 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0326,"moi test so qua thay on, hoi nhe mot chut nha",moi test so qua thay on hoi nhe mot chut nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0519,"moc treo mau nhin tam, chat lieu bth, chua co gi dac biet a",moc treo mau nhin tam chat lieu bth chua co gi dac biet a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0357,"moi test so qua thay on, hoi lau mot chut 0:05",moi test so qua thay on hoi lau mot chut 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0649,"mua sale thi tam on, chat luong can dung them moi biet a",mua sale thi tam on chat luong can dung them moi biet a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0254,"kem duong nhin bth, hien tai chua thay gi ro",kem duong nhin bth hien tai chua thay gi ro,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0183,"hang nhan du, nhin cung ok, danh gia tam vay 0:05",hang nhan du nhin cung ok danh gia tam vay 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0695,"don toi noi roi, giao hang binh thuong 0:10",don toi noi roi giao hang binh thuong 0 10,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0063,"moi mo goi xem qua, nhin cung ok, chua khen che duoc nhieu",moi mo goi xem qua nhin cung ok chua khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0120,"dep nhin bth, chua dung lau nen chua biet a",dep nhin bth chua dung lau nen chua biet a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0198,"giay nhin bth, chua test ky nha",giay nhin bth chua test ky nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0268,"moi mo goi xem qua, nhan du hang, chua khen che duoc nhieu 0:08",moi mo goi xem qua nhan du hang chua khen che duoc nhieu 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0078,"day deo dung co ban chac on, moi nhan nen chx danh gia ky a",day deo dung co ban chac on moi nhan nen chx danh gia ky a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0040,"day deo dung co ban chac on, hien tai chua thay gi ro 0:08",day deo dung co ban chac on hien tai chua thay gi ro 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0272,"moi mo goi xem qua, giao hang binh thuong, chx khen che dc nhieu",moi mo goi xem qua giao hang binh thuong chx khen che dc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0358,"dung thu day deo thay bth, chua ket luan duoc nhe",dung thu day deo thay bth chua ket luan duoc nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0772,danh gia nhan xu thoi 0:08,danh gia nhan xu thoi 0 08,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0148,"hang nhan du, nhin cx ok, thoi",hang nhan du nhin cx ok thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0231,"kiem so sac thi o muc tam, chx co gi noi bat 0:08",kiem so sac thi o muc tam chx co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0278,"kiem so giay thi o muc tam, chua co gi noi bat 0:10",kiem so giay thi o muc tam chua co gi noi bat 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0672,"don toi noi roi, ship khong nhanh cung khong qua cham",don toi noi roi ship khong nhanh cung khong qua cham,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0266,"but highlight nhin bth, moi nhan nen chua danh gia ky",but highlight nhin bth moi nhan nen chua danh gia ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0385,"cam len thay nhe, dung tam on, can dung them nhe",cam len thay nhe dung tam on can dung them nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0402,but highlight hoi don gian nhung van dung duoc,but highlight hoi don gian nhung van dung duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0200,"hang nhan du, mau cung on, tam de 4 sao 0:10",hang nhan du mau cung on tam de 4 sao 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0545,chat vai hoi nho nhung tong the tam,chat vai hoi nho nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0396,"ao k qua xin nhung cung k te, dung tam",ao k qua xin nhung cung k te dung tam,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0194,"kiem so vo thi o muc tam, chua co gi noi bat 0:08",kiem so vo thi o muc tam chua co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0704,"giao hang bth, hang nhan du nhe",giao hang bth hang nhan du nhe,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0234,"hang nhan du, giao hang binh thuong, nhe",hang nhan du giao hang binh thuong nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0584,"sac nhin dung loai, hoi kho mo, van chap nhan duoc a",sac nhin dung loai hoi kho mo van chap nhan duoc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0265,"moi mo goi xem qua, nhin cung ok, chua khen che duoc nhieu nha",moi mo goi xem qua nhin cung ok chua khen che duoc nhieu nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0169,"moi mo goi xem qua, dong goi cung dc, chx khen che dc nhieu",moi mo goi xem qua dong goi cung dc chx khen che dc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0232,"ke nho nhin bth, moi nhan nen chx danh gia ky 0:10",ke nho nhin bth moi nhan nen chx danh gia ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0502,mui huong hoi lau nhung tong the tam,mui huong hoi lau nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0699,"thoi gian giao tam chap nhan, hang nhan du 0:10",thoi gian giao tam chap nhan hang nhan du 0 10,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0657,voi tam gia nay thi minh thay bth 0:10,voi tam gia nay thi minh thay bth 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0334,"cam len thay nhe, dong goi cung duoc, can dung them",cam len thay nhe dong goi cung duoc can dung them,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0318,"khau trang nhin bth, hien tai chx thay gi ro nha",khau trang nhin bth hien tai chx thay gi ro nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0336,kem duong hoi kho mo nhung van dung duoc thoi,kem duong hoi kho mo nhung van dung duoc thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0465,ke nho hoi rong nhung van dung dc nha,ke nho hoi rong nhung van dung dc nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0323,"chat luong tam on, moi nhan nen chua danh gia ky",chat luong tam on moi nhan nen chua danh gia ky,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0279,"hang nhan du, giao hang binh thuong, cho 4 sao truoc nhe",hang nhan du giao hang binh thuong cho 4 sao truoc nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0540,"dep nhin dung loai, hoi lau, van chap nhan duoc",dep nhin dung loai hoi lau van chap nhan duoc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0724,"tui goi don gian, chua dung san pham ben trong",tui goi don gian chua dung san pham ben trong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0454,"moi test so qua thay on, hoi nho mot chut nhe",moi test so qua thay on hoi nho mot chut nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0758,danh gia nhan xu thoi nhe,danh gia nhan xu thoi nhe,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0324,"dung thu dep thay bth, chx ket luan dc 0:05",dung thu dep thay bth chx ket luan dc 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0251,"moi mo goi xem qua, mau cung on, chx khen che dc nhieu",moi mo goi xem qua mau cung on chx khen che dc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0368,kem duong hoi nhat mau nhung van dung duoc,kem duong hoi nhat mau nhung van dung duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0590,"tui nhin dung loai, hoi long leo nhe, van chap nhan duoc 0:10",tui nhin dung loai hoi long leo nhe van chap nhan duoc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0703,"giao hoi lau nhung van nhan du, can dung them moi biet 0:10",giao hoi lau nhung van nhan du can dung them moi biet 0 10,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0680,"thoi gian giao tam chap nhan, hang nhan du",thoi gian giao tam chap nhan hang nhan du,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0255,"hang nhan du, nhin kha on, danh gia tam vay nha",hang nhan du nhin kha on danh gia tam vay nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0141,"ly thuy tinh dung co ban chac on, chua dung lau nen chua biet 0:08",ly thuy tinh dung co ban chac on chua dung lau nen chua biet 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0096,"moi nhan bong tai, nhan du hang, moi xem so qua",moi nhan bong tai nhan du hang moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0116,"moi nhan khau trang, giao hang binh thuong, moi nhan nen chua danh gia ky 0:10",moi nhan khau trang giao hang binh thuong moi nhan nen chua danh gia ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0274,"tai nghe dung co ban chac on, moi nhan nen chua danh gia ky",tai nghe dung co ban chac on moi nhan nen chua danh gia ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0184,"kiem so moc treo thi o muc tam, chua co gi noi bat",kiem so moc treo thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0329,"moi test so qua thay on, hoi long leo nhe mot chut",moi test so qua thay on hoi long leo nhe mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0621,"gia re nen hoi nho, chap nhan duoc",gia re nen hoi nho chap nhan duoc,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0029,"moi nhan quan, cam len tam duoc, chua dung lau nen chua biet",moi nhan quan cam len tam duoc chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0697,"shipper giao nhu binh thuong, can dung them moi biet",shipper giao nhu binh thuong can dung them moi biet,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0561,"khan mau nhin tam, chat lieu bth, chua co gi dac biet a",khan mau nhin tam chat lieu bth chua co gi dac biet a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0037,"hang nhan du, cam len tam duoc, nha",hang nhan du cam len tam duoc nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0223,"dep dung co ban chac on, can dung them moi biet a",dep dung co ban chac on can dung them moi biet a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0295,"banh trang nhin bth, de dung them roi tinh 0:05",banh trang nhin bth de dung them roi tinh 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0084,"mieng dan nhin bth, moi xem so qua nha",mieng dan nhin bth moi xem so qua nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0616,"gia re nen hoi lau, chap nhan dc thoi",gia re nen hoi lau chap nhan dc thoi,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0469,mau sac hoi rong nhung tong the tam nhe,mau sac hoi rong nhung tong the tam nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0392,"dung thu kem duong thay bth, chua ket luan duoc 0:10",dung thu kem duong thay bth chua ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0315,"hang nhan du, dung tam on, cho 4 sao truoc nhe",hang nhan du dung tam on cho 4 sao truoc nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0164,"moi nhan hop dung, nhan du hang, can dung them moi biet nhe",moi nhan hop dung nhan du hang can dung them moi biet nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0448,mieng dan hoi mong nhung van dung dc,mieng dan hoi mong nhung van dung dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0127,"son dung co ban chac on, moi xem so qua 0:08",son dung co ban chac on moi xem so qua 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0122,"moi mo goi xem qua, dung tam on, chua khen che duoc nhieu",moi mo goi xem qua dung tam on chua khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0567,bao bi hoi binh thuong nhung tong the tam a,bao bi hoi binh thuong nhung tong the tam a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0193,"moi nhan khau trang, dong goi cx duoc, can dung them moi biet 0:10",moi nhan khau trang dong goi cx duoc can dung them moi biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0112,"hang nhan du, mau cung on, cho 4 sao truoc",hang nhan du mau cung on cho 4 sao truoc,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0321,"dung thu sac thay bth, chua ket luan duoc 0:08",dung thu sac thay bth chua ket luan duoc 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0628,voi tam gia nay thi mk thay bth nha,voi tam gia nay thi mk thay bth nha,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0549,"den ngu nhin dung loai, hoi bth, van chap nhan dc 0:10",den ngu nhin dung loai hoi bth van chap nhan dc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0723,"tui goi don gian, chx dung san pham ben trong a",tui goi don gian chx dung san pham ben trong a,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0490,"tai nghe nhin dung loai, hoi lau, van chap nhan duoc 0:10",tai nghe nhin dung loai hoi lau van chap nhan duoc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0131,"dep dung co ban chac on, chua dung lau nen chua biet",dep dung co ban chac on chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0603,"voi gia nay khong doi hoi nhieu, chat luong can dung them moi biet 0:10",voi gia nay khong doi hoi nhieu chat luong can dung them moi biet 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0484,mau ngoai hoi khac anh sang nhung nhin cx tam 0:08,mau ngoai hoi khac anh sang nhung nhin cx tam 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0209,"vo dung co ban chac on, moi xem so qua",vo dung co ban chac on moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0038,"kiem so tai nghe thi o muc tam, chua co gi noi bat nha",kiem so tai nghe thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0757,viet cho du ky tu nhan xu 0:10,viet cho du ky tu nhan xu 0 10,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0025,"moi mo goi xem qua, mau cung on, chua khen che duoc nhieu",moi mo goi xem qua mau cung on chua khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0686,"giao hang binh thuong, chua test ky 0:05",giao hang binh thuong chua test ky 0 05,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0088,"moi mo goi xem qua, dung tam on, chua khen che duoc nhieu 0:10",moi mo goi xem qua dung tam on chua khen che duoc nhieu 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0493,mui huong hoi nhat mau nhung tong the tam 0:08,mui huong hoi nhat mau nhung tong the tam 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0629,"voi gia nay khong doi hoi nhieu, chat luong can dung them moi biet",voi gia nay khong doi hoi nhieu chat luong can dung them moi biet,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0124,"sua tam dung co ban chac on, chua test ky 0:10",sua tam dung co ban chac on chua test ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0503,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc 0:05,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0643,"mua luc sale nen thay tam on, chx danh gia lau dai 0:10",mua luc sale nen thay tam on chx danh gia lau dai 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0750,"hop ngoai hoi mop nhe nhung hang ben trong on, nhan hang binh thuong",hop ngoai hoi mop nhe nhung hang ben trong on nhan hang binh thuong,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0213,"kiem so tai nghe thi o muc tam, chua co gi noi bat thoi",kiem so tai nghe thi o muc tam chua co gi noi bat thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0221,"but highlight nhin bth, moi xem so qua 0:05",but highlight nhin bth moi xem so qua 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0671,"thoi gian giao tam chap nhan, hang nhan du nhe",thoi gian giao tam chap nhan hang nhan du nhe,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0682,"don toi hoi lau nhe nhung van on, hang nhan du a",don toi hoi lau nhe nhung van on hang nhan du a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0106,"moi mo goi xem qua, mau cung on, chua khen che duoc nhieu a",moi mo goi xem qua mau cung on chua khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0252,"ke nho dung co ban chac on, chua dung lau nen chua biet",ke nho dung co ban chac on chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0550,"form hoi co ban, mau cx on thoi",form hoi co ban mau cx on thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0147,"moi mo goi xem qua, dong goi cx dc, chx khen che dc nhieu nha",moi mo goi xem qua dong goi cx dc chx khen che dc nhieu nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0144,"ao dung co ban chac on, hien tai chua thay gi ro thoi",ao dung co ban chac on hien tai chua thay gi ro thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0348,"chat luong tam on, hien tai chua thay gi ro",chat luong tam on hien tai chua thay gi ro,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0341,"dung thu hop dung thay bth, chx ket luan duoc",dung thu hop dung thay bth chx ket luan duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0785,video ko lien quan nha nha,video ko lien quan nha nha,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0199,"banh trang nhin bth, moi xem so qua",banh trang nhin bth moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0228,"moc treo nhin bth, hien tai chx thay gi ro",moc treo nhin bth hien tai chx thay gi ro,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0133,"hang nhan du, nhin kha on, cho 4 sao truoc thoi",hang nhan du nhin kha on cho 4 sao truoc thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0789,"shop phan hoi bth, hang moi nhan nen chx noi nhieu a",shop phan hoi bth hang moi nhan nen chx noi nhieu a,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0646,sac tien nao cua nay,sac tien nao cua nay,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0669,quat mini gia nay thi chap nhan duoc 0:10,quat mini gia nay thi chap nhan duoc 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0411,"chat luong tam on, chx test ky nha",chat luong tam on chx test ky nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0513,"banh trang nhin dung loai, hoi mong, van chap nhan duoc a",banh trang nhin dung loai hoi mong van chap nhan duoc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0698,"giao hoi lau nhung van nhan du, chua test ky",giao hoi lau nhung van nhan du chua test ky,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0516,mau ngoai hoi khac anh sang nhung nhin cung tam,mau ngoai hoi khac anh sang nhung nhin cung tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0075,"kiem so but highlight thi o muc tam, chua co gi noi bat",kiem so but highlight thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0005,"moi mo goi xem qua, dung tam on, chx khen che duoc nhieu 0:08",moi mo goi xem qua dung tam on chx khen che duoc nhieu 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0597,"form hoi co ban, nhin cung ok thoi",form hoi co ban nhin cung ok thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0417,"moi test so qua thay on, hoi nhat mau mot chut",moi test so qua thay on hoi nhat mau mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0796,"chua trao doi voi shop nhieu, don xu ly binh thuong",chua trao doi voi shop nhieu don xu ly binh thuong,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0398,"cam len thay nhe, nhan du hang, can dung them thoi",cam len thay nhe nhan du hang can dung them thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0668,"gia re nen hoi kho mo, chap nhan dc nhe",gia re nen hoi kho mo chap nhan dc nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0308,"tui nhin bth, de dung them roi tinh 0:08",tui nhin bth de dung them roi tinh 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0215,"kiem so vong tay thi o muc tam, chua co gi noi bat nhe",kiem so vong tay thi o muc tam chua co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0547,"khan nhin dung loai, hoi long leo nhe, van chap nhan dc thoi",khan nhin dung loai hoi long leo nhe van chap nhan dc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0009,"kiem so day deo thi o muc tam, chua co gi noi bat nhe",kiem so day deo thi o muc tam chua co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0161,"hang nhan du, cam len tam duoc,",hang nhan du cam len tam duoc,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0719,"boc hang co ban, nhan hang bth thoi",boc hang co ban nhan hang bth thoi,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0798,"shop xac nhan don nhu binh thuong, san pham chua test ky nha",shop xac nhan don nhu binh thuong san pham chua test ky nha,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0375,"moi test so qua thay on, hoi mong mot chut a",moi test so qua thay on hoi mong mot chut a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0664,"tien nao cua nay, chat luong can dung them moi biet",tien nao cua nay chat luong can dung them moi biet,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0077,"khau trang dung co ban chac on, hien tai chua thay gi ro nha",khau trang dung co ban chac on hien tai chua thay gi ro nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0442,"chat luong tam on, chua dung lau nen chua biet nhe",chat luong tam on chua dung lau nen chua biet nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0013,"moi nhan day deo, dong goi cung duoc, moi nhan nen chua danh gia ky 0:10",moi nhan day deo dong goi cung duoc moi nhan nen chua danh gia ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0399,cap sac hoi rong nhung van dung duoc 0:08,cap sac hoi rong nhung van dung duoc 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0238,"vay nhin bth, moi xem so qua nha",vay nhin bth moi xem so qua nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0260,"moi mo goi xem qua, nhin cung ok, chua khen che duoc nhieu a",moi mo goi xem qua nhin cung ok chua khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0202,"moi nhan sua rua mat, giao hang bth, chua test ky",moi nhan sua rua mat giao hang bth chua test ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0517,pin hoi don gian nhung tong the tam,pin hoi don gian nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0491,"moc treo nhin dung loai, hoi nhat mau, van chap nhan duoc thoi",moc treo nhin dung loai hoi nhat mau van chap nhan duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0562,"quan nhin dung loai, hoi bth, van chap nhan dc 0:10",quan nhin dung loai hoi bth van chap nhan dc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0526,"form hoi co ban, nhan du hang nhe",form hoi co ban nhan du hang nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0787,"chx trao doi voi shop nhieu, don xu ly binh thuong 0:10",chx trao doi voi shop nhieu don xu ly binh thuong 0 10,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0455,"moi test so qua thay on, hoi rong mot chut 0:10",moi test so qua thay on hoi rong mot chut 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0066,"vay dung co ban chac on, chua dung lau nen chua biet",vay dung co ban chac on chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0328,"hat dieu khong qua xin nhung cung khong te, dung tam thoi",hat dieu khong qua xin nhung cung khong te dung tam thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0578,"ao nhin dung loai, hoi binh thuong, van chap nhan duoc 0:08",ao nhin dung loai hoi binh thuong van chap nhan duoc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0095,"kiem so tui thi o muc tam, chx co gi noi bat a",kiem so tui thi o muc tam chx co gi noi bat a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0378,"moi test so qua thay on, hoi bth mot chut nhe",moi test so qua thay on hoi bth mot chut nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0082,"hang nhan du, nhan du hang, 0:10",hang nhan du nhan du hang 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0400,"chat luong tam on, can dung them moi biet",chat luong tam on can dung them moi biet,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0217,"tui nhin bth, chua test ky 0:05",tui nhin bth chua test ky 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0486,"form hoi co ban, mau cung on",form hoi co ban mau cung on,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0585,"but highlight nhin dung loai, hoi binh thuong, van chap nhan duoc a",but highlight nhin dung loai hoi binh thuong van chap nhan duoc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0102,"moi nhan day deo, nhin kha on, chua dung lau nen chua biet",moi nhan day deo nhin kha on chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0507,"kem duong nhin dung loai, hoi lau, van chap nhan duoc nha",kem duong nhin dung loai hoi lau van chap nhan duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0776,cho du chu thoi nha 0:08,cho du chu thoi nha 0 08,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0067,"moi nhan cap sac, dong goi cung duoc, moi nhan nen chua danh gia ky",moi nhan cap sac dong goi cung duoc moi nhan nen chua danh gia ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0091,"op dien thoai nhin bth, moi xem so qua 0:08",op dien thoai nhin bth moi xem so qua 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0630,voi tam gia nay thi mk thay bth nhe,voi tam gia nay thi mk thay bth nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0435,"moi test so qua thay on, hoi mong mot chut 0:10",moi test so qua thay on hoi mong mot chut 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0651,day deo mua sale thi tam on,day deo mua sale thi tam on,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0413,"moi test so qua thay on, hoi nho mot chut",moi test so qua thay on hoi nho mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0138,"kiem so dep thi o muc tam, chua co gi noi bat thoi",kiem so dep thi o muc tam chua co gi noi bat thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0684,"giao hoi lau nhung van nhan du, chua dung lau nen chua biet thoi",giao hoi lau nhung van nhan du chua dung lau nen chua biet thoi,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0267,"moi mo goi xem qua, nhin cung ok, chua khen che duoc nhieu 0:05",moi mo goi xem qua nhin cung ok chua khen che duoc nhieu 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0104,"mieng dan nhin bth, chua dung lau nen chua biet",mieng dan nhin bth chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0129,"moi mo goi xem qua, dung tam on, chua khen che duoc nhieu nha",moi mo goi xem qua dung tam on chua khen che duoc nhieu nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0021,"hang nhan du, nhan du hang, danh gia tam vay",hang nhan du nhan du hang danh gia tam vay,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0004,"hang nhan du, dung tam on,",hang nhan du dung tam on,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0135,"ly thuy tinh dung co ban chac on, chua dung lau nen chua biet",ly thuy tinh dung co ban chac on chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0631,hop dung voi gia nay khong doi hoi nhieu 0:05,hop dung voi gia nay khong doi hoi nhieu 0 05,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0110,"kiem so vong tay thi o muc tam, chx co gi noi bat nhe",kiem so vong tay thi o muc tam chx co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0745,"boc hang co ban, nhan hang binh thuong a",boc hang co ban nhan hang binh thuong a,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0291,"kiem so quan thi o muc tam, chua co gi noi bat nhe",kiem so quan thi o muc tam chua co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0614,"mua luc sale nen thay tam on, chua danh gia lau dai",mua luc sale nen thay tam on chua danh gia lau dai,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0371,"den ngu ko qua xin nhung cung ko te, dung tam nha",den ngu ko qua xin nhung cung ko te dung tam nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0224,"tham dung co ban chac on, moi xem so qua thoi",tham dung co ban chac on moi xem so qua thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0271,"moi nhan moc treo, nhan du hang, hien tai chx thay gi ro",moi nhan moc treo nhan du hang hien tai chx thay gi ro,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0711,"don toi noi roi, shipper giao nhu binh thuong",don toi noi roi shipper giao nhu binh thuong,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0622,"gia re nen hoi don gian, chap nhan duoc 0:08",gia re nen hoi don gian chap nhan duoc 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0751,cho du chu thoi nha 0:10,cho du chu thoi nha 0 10,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0149,"kem duong dung co ban chac on, can dung them moi biet thoi",kem duong dung co ban chac on can dung them moi biet thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0356,"cam len thay nhe, cam len tam duoc, can dung them",cam len thay nhe cam len tam duoc can dung them,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0080,"moi nhan tham, cam len tam duoc, chua test ky 0:05",moi nhan tham cam len tam duoc chua test ky 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0246,"ly thuy tinh nhin bth, de dung them roi tinh",ly thuy tinh nhin bth de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0722,"tui goi don gian, chx dung sp ben trong 0:08",tui goi don gian chx dung sp ben trong 0 08,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0509,mau ngoai hoi khac anh sang nhung nhin cx tam nha,mau ngoai hoi khac anh sang nhung nhin cx tam nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0487,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc 0:08,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0298,"kiem so ly thuy tinh thi o muc tam, chua co gi noi bat nhe",kiem so ly thuy tinh thi o muc tam chua co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0558,kich thuoc hoi rong nhung tong the tam 0:08,kich thuoc hoi rong nhung tong the tam 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0709,"don toi noi roi, giao hang binh thuong nhe",don toi noi roi giao hang binh thuong nhe,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0506,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc thoi,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0180,"moi nhan kem duong, dung tam on, chx dung lau nen chx biet 0:10",moi nhan kem duong dung tam on chx dung lau nen chx biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0552,duong may hoi don gian nhung tong the tam,duong may hoi don gian nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0306,"kiem so banh trang thi o muc tam, chua co gi noi bat",kiem so banh trang thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0210,"kiem so hat dieu thi o muc tam, chua co gi noi bat",kiem so hat dieu thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0218,"hang nhan du, nhin cung ok, 0:10",hang nhan du nhin cung ok 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0779,viet cho du ky tu nhan xu,viet cho du ky tu nhan xu,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0707,"thoi gian giao tam chap nhan, hien tai chua thay gi ro",thoi gian giao tam chap nhan hien tai chua thay gi ro,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0024,"hang nhan du, nhin kha on, nha",hang nhan du nhin kha on nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0028,"hop dung nhin bth, moi nhan nen chua danh gia ky nha",hop dung nhin bth moi nhan nen chua danh gia ky nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0387,"dung thu mieng dan thay bth, chua ket luan duoc 0:10",dung thu mieng dan thay bth chua ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0781,nhan hang roi danh gia truoc,nhan hang roi danh gia truoc,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0242,"hang nhan du, dong goi cung duoc, cho 4 sao truoc",hang nhan du dong goi cung duoc cho 4 sao truoc,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0191,"hat dieu dung co ban chac on, moi xem so qua nha",hat dieu dung co ban chac on moi xem so qua nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0014,"moc treo dung co ban chac on, moi nhan nen chx danh gia ky nha",moc treo dung co ban chac on moi nhan nen chx danh gia ky nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0520,"sua tam nhin dung loai, hoi long leo nhe, van chap nhan duoc 0:08",sua tam nhin dung loai hoi long leo nhe van chap nhan duoc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0041,"kiem so day deo thi o muc tam, chua co gi noi bat",kiem so day deo thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0514,"mieng dan nhin dung loai, hoi kho mo, van chap nhan dc",mieng dan nhin dung loai hoi kho mo van chap nhan dc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0156,"hang nhan du, cam len tam duoc, danh gia tam vay a",hang nhan du cam len tam duoc danh gia tam vay a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0012,"mieng dan dung co ban chac on, chx dung lau nen chx biet 0:05",mieng dan dung co ban chac on chx dung lau nen chx biet 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0679,"don toi noi roi, giao hang binh thuong a",don toi noi roi giao hang binh thuong a,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0068,"kiem so tui thi o muc tam, chua co gi noi bat 0:08",kiem so tui thi o muc tam chua co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0289,"moi nhan hop dung, nhan du hang, moi xem so qua nha",moi nhan hop dung nhan du hang moi xem so qua nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0591,"form hoi co ban, cam len tam duoc nha",form hoi co ban cam len tam duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0797,"shop xac nhan don nhu bth, san pham chx test ky",shop xac nhan don nhu bth san pham chx test ky,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0039,"moi nhan ly thuy tinh, nhin cung ok, moi xem so qua",moi nhan ly thuy tinh nhin cung ok moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0125,"moi mo goi xem qua, cam len tam duoc, chx khen che duoc nhieu a",moi mo goi xem qua cam len tam duoc chx khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0050,"moi mo goi xem qua, dung tam on, chx khen che duoc nhieu",moi mo goi xem qua dung tam on chx khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0635,"mua luc sale nen thay tam on, chx danh gia lau dai 0:08",mua luc sale nen thay tam on chx danh gia lau dai 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0049,"moi mo goi xem qua, cam len tam duoc, chua khen che duoc nhieu 0:10",moi mo goi xem qua cam len tam duoc chua khen che duoc nhieu 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0522,mau ngoai hoi khac anh sang nhung nhin cung tam 0:08,mau ngoai hoi khac anh sang nhung nhin cung tam 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0220,"moi mo goi xem qua, nhin kha on, chua khen che duoc nhieu nhe",moi mo goi xem qua nhin kha on chua khen che duoc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0410,"khau trang khong qua xin nhung cung khong te, dung tam thoi",khau trang khong qua xin nhung cung khong te dung tam thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0508,"form hoi co ban, nhan du hang a",form hoi co ban nhan du hang a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0759,video khong lien quan nha,video khong lien quan nha,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0026,"binh nuoc nhin bth, chx dung lau nen chx biet 0:05",binh nuoc nhin bth chx dung lau nen chx biet 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0058,"moi nhan cap sac, nhan du hang, moi xem so qua 0:08",moi nhan cap sac nhan du hang moi xem so qua 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0572,"binh nuoc nhin dung loai, hoi nhe, van chap nhan duoc 0:08",binh nuoc nhin dung loai hoi nhe van chap nhan duoc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0524,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc a,kich thuoc hoi lech nhe so voi mk nghi nhung van dung duoc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0288,"moi mo goi xem qua, dong goi cung duoc, chx khen che duoc nhieu nhe",moi mo goi xem qua dong goi cung duoc chx khen che duoc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0555,"form hoi co ban, giao hang binh thuong nhe",form hoi co ban giao hang binh thuong nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0016,"moc treo dung co ban chac on, chx dung lau nen chx biet thoi",moc treo dung co ban chac on chx dung lau nen chx biet thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0132,"kiem so kho ga thi o muc tam, chua co gi noi bat",kiem so kho ga thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0588,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc nha,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0601,"mua luc sale nen thay tam on, chua danh gia lau dai 0:08",mua luc sale nen thay tam on chua danh gia lau dai 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0650,den ngu gia re nen cung tam a,den ngu gia re nen cung tam a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0276,"ao nhin bth, can dung them moi biet 0:10",ao nhin bth can dung them moi biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0155,"kiem so khan thi o muc tam, chx co gi noi bat",kiem so khan thi o muc tam chx co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0105,"kem duong dung co ban chac on, chua dung lau nen chua biet",kem duong dung co ban chac on chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0418,"ao k qua xin nhung cung k te, dung tam 0:08",ao k qua xin nhung cung k te dung tam 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0015,"moi mo goi xem qua, mau cung on, chx khen che dc nhieu 0:05",moi mo goi xem qua mau cung on chx khen che dc nhieu 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0489,"quan nhin dung loai, hoi bth, van chap nhan dc thoi",quan nhin dung loai hoi bth van chap nhan dc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0730,"dong goi k dep lam nhung hang van on, nhan hang bth",dong goi k dep lam nhung hang van on nhan hang bth,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0151,"day deo nhin bth, chua test ky 0:10",day deo nhin bth chua test ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0611,giay gia nay thi chap nhan dc,giay gia nay thi chap nhan dc,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0100,"moi nhan ly thuy tinh, giao hang binh thuong, chua dung lau nen chua biet a",moi nhan ly thuy tinh giao hang binh thuong chua dung lau nen chua biet a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0778,viet cho du ky tu nhan xu thoi,viet cho du ky tu nhan xu thoi,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0290,"hang nhan du, dong goi cung duoc, tam de 4 sao",hang nhan du dong goi cung duoc tam de 4 sao,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0474,mau ngoai hoi khac anh sang nhung nhin cung tam a,mau ngoai hoi khac anh sang nhung nhin cung tam a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0437,"cam len thay nhe, dong goi cung duoc, can dung them thoi",cam len thay nhe dong goi cung duoc can dung them thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0042,"hang nhan du, nhan du hang, nha",hang nhan du nhan du hang nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0094,"bong tai dung co ban chac on, moi xem so qua",bong tai dung co ban chac on moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0574,"tai nghe nhin dung loai, hoi kho mo, van chap nhan duoc thoi",tai nghe nhin dung loai hoi kho mo van chap nhan duoc thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0134,"moi mo goi xem qua, giao hang binh thuong, chua khen che duoc nhieu a",moi mo goi xem qua giao hang binh thuong chua khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0137,"kiem so mieng dan thi o muc tam, chua co gi noi bat 0:05",kiem so mieng dan thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0239,"vo dung co ban chac on, chua dung lau nen chua biet a",vo dung co ban chac on chua dung lau nen chua biet a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0638,"gia re nen hoi kho mo, chap nhan duoc 0:08",gia re nen hoi kho mo chap nhan duoc 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0529,"kho ga mau nhin tam, chat lieu bth, chx co gi dac biet",kho ga mau nhin tam chat lieu bth chx co gi dac biet,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0282,"moi nhan bong tai, nhin kha on, hien tai chx thay gi ro nha",moi nhan bong tai nhin kha on hien tai chx thay gi ro nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0677,"shipper giao nhu binh thuong, hien tai chua thay gi ro nhe",shipper giao nhu binh thuong hien tai chua thay gi ro nhe,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0670,voi tam gia nay thi minh thay bth a,voi tam gia nay thi minh thay bth a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0760,hinh anh chi mang tinh nhan xu thoi,hinh anh chi mang tinh nhan xu thoi,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0693,"giao hang bth, de dung them roi tinh",giao hang bth de dung them roi tinh,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0280,"moi nhan vo, nhan du hang, de dung them roi tinh",moi nhan vo nhan du hang de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0431,"son khong qua xin nhung cung khong te, dung tam 0:10",son khong qua xin nhung cung khong te dung tam 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0483,"vong tay mau nhin tam, chat lieu bth, chua co gi dac biet thoi",vong tay mau nhin tam chat lieu bth chua co gi dac biet thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0243,"kiem so tui thi o muc tam, chua co gi noi bat thoi",kiem so tui thi o muc tam chua co gi noi bat thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0241,"hang nhan du, mau cx on, nhe",hang nhan du mau cx on nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0307,"moi nhan sac, nhin cx ok, can dung them moi biet",moi nhan sac nhin cx ok can dung them moi biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0525,"vo mau nhin tam, chat lieu bth, chua co gi dac biet",vo mau nhin tam chat lieu bth chua co gi dac biet,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0401,"dung thu kho ga thay bth, chx ket luan dc",dung thu kho ga thay bth chx ket luan dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0301,"hang nhan du, mau cung on, danh gia tam vay",hang nhan du mau cung on danh gia tam vay,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0362,"moi test so qua thay on, hoi nhat mau mot chut thoi",moi test so qua thay on hoi nhat mau mot chut thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0559,"form hoi co ban, nhan du hang 0:10",form hoi co ban nhan du hang 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0258,"hang nhan du, giao hang bth, tam de 4 sao nha",hang nhan du giao hang bth tam de 4 sao nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0462,"cam len thay nhe, dung tam on, can dung them 0:05",cam len thay nhe dung tam on can dung them 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0216,"kiem so op dien thoai thi o muc tam, chx co gi noi bat 0:08",kiem so op dien thoai thi o muc tam chx co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0168,"den ngu dung co ban chac on, moi nhan nen chx danh gia ky 0:08",den ngu dung co ban chac on moi nhan nen chx danh gia ky 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0656,"voi gia nay ko doi hoi nhieu, chat luong can dung them moi biet 0:08",voi gia nay ko doi hoi nhieu chat luong can dung them moi biet 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0510,kich thuoc hoi lech nhe so voi minh nghi nhung van dung dc,kich thuoc hoi lech nhe so voi minh nghi nhung van dung dc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0728,"tui goi don gian, nhan hang binh thuong nha",tui goi don gian nhan hang binh thuong nha,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0208,"kiem so quan thi o muc tam, chx co gi noi bat thoi",kiem so quan thi o muc tam chx co gi noi bat thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0610,"mua luc sale nen thay tam on, chua danh gia lau dai 0:05",mua luc sale nen thay tam on chua danh gia lau dai 0 05,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0010,"moi nhan banh trang, mau cung on, hien tai chua thay gi ro a",moi nhan banh trang mau cung on hien tai chua thay gi ro a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0154,"den ngu dung co ban chac on, can dung them moi biet",den ngu dung co ban chac on can dung them moi biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0373,quat mini hoi long leo nhe nhung van dung duoc 0:10,quat mini hoi long leo nhe nhung van dung duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0064,"cap sac dung co ban chac on, hien tai chua thay gi ro 0:05",cap sac dung co ban chac on hien tai chua thay gi ro 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0292,"op dien thoai dung co ban chac on, moi xem so qua",op dien thoai dung co ban chac on moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0354,"cam len thay nhe, mau cung on, can dung them nhe",cam len thay nhe mau cung on can dung them nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0665,"mua luc sale nen thay tam on, chua danh gia lau dai nhe",mua luc sale nen thay tam on chua danh gia lau dai nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0103,"moi nhan kem duong, nhan du hang, moi xem so qua 0:10",moi nhan kem duong nhan du hang moi xem so qua 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0146,"kiem so quat mini thi o muc tam, chua co gi noi bat",kiem so quat mini thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0531,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc 0:08,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0702,"giao hang bth, can dung them moi biet 0:08",giao hang bth can dung them moi biet 0 08,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0017,"hang nhan du, dong goi cx dc, danh gia tam vay nha",hang nhan du dong goi cx dc danh gia tam vay nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0230,"moi nhan hop dung, dong goi cung duoc, chua test ky",moi nhan hop dung dong goi cung duoc chua test ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0743,"bao bi tam duoc, mk moi kiem tra so",bao bi tam duoc mk moi kiem tra so,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0204,"hang nhan du, dong goi cung duoc, danh gia tam vay a",hang nhan du dong goi cung duoc danh gia tam vay a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0248,"tham nhin bth, can dung them moi biet 0:10",tham nhin bth can dung them moi biet 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0791,"chx trao doi voi shop nhieu, don xu ly bth a",chx trao doi voi shop nhieu don xu ly bth a,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0458,"dung thu sua tam thay bth, chx ket luan dc",dung thu sua tam thay bth chx ket luan dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0594,"form hoi co ban, dong goi cx dc nha",form hoi co ban dong goi cx dc nha,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0746,"tui goi don gian, minh moi kiem tra so nhe",tui goi don gian minh moi kiem tra so nhe,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0142,"hang nhan du, cam len tam duoc, 0:05",hang nhan du cam len tam duoc 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0747,"bao bi tam duoc, nhan hang binh thuong nha",bao bi tam duoc nhan hang binh thuong nha,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0494,"khan mau nhin tam, chat lieu bth, chx co gi dac biet a",khan mau nhin tam chat lieu bth chx co gi dac biet a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0717,"bao bi tam dc, chua dung san pham ben trong nha",bao bi tam dc chua dung san pham ben trong nha,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0428,"moi test so qua thay on, hoi mong mot chut",moi test so qua thay on hoi mong mot chut,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0340,"moi test so qua thay on, hoi nho mot chut 0:08",moi test so qua thay on hoi nho mot chut 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0504,mau ngoai hoi khac anh sang nhung nhin cung tam thoi,mau ngoai hoi khac anh sang nhung nhin cung tam thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0560,"but highlight mau nhin tam, chat lieu bth, chua co gi dac biet 0:08",but highlight mau nhin tam chat lieu bth chua co gi dac biet 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0074,"day deo dung co ban chac on, moi nhan nen chua danh gia ky 0:08",day deo dung co ban chac on moi nhan nen chua danh gia ky 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0720,"boc hang co ban, nhan hang binh thuong 0:08",boc hang co ban nhan hang binh thuong 0 08,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0512,"form hoi co ban, giao hang binh thuong thoi",form hoi co ban giao hang binh thuong thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0501,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc 0:10,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0676,"ship khong nhanh cung khong qua cham, hang nhan du 0:08",ship khong nhanh cung khong qua cham hang nhan du 0 08,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0642,"voi gia nay khong doi hoi nhieu, chat luong can dung them moi biet thoi",voi gia nay khong doi hoi nhieu chat luong can dung them moi biet thoi,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0351,den ngu hoi kho mo nhung van dung duoc nha,den ngu hoi kho mo nhung van dung duoc nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0006,"kiem so vo thi o muc tam, chx co gi noi bat a",kiem so vo thi o muc tam chx co gi noi bat a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0140,"banh trang dung co ban chac on, chua test ky thoi",banh trang dung co ban chac on chua test ky thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0152,"binh nuoc dung co ban chac on, moi xem so qua",binh nuoc dung co ban chac on moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0407,"mieng dan khong qua xin nhung cung khong te, dung tam thoi",mieng dan khong qua xin nhung cung khong te dung tam thoi,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0475,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc,kich thuoc hoi lech nhe so voi minh nghi nhung van dung duoc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0473,"banh trang mau nhin tam, chat lieu bth, chua co gi dac biet thoi",banh trang mau nhin tam chat lieu bth chua co gi dac biet thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0270,"moi nhan cap sac, mau cung on, moi xem so qua 0:05",moi nhan cap sac mau cung on moi xem so qua 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0716,"bao bi tam duoc, nhan hang bth 0:10",bao bi tam duoc nhan hang bth 0 10,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0263,"moi nhan kem duong, nhan du hang, de dung them roi tinh",moi nhan kem duong nhan du hang de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0794,"shop xac nhan don nhu bth, sp chx test ky 0:08",shop xac nhan don nhu bth sp chx test ky 0 08,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0304,"kiem so sua rua mat thi o muc tam, chx co gi noi bat",kiem so sua rua mat thi o muc tam chx co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0211,"khan nhin bth, chua dung lau nen chua biet 0:08",khan nhin bth chua dung lau nen chua biet 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0333,"tai nghe khong qua xin nhung cung khong te, dung tam",tai nghe khong qua xin nhung cung khong te dung tam,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0382,"moi test so qua thay on, hoi long leo nhe mot chut 0:08",moi test so qua thay on hoi long leo nhe mot chut 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0023,"giay nhin bth, moi xem so qua",giay nhin bth moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0566,duong may hoi rong nhung tong the tam,duong may hoi rong nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0539,"cap sac nhin dung loai, hoi don gian, van chap nhan dc",cap sac nhin dung loai hoi don gian van chap nhan dc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0625,ly thuy tinh gia nay thi chap nhan duoc,ly thuy tinh gia nay thi chap nhan duoc,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0145,"kiem so moc treo thi o muc tam, chua co gi noi bat 0:05",kiem so moc treo thi o muc tam chua co gi noi bat 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0605,voi tam gia nay thi minh thay bth,voi tam gia nay thi minh thay bth,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0515,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc 0:05,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0256,"op dien thoai nhin bth, chua dung lau nen chua biet",op dien thoai nhin bth chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0713,"don toi hoi lau nhe nhung van on, hang nhan du 0:10",don toi hoi lau nhe nhung van on hang nhan du 0 10,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0381,"moi test so qua thay on, hoi nho mot chut 0:10",moi test so qua thay on hoi nho mot chut 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0739,"goi hang binh thuong, chua dung san pham ben trong nha",goi hang binh thuong chua dung san pham ben trong nha,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0314,"moi mo goi xem qua, nhin cx ok, chua khen che dc nhieu nhe",moi mo goi xem qua nhin cx ok chua khen che dc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0018,"hang nhan du, mau cung on, nha",hang nhan du mau cung on nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0283,"moi mo goi xem qua, nhan du hang, chua khen che duoc nhieu",moi mo goi xem qua nhan du hang chua khen che duoc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0226,"moi nhan tham, nhan du hang, moi nhan nen chua danh gia ky",moi nhan tham nhan du hang moi nhan nen chua danh gia ky,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0579,"form hoi co ban, nhin cung ok nhe",form hoi co ban nhin cung ok nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0020,"moi mo goi xem qua, nhin kha on, chx khen che dc nhieu nhe",moi mo goi xem qua nhin kha on chx khen che dc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0299,"vong tay nhin bth, moi xem so qua 0:05",vong tay nhin bth moi xem so qua 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0229,"moi mo goi xem qua, nhin cx ok, chx khen che dc nhieu nhe",moi mo goi xem qua nhin cx ok chx khen che dc nhieu nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0652,"gia re nen hoi nhat mau, chap nhan duoc 0:08",gia re nen hoi nhat mau chap nhan duoc 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0640,quan tien nao cua nay 0:08,quan tien nao cua nay 0 08,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0384,kho ga hoi nhe nhung van dung duoc 0:05,kho ga hoi nhe nhung van dung duoc 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0259,"moi nhan but highlight, nhan du hang, hien tai chua thay gi ro",moi nhan but highlight nhan du hang hien tai chua thay gi ro,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0683,"giao hoi lau nhung van nhan du, hang nhan du thoi",giao hoi lau nhung van nhan du hang nhan du thoi,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0073,"kiem so khan thi o muc tam, chx co gi noi bat nhe",kiem so khan thi o muc tam chx co gi noi bat nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0422,"cam len thay nhe, nhin cung ok, can dung them",cam len thay nhe nhin cung ok can dung them,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0310,"kiem so den ngu thi o muc tam, chua co gi noi bat",kiem so den ngu thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0342,"cam len thay nhe, mau cung on, can dung them 0:10",cam len thay nhe mau cung on can dung them 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0192,"hang nhan du, giao hang binh thuong, cho 4 sao truoc 0:08",hang nhan du giao hang binh thuong cho 4 sao truoc 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0775,video k lien quan nha a,video k lien quan nha a,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0457,"moi test so qua thay on, hoi binh thuong mot chut 0:08",moi test so qua thay on hoi binh thuong mot chut 0 08,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0086,"khau trang dung co ban chac on, moi xem so qua 0:10",khau trang dung co ban chac on moi xem so qua 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0277,"op dien thoai dung co ban chac on, moi nhan nen chua danh gia ky 0:05",op dien thoai dung co ban chac on moi nhan nen chua danh gia ky 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0045,"moi nhan sac, dung tam on, hien tai chua thay gi ro",moi nhan sac dung tam on hien tai chua thay gi ro,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0313,"khan nhin bth, chua dung lau nen chua biet",khan nhin bth chua dung lau nen chua biet,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0305,"hang nhan du, dong goi cx duoc, tam de 4 sao 0:08",hang nhan du dong goi cx duoc tam de 4 sao 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0602,"mua luc sale nen thay tam on, chua danh gia lau dai nha",mua luc sale nen thay tam on chua danh gia lau dai nha,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0170,"moi mo goi xem qua, dung tam on, chx khen che dc nhieu",moi mo goi xem qua dung tam on chx khen che dc nhieu,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0577,"tui mau nhin tam, chat lieu bth, chua co gi dac biet 0:05",tui mau nhin tam chat lieu bth chua co gi dac biet 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0253,"vong tay dung co ban chac on, can dung them moi biet 0:08",vong tay dung co ban chac on can dung them moi biet 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0583,"form hoi co ban, dung tam on 0:05",form hoi co ban dung tam on 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0536,"form hoi co ban, nhin cx ok thoi",form hoi co ban nhin cx ok thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0706,"giao hoi lau nhung van nhan du, hang nhan du 0:08",giao hoi lau nhung van nhan du hang nhan du 0 08,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0543,"mieng dan mau nhin tam, chat lieu bth, chua co gi dac biet 0:08",mieng dan mau nhin tam chat lieu bth chua co gi dac biet 0 08,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0160,"hang nhan du, giao hang binh thuong, cho 4 sao truoc a",hang nhan du giao hang binh thuong cho 4 sao truoc a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0408,"dung thu sac thay bth, chua ket luan duoc",dung thu sac thay bth chua ket luan duoc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0130,"tham dung co ban chac on, moi xem so qua a",tham dung co ban chac on moi xem so qua a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0755,danh gia nhan xu thoi thoi,danh gia nhan xu thoi thoi,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0689,"giao hang bth, moi xem so qua 0:05",giao hang bth moi xem so qua 0 05,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0615,voi tam gia nay thi minh thay bth thoi,voi tam gia nay thi minh thay bth thoi,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0452,"dung thu sua tam thay bth, chx ket luan duoc 0:10",dung thu sua tam thay bth chx ket luan duoc 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0222,"kiem so sac thi o muc tam, chua co gi noi bat 0:08",kiem so sac thi o muc tam chua co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0090,"hang nhan du, mau cung on, 0:05",hang nhan du mau cung on 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0085,"moi mo goi xem qua, dong goi cung duoc, chx khen che duoc nhieu a",moi mo goi xem qua dong goi cung duoc chx khen che duoc nhieu a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0542,"kem duong mau nhin tam, chat lieu bth, chua co gi dac biet thoi",kem duong mau nhin tam chat lieu bth chua co gi dac biet thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0293,"moi nhan mieng dan, cam len tam duoc, can dung them moi biet nha",moi nhan mieng dan cam len tam duoc can dung them moi biet nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0681,"giao hang bth, chx test ky 0:05",giao hang bth chx test ky 0 05,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0764,video khong lien quan nha 0:05,video khong lien quan nha 0 05,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0548,"form hoi co ban, nhin kha on 0:05",form hoi co ban nhin kha on 0 05,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0311,"kiem so tham thi o muc tam, chx co gi noi bat thoi",kiem so tham thi o muc tam chx co gi noi bat thoi,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0565,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc,kich thuoc hoi lech nhe so voi mk nghi nhung van dung dc,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0768,danh gia nhan xu thoi 0:05,danh gia nhan xu thoi 0 05,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0419,ao hoi don gian nhung van dung dc nha,ao hoi don gian nhung van dung dc nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0568,kich thuoc hoi kho mo nhung tong the tam,kich thuoc hoi kho mo nhung tong the tam,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0262,"vong tay dung co ban chac on, moi xem so qua",vong tay dung co ban chac on moi xem so qua,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0641,"mua luc sale nen thay tam on, chua danh gia lau dai thoi",mua luc sale nen thay tam on chua danh gia lau dai thoi,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0273,"moi mo goi xem qua, dung tam on, chx khen che dc nhieu 0:08",moi mo goi xem qua dung tam on chx khen che dc nhieu 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0107,"kiem so ao thi o muc tam, chua co gi noi bat 0:08",kiem so ao thi o muc tam chua co gi noi bat 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0055,"kiem so op dien thoai thi o muc tam, chua co gi noi bat",kiem so op dien thoai thi o muc tam chua co gi noi bat,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0612,quan so voi gia thi tam thoi,quan so voi gia thi tam thoi,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0620,voi tam gia nay thi mk thay bth a,voi tam gia nay thi mk thay bth a,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0370,"quat mini khong qua xin nhung cung khong te, dung tam a",quat mini khong qua xin nhung cung khong te dung tam a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0691,"giao hoi lau nhung van nhan du, hang nhan du nhe",giao hoi lau nhung van nhan du hang nhan du nhe,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0463,"cam len thay nhe, cam len tam duoc, can dung them nhe",cam len thay nhe cam len tam duoc can dung them nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0767,danh gia nhan xu thoi,danh gia nhan xu thoi,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0032,"hang nhan du, nhin cx ok, tam de 4 sao nha",hang nhan du nhin cx ok tam de 4 sao nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0309,"moi nhan sac, nhin kha on, de dung them roi tinh nhe",moi nhan sac nhin kha on de dung them roi tinh nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0467,mau ngoai hoi khac anh sang nhung nhin cung tam 0:10,mau ngoai hoi khac anh sang nhung nhin cung tam 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0303,"kiem so kem duong thi o muc tam, chua co gi noi bat nha",kiem so kem duong thi o muc tam chua co gi noi bat nha,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0667,op dien thoai tien nao cua nay thoi,op dien thoai tien nao cua nay thoi,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0766,viet cho du ky tu nhan xu 0:08,viet cho du ky tu nhan xu 0 08,neutral,spam_irrelevant,ai_neutral_train_boost_v3
+boost_neutral_0675,"giao hang binh thuong, hang nhan du 0:05",giao hang binh thuong hang nhan du 0 05,neutral,shipping_delivery,ai_neutral_train_boost_v3
+boost_neutral_0264,"moi nhan sac, giao hang binh thuong, moi nhan nen chua danh gia ky 0:10",moi nhan sac giao hang binh thuong moi nhan nen chua danh gia ky 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0391,"cam len thay nhe, dung tam on, can dung them a",cam len thay nhe dung tam on can dung them a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0618,sua tam gia nay thi chap nhan duoc 0:05,sua tam gia nay thi chap nhan duoc 0 05,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0737,"bao bi tam duoc, chua dung san pham ben trong a",bao bi tam duoc chua dung san pham ben trong a,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0415,"cam len thay nhe, nhan du hang, can dung them a",cam len thay nhe nhan du hang can dung them a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0212,"but highlight dung co ban chac on, can dung them moi biet a",but highlight dung co ban chac on can dung them moi biet a,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0596,duong may hoi kho mo nhung tong the tam nhe,duong may hoi kho mo nhung tong the tam nhe,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0445,"mieng dan khong qua xin nhung cung khong te, dung tam 0:10",mieng dan khong qua xin nhung cung khong te dung tam 0 10,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0726,"bao bi tam duoc, minh moi kiem tra so nhe",bao bi tam duoc minh moi kiem tra so nhe,neutral,packaging,ai_neutral_train_boost_v3
+boost_neutral_0438,"dung thu hat dieu thay bth, chua ket luan duoc a",dung thu hat dieu thay bth chua ket luan duoc a,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0338,"tui khong qua xin nhung cung khong te, dung tam",tui khong qua xin nhung cung khong te dung tam,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0464,"dung thu op dien thoai thay bth, chx ket luan duoc nha",dung thu op dien thoai thay bth chx ket luan duoc nha,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0034,"moi nhan khau trang, nhin cung ok, chua test ky nhe",moi nhan khau trang nhin cung ok chua test ky nhe,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0446,"dung thu son thay bth, chua ket luan duoc 0:05",dung thu son thay bth chua ket luan duoc 0 05,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0450,"chat luong tam on, hien tai chua thay gi ro nhe",chat luong tam on hien tai chua thay gi ro nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0035,"moi nhan hop dung, dung tam on, de dung them roi tinh",moi nhan hop dung dung tam on de dung them roi tinh,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0108,"hop dung nhin bth, moi xem so qua 0:08",hop dung nhin bth moi xem so qua 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0178,"moi nhan vong tay, dung tam on, hien tai chua thay gi ro 0:10",moi nhan vong tay dung tam on hien tai chua thay gi ro 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0795,"tu van o muc tam, chx co gi de nhan xet them 0:05",tu van o muc tam chx co gi de nhan xet them 0 05,neutral,seller_service,ai_neutral_train_boost_v3
+boost_neutral_0177,"quat mini nhin bth, de dung them roi tinh 0:08",quat mini nhin bth de dung them roi tinh 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0353,"tui khong qua xin nhung cung khong te, dung tam nhe",tui khong qua xin nhung cung khong te dung tam nhe,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0624,hat dieu mua sale thi tam on,hat dieu mua sale thi tam on,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0111,"ao nhin bth, de dung them roi tinh 0:08",ao nhin bth de dung them roi tinh 0 08,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0332,giay hoi nho nhung van dung dc,giay hoi nho nhung van dung dc,neutral,product_quality,ai_neutral_train_boost_v3
+boost_neutral_0607,"gia nay thi chap nhan duoc, chat luong can dung them moi biet nhe",gia nay thi chap nhan duoc chat luong can dung them moi biet nhe,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0240,"hang nhan du, nhin kha on, 0:10",hang nhan du nhin kha on 0 10,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0609,quat mini tien nao cua nay,quat mini tien nao cua nay,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0527,"form hoi co ban, dong goi cx dc a",form hoi co ban dong goi cx dc a,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0466,form hoi mong nhung tong the tam 0:10,form hoi mong nhung tong the tam 0 10,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0532,"quan mau nhin tam, chat lieu bth, chx co gi dac biet thoi",quan mau nhin tam chat lieu bth chx co gi dac biet thoi,neutral,product_attribute,ai_neutral_train_boost_v3
+boost_neutral_0626,voi tam gia nay thi mk thay bth 0:10,voi tam gia nay thi mk thay bth 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0660,"gia nay thi chap nhan dc, chat luong can dung them moi biet 0:10",gia nay thi chap nhan dc chat luong can dung them moi biet 0 10,neutral,price_value,ai_neutral_train_boost_v3
+boost_neutral_0187,"day deo dung co ban chac on, moi xem so qua 0:05",day deo dung co ban chac on moi xem so qua 0 05,neutral,no_issue,ai_neutral_train_boost_v3
+boost_neutral_0327,tham hoi nho nhung van dung dc nhe,tham hoi nho nhung van dung dc nhe,neutral,product_quality,ai_neutral_train_boost_v3
