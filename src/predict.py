@@ -1,11 +1,16 @@
 from pathlib import Path
 import re
+import sys
 import unicodedata
 
 import joblib
 
 from preprocess import preprocess_text
 
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
 
 SENTIMENT_MODEL_PATH = Path("models/sentiment_model.joblib")
 ISSUE_MODEL_PATH = Path("models/issue_model.joblib")
@@ -263,15 +268,6 @@ def load_models():
     return sentiment_model, issue_model
 
 
-def get_confidence(model, processed_text):
-    classifier = model.named_steps.get("classifier")
-    if classifier is None or not hasattr(classifier, "predict_proba"):
-        return None
-
-    probabilities = model.predict_proba([processed_text])[0]
-    return probabilities.max()
-
-
 def normalize_for_rules(text):
     text = text.lower().replace("đ", "d")
     text = unicodedata.normalize("NFKD", text)
@@ -349,7 +345,6 @@ def predict_review(sentiment_model, issue_model, review_text):
     processed_text = preprocess_text(review_text)
     model_sentiment = sentiment_model.predict([processed_text])[0]
     model_issue = issue_model.predict([processed_text])[0]
-    confidence = get_confidence(sentiment_model, processed_text)
     rule_sentiment, sentiment_rule = get_sentiment_rule_override(
         review_text,
         processed_text,
@@ -366,7 +361,6 @@ def predict_review(sentiment_model, issue_model, review_text):
         "issue": issue,
         "model_issue": model_issue,
         "issue_rule": issue_rule,
-        "sentiment_confidence": confidence,
     }
 
 
@@ -380,9 +374,6 @@ def print_prediction(result):
     print(f"Issue: {result['issue']}")
     if result["issue_rule"] is not None:
         print(f"Issue rule: {result['issue_rule']}")
-
-    if result["sentiment_confidence"] is not None:
-        print(f"Sentiment confidence: {result['sentiment_confidence']:.2%}")
 
     print()
 

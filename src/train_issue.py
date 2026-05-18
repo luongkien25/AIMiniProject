@@ -13,7 +13,7 @@ from sklearn.svm import LinearSVC
 
 DATA_PATH = os.environ.get(
     "ISSUE_DATA_PATH",
-    "data/processed/shopee_reviews_issue_augmented_reviewed.csv",
+    "data/processed/shopee_reviews_labeled.csv",
 )
 TEXT_COLUMN = "cleaned_review"
 LABEL_COLUMN = "issue"

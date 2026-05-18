@@ -4,15 +4,12 @@ import joblib
 import pandas as pd
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.svm import LinearSVC
 
 
-SENTIMENT_DATA_PATH = Path(
-    "data/processed/shopee_reviews_clean_classified_codex_sentiment_guideline_v4_accuracy.csv"
-)
-ISSUE_DATA_PATH = Path("data/processed/shopee_reviews_issue_augmented_reviewed.csv")
+SENTIMENT_DATA_PATH = Path("data/processed/shopee_reviews_labeled.csv")
+ISSUE_DATA_PATH = Path("data/processed/shopee_reviews_labeled.csv")
 MODELS_DIR = Path("models")
 TEXT_COLUMN = "cleaned_review"
 
@@ -31,10 +28,9 @@ def build_sentiment_model():
             ),
             (
                 "classifier",
-                LogisticRegression(
-                    max_iter=2000,
+                LinearSVC(
                     class_weight="balanced",
-                    C=2.0,
+                    C=1.5,
                 ),
             ),
         ]
@@ -125,7 +121,7 @@ def main():
     print("Training rows:", sentiment_rows)
     print("Labels:", ", ".join(sentiment_labels))
     print("Selection metric: Accuracy")
-    print("Selected config: TF-IDF Unigram + Bigram + Logistic Regression")
+    print("Selected config: TF-IDF Unigram + Bigram + Linear SVM")
 
     print("=" * 72)
     print("Saved issue model")

@@ -1,57 +1,186 @@
 # Customer Review Sentiment and Issue Classification
 
-Project này xây dựng mô hình Machine Learning để phân loại bình luận khách hàng theo hai nhiệm vụ:
+Dự án xây dựng mô hình Machine Learning để phân loại bình luận khách hàng trên Shopee theo hai nhiệm vụ:
 
-1. Sentiment classification:
-   - Positive
-   - Negative
-   - Neutral
+- Sentiment classification: `positive`, `neutral`, `negative`.
+- Issue classification: phân loại vấn đề chính trong bình luận.
 
-2. Issue classification:
-   - no_issue
-   - product_quality
-   - delivery
-   - packaging
-   - wrong_item
-   - customer_service
-   - price
-   - spam_or_irrelevant
-
-## Folder Structure
+## Cấu trúc thư mục
 
 ```text
-customer-review-classification/
+AIMiniProject/
 ├── data/
+│   ├── raw/
 │   └── processed/
-├── notebooks/
-├── src/
 ├── models/
+├── notebooks/
 ├── reports/
-├── slides/
+├── src/
+├── tools/
 ├── README.md
 └── requirements.txt
 ```
 
-## Current Data Files
+## Dữ liệu chính
 
-- `data/processed/cleaned_reviews.csv`: dữ liệu đã làm sạch cơ bản.
-- `data/processed/preprocessed_reviews.csv`: dữ liệu có thêm cột `processed_text` để train model.
+File train/evaluate chính:
 
-## Labels
+```text
+data/processed/shopee_reviews_labeled.csv
+```
+
+File này có 6508 dòng và các cột chính:
+
+- `review_text`: bình luận gốc.
+- `cleaned_review`: văn bản sau tiền xử lý.
+- `sentiment`: nhãn cảm xúc.
+- `issue`: nhãn vấn đề chính.
+- `data_source`: nguồn dữ liệu.
+
+## Nhãn
 
 Sentiment labels:
 
-- `Positive`
-- `Negative`
-- `Neutral`
+```text
+positive
+neutral
+negative
+```
 
 Issue labels:
 
-- `no_issue`
-- `product_quality`
-- `delivery`
-- `packaging`
-- `wrong_item`
-- `customer_service`
-- `price`
-- `spam_or_irrelevant`
+```text
+no_issue
+product_quality
+product_attribute
+wrong_missing_item
+packaging
+seller_service
+shipping_delivery
+price_value
+spam_irrelevant
+```
+
+## Cài đặt
+
+Tạo môi trường ảo và cài thư viện:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Nếu đã có `.venv`, chỉ cần activate trước khi chạy script.
+
+## Cách chạy
+
+Kiểm tra hoặc tạo lại cột `cleaned_review`:
+
+```powershell
+python src/prepare_data.py
+```
+
+Train thử và so sánh mô hình:
+
+```powershell
+python src/baseline_naive_bayes.py
+python src/train_sentiment.py
+python src/train_issue.py
+```
+
+Tạo lại báo cáo đánh giá:
+
+```powershell
+python src/evaluate.py
+```
+
+Notebook EDA và confusion matrix:
+
+```text
+notebooks/01_exploration.ipynb
+```
+
+Train trên toàn bộ dữ liệu và lưu model:
+
+```powershell
+python src/save_models.py
+```
+
+Chạy demo dự đoán bình luận mới:
+
+```powershell
+python src/predict.py
+```
+
+Ví dụ input:
+
+```text
+shop giao cham, hop bi mop
+```
+
+## Mô hình đang dùng
+
+Baseline tự cài đặt để minh họa nguyên lý thuật toán:
+
+```text
+Sentiment baseline: Multinomial Naive Bayes from scratch
+Feature           : Unigram + Bigram counts
+Accuracy          : 0.6997
+Macro F1          : 0.6318
+```
+
+Model chính:
+
+Sentiment classification:
+
+```text
+Feature: TF-IDF Unigram + Bigram
+Model  : Linear SVM
+```
+
+Issue classification:
+
+```text
+Feature: TF-IDF Word + Char
+Model  : Linear SVM + Safe Issue Rules
+```
+
+Model đã lưu:
+
+```text
+models/sentiment_model.joblib
+models/issue_model.joblib
+```
+
+## Kết quả hiện tại
+
+Sentiment classification:
+
+```text
+Accuracy: 0.8318
+Macro F1: 0.7993
+```
+
+Issue classification:
+
+```text
+Accuracy: 0.7849
+Macro F1: 0.7323
+```
+
+Report chính:
+
+```text
+reports/final_project_report.md
+reports/label_guidelines_report.md
+reports/baseline_sentiment_naive_bayes.txt
+reports/classification_report_sentiment.txt
+reports/classification_report_issue.txt
+reports/confusion_matrix_sentiment.png
+reports/confusion_matrix_issue.png
+```
+
+## Ghi chú
+
+Các file audit tạm, script tạo dữ liệu trung gian cũ và report tiến độ theo ngày đã được loại khỏi bản nộp để repo gọn hơn. Các script chính để prepare data, train, evaluate, save model và predict nằm trong `src/`.

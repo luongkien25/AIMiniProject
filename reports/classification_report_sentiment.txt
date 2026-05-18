@@ -1,18 +1,18 @@
 Task: Sentiment Classification
 Feature: TF-IDF Unigram + Bigram
-Model: Logistic Regression
-Accuracy: 0.8232
-Macro F1: 0.8077
+Model: Linear SVM
+Accuracy: 0.8318
+Macro F1: 0.7993
 
               precision    recall  f1-score   support
 
-    negative       0.86      0.85      0.85       497
-     neutral       0.68      0.71      0.69       258
-    positive       0.87      0.87      0.87       365
+    negative       0.88      0.89      0.89       673
+     neutral       0.68      0.64      0.66       264
+    positive       0.84      0.86      0.85       365
 
-    accuracy                           0.82      1120
-   macro avg       0.81      0.81      0.81      1120
-weighted avg       0.83      0.82      0.82      1120
+    accuracy                           0.83      1302
+   macro avg       0.80      0.80      0.80      1302
+weighted avg       0.83      0.83      0.83      1302
 
 
 Giải thích metric:
@@ -25,11 +25,11 @@ Giải thích metric:
 
 Nhận xét:
 - Các nhầm lẫn đáng chú ý:
-  + Nhãn thật `negative` bị dự đoán thành `neutral`: 54 mẫu.
-  + Nhãn thật `neutral` bị dự đoán thành `negative`: 52 mẫu.
+  + Nhãn thật `neutral` bị dự đoán thành `negative`: 63 mẫu.
+  + Nhãn thật `negative` bị dự đoán thành `neutral`: 46 mẫu.
   + Nhãn thật `positive` bị dự đoán thành `neutral`: 32 mẫu.
-  + Nhãn thật `neutral` bị dự đoán thành `positive`: 23 mẫu.
-  + Nhãn thật `negative` bị dự đoán thành `positive`: 23 mẫu.
-  + Nhãn thật `positive` bị dự đoán thành `negative`: 14 mẫu.
+  + Nhãn thật `neutral` bị dự đoán thành `positive`: 32 mẫu.
+  + Nhãn thật `negative` bị dự đoán thành `positive`: 26 mẫu.
+  + Nhãn thật `positive` bị dự đoán thành `negative`: 20 mẫu.
 - Với sentiment classification, lớp `neutral` thường khó hơn vì nhiều bình luận có từ như `ok`, `tạm`, `ổn`, `5 sao` hoặc nội dung nhận xu.
 - Mô hình hoạt động tốt hơn khi dùng bigram vì học được các cụm như `không tốt`, `giao chậm`, `sai màu`, `bị lỗi`.

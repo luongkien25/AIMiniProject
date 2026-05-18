@@ -13,7 +13,7 @@ from sklearn.svm import LinearSVC
 
 DATA_PATH = os.environ.get(
     "SENTIMENT_DATA_PATH",
-    "data/processed/shopee_reviews_clean_classified_codex_sentiment_guideline_v4_accuracy.csv",
+    "data/processed/shopee_reviews_labeled.csv",
 )
 TEST_DATA_PATH = os.environ.get("SENTIMENT_TEST_PATH")
 TEXT_COLUMN = "cleaned_review"

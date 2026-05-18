@@ -4,6 +4,10 @@ Model: Linear SVM + Safe Issue Rules
 Accuracy: 0.7849
 Macro F1: 0.7323
 
+Model selection:
+- Ket qua train/test tu `src/train_issue.py`: cau hinh nen tot nhat la TF-IDF Word + Char + Linear SVM voi Accuracy 0.7773 va Macro F1 0.7101.
+- Report final ap dung them Safe Issue Rules cho cac mau co dau hieu ro rang, giup Accuracy tang len 0.7849 va Macro F1 tang len 0.7323.
+
                     precision    recall  f1-score   support
 
           no_issue       0.85      0.88      0.86       420

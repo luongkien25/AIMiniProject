@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     ConfusionMatrixDisplay,
     accuracy_score,
@@ -23,10 +22,8 @@ from sklearn.svm import LinearSVC
 from predict import get_safe_issue_rule_override
 
 
-SENTIMENT_DATA_PATH = Path(
-    "data/processed/shopee_reviews_clean_classified_codex_sentiment_guideline_v4_accuracy.csv"
-)
-ISSUE_DATA_PATH = Path("data/processed/shopee_reviews_issue_augmented_reviewed.csv")
+SENTIMENT_DATA_PATH = Path("data/processed/shopee_reviews_labeled.csv")
+ISSUE_DATA_PATH = Path("data/processed/shopee_reviews_labeled.csv")
 REPORTS_DIR = Path("reports")
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
@@ -45,11 +42,10 @@ TASK_CONFIGS = {
             "min_df": 2,
             "sublinear_tf": True,
         },
-        "model_name": "Logistic Regression",
-        "model": LogisticRegression(
-            max_iter=2000,
+        "model_name": "Linear SVM",
+        "model": LinearSVC(
             class_weight="balanced",
-            C=2.0,
+            C=1.5,
         ),
         "labels": ["negative", "neutral", "positive"],
     },
@@ -88,6 +84,12 @@ TASK_CONFIGS = {
             C=1.0,
         ),
         "issue_rule_override": "safe",
+        "selection_notes": [
+            "Ket qua train/test tu `src/train_issue.py`: cau hinh nen tot nhat la "
+            "TF-IDF Word + Char + Linear SVM voi Accuracy 0.7773 va Macro F1 0.7101.",
+            "Report final ap dung them Safe Issue Rules cho cac mau co dau hieu ro rang, "
+            "giup Accuracy tang len 0.7849 va Macro F1 tang len 0.7323.",
+        ],
         "labels": [
             "no_issue",
             "packaging",
@@ -207,6 +209,12 @@ def save_classification_report(task_key, config, y_true, y_pred, labels, accurac
         zero_division=0,
     )
     observations = build_observations(task_key, y_true, y_pred, labels)
+    selection_notes = config.get("selection_notes", [])
+    selection_section = ""
+    if selection_notes:
+        selection_section = "\n".join(
+            ["Model selection:"] + [f"- {note}" for note in selection_notes]
+        )
 
     content = "\n".join(
         [
@@ -215,6 +223,8 @@ def save_classification_report(task_key, config, y_true, y_pred, labels, accurac
             f"Model: {config['model_name']}",
             f"Accuracy: {accuracy:.4f}",
             f"Macro F1: {macro_f1:.4f}",
+            "",
+            selection_section,
             "",
             report,
             "",

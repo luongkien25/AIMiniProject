@@ -299,6 +299,7 @@ async function collectShopeeIssueCandidatesByPage(
   downloadCSV(filename, all);
 }
 
+collectShopeeIssueCandidatesByPage(1, 20)
 // Example:
 // collectShopeeIssueCandidatesByPage(1, 20)
 // collectShopeeIssueCandidatesByPage(1, 20, {

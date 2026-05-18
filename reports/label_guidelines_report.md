@@ -1,6 +1,6 @@
 # Bao cao dinh nghia nhan va quy tac gan nhan
 
-Ngay cap nhat: 16/05/2026
+Ngay cap nhat: 17/05/2026
 
 ## 1. Muc tieu
 
@@ -299,9 +299,9 @@ Sentiment classification:
 
 ```text
 Feature: TF-IDF Unigram + Bigram
-Model: Logistic Regression
-Accuracy: 0.8232
-Macro F1: 0.8077
+Model: Linear SVM
+Accuracy: 0.8318
+Macro F1: 0.7993
 ```
 
 Issue classification:
