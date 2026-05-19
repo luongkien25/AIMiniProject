@@ -1,12 +1,14 @@
 import os
+from pathlib import Path
 
 import pandas as pd
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score, classification_report, f1_score
 from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import LinearSVC
+
+from naive_bayes_model import calculate_metrics, train_naive_bayes
 
 
 DATA_PATH = os.environ.get(
@@ -19,6 +21,9 @@ LABEL_COLUMN = "sentiment"
 PRIMARY_METRIC = os.environ.get("SENTIMENT_PRIMARY_METRIC", "accuracy").lower()
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
+REPORTS_DIR = Path("reports")
+NAIVE_BAYES_ALPHA = float(os.environ.get("NAIVE_BAYES_ALPHA", "1.0"))
+NAIVE_BAYES_MIN_DF = int(os.environ.get("NAIVE_BAYES_MIN_DF", "1"))
 
 FEATURE_NAME = "TF-IDF Unigram + Bigram"
 
@@ -34,12 +39,116 @@ def build_vectorizer():
 
 def build_models():
     return {
-        "Naive Bayes": MultinomialNB(alpha=0.5),
         "Linear SVM": LinearSVC(
             class_weight="balanced",
             C=1.5,
         ),
     }
+
+
+def format_naive_bayes_report(
+    task_name,
+    mode,
+    train_rows,
+    test_rows,
+    vocabulary_size,
+    accuracy,
+    macro_f1,
+    rows,
+):
+    lines = [
+        "=" * 72,
+        f"Task: {task_name}",
+        f"Mode: {mode}",
+        "Model: From-scratch Multinomial Naive Bayes",
+        "Feature: Unigram + Bigram counts",
+        f"Alpha: {NAIVE_BAYES_ALPHA}",
+        f"Min DF: {NAIVE_BAYES_MIN_DF}",
+        f"Train rows: {train_rows}",
+        f"Test rows: {test_rows}",
+        f"Vocabulary size: {vocabulary_size}",
+        f"Accuracy: {accuracy:.4f}",
+        f"Macro F1: {macro_f1:.4f}",
+        "",
+        "Per-class metrics:",
+    ]
+
+    for row in rows:
+        lines.append(
+            f"{row['label']:>10}  "
+            f"precision={row['precision']:.4f}  "
+            f"recall={row['recall']:.4f}  "
+            f"f1={row['f1']:.4f}  "
+            f"support={row['support']}"
+        )
+
+    return "\n".join(lines)
+
+
+def run_naive_bayes_experiment(
+    X_train,
+    y_train,
+    X_test,
+    y_test,
+    mode,
+    report_path=None,
+):
+    model = train_naive_bayes(
+        X_train.tolist(),
+        y_train.tolist(),
+        alpha=NAIVE_BAYES_ALPHA,
+        min_df=NAIVE_BAYES_MIN_DF,
+    )
+    y_pred = model.predict(X_test.tolist())
+    accuracy, macro_f1, rows = calculate_metrics(y_test.tolist(), y_pred)
+
+    report = format_naive_bayes_report(
+        task_name="Sentiment Classification",
+        mode=mode,
+        train_rows=len(X_train),
+        test_rows=len(X_test),
+        vocabulary_size=len(model.vocabulary),
+        accuracy=accuracy,
+        macro_f1=macro_f1,
+        rows=rows,
+    )
+    print(report)
+
+    if report_path is not None:
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(report + "\n", encoding="utf-8")
+        print()
+        print(f"Saved report: {report_path}")
+
+    return {
+        "feature": "Unigram + Bigram counts",
+        "model": "Naive Bayes",
+        "accuracy": accuracy,
+        "macro_f1": macro_f1,
+    }
+
+
+def run_binary_naive_bayes_report(df):
+    binary_df = df[df[LABEL_COLUMN].isin(["negative", "positive"])].copy()
+    X = binary_df[TEXT_COLUMN].fillna("")
+    y = binary_df[LABEL_COLUMN].astype(str)
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X,
+        y,
+        test_size=TEST_SIZE,
+        random_state=RANDOM_STATE,
+        stratify=y,
+    )
+
+    run_naive_bayes_experiment(
+        X_train,
+        y_train,
+        X_test,
+        y_test,
+        mode="binary negative vs positive",
+        report_path=REPORTS_DIR / "baseline_sentiment_naive_bayes_binary.txt",
+    )
 
 
 def main():
@@ -92,6 +201,16 @@ def main():
         )
 
     results = []
+    results.append(
+        run_naive_bayes_experiment(
+            X_train,
+            y_train,
+            X_test,
+            y_test,
+            mode="3-class sentiment",
+            report_path=REPORTS_DIR / "baseline_sentiment_naive_bayes.txt",
+        )
+    )
 
     vectorizer = build_vectorizer()
     X_train_vec = vectorizer.fit_transform(X_train)
@@ -138,6 +257,11 @@ def main():
     print("Model:", best_result["model"])
     print("Accuracy:", round(best_result["accuracy"], 4))
     print("Macro F1:", round(best_result["macro_f1"], 4))
+
+    if not TEST_DATA_PATH:
+        print("=" * 72)
+        print("Extra Naive Bayes report")
+        run_binary_naive_bayes_report(df)
 
 
 if __name__ == "__main__":

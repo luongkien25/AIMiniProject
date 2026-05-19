@@ -1,24 +1,11 @@
+"""From-scratch Multinomial Naive Bayes model utilities.
+
+This module contains only the model logic. Data loading, train/test split,
+report writing, and comparison with Linear SVM live in the train scripts.
+"""
+
 import math
-import os
 from collections import Counter, defaultdict
-from pathlib import Path
-
-import pandas as pd
-
-
-DATA_PATH = Path(
-    os.environ.get("BASELINE_DATA_PATH", "data/processed/shopee_reviews_labeled.csv")
-)
-REPORT_PATH = Path(
-    os.environ.get("BASELINE_REPORT_PATH", "reports/baseline_sentiment_naive_bayes.txt")
-)
-TEXT_COLUMN = "cleaned_review"
-LABEL_COLUMN = "sentiment"
-RANDOM_STATE = 62
-TEST_SIZE = 0.2
-MIN_DF = int(os.environ.get("BASELINE_MIN_DF", "1"))
-ALPHA = float(os.environ.get("BASELINE_ALPHA", "1.0"))
-BINARY_NEG_POS = os.environ.get("BASELINE_BINARY_NEG_POS", "0") == "1"
 
 
 def extract_features(text):
@@ -28,19 +15,6 @@ def extract_features(text):
         for index in range(len(tokens) - 1)
     ]
     return tokens + bigrams
-
-
-def stratified_train_test_split(df, label_column, test_size, random_state):
-    test_parts = []
-    for _, group in df.groupby(label_column):
-        test_count = max(1, round(len(group) * test_size))
-        test_count = min(test_count, len(group) - 1)
-        test_parts.append(group.sample(n=test_count, random_state=random_state))
-
-    test_df = pd.concat(test_parts).sample(frac=1, random_state=random_state)
-    train_df = df.drop(index=test_df.index)
-
-    return train_df.reset_index(drop=True), test_df.reset_index(drop=True)
 
 
 def build_vocabulary(texts, min_df):
@@ -129,6 +103,11 @@ class MultinomialNaiveBayes:
         return [self.predict_one(text) for text in texts]
 
 
+def train_naive_bayes(texts, labels, alpha=1.0, min_df=1):
+    model = MultinomialNaiveBayes(alpha=alpha, min_df=min_df)
+    return model.fit(texts, labels)
+
+
 def calculate_metrics(y_true, y_pred):
     labels = sorted(set(y_true) | set(y_pred))
     rows = []
@@ -178,77 +157,3 @@ def calculate_metrics(y_true, y_pred):
     macro_f1 = sum(row["f1"] for row in rows) / len(rows)
 
     return accuracy, macro_f1, rows
-
-
-def main():
-    df = pd.read_csv(DATA_PATH)
-    required_columns = {TEXT_COLUMN, LABEL_COLUMN}
-    missing_columns = required_columns.difference(df.columns)
-    if missing_columns:
-        missing = ", ".join(sorted(missing_columns))
-        raise ValueError(f"Missing required columns: {missing}")
-
-    df = df.dropna(subset=[TEXT_COLUMN, LABEL_COLUMN]).copy()
-    df[TEXT_COLUMN] = df[TEXT_COLUMN].fillna("").astype(str)
-    df[LABEL_COLUMN] = df[LABEL_COLUMN].astype(str)
-
-    report_path = REPORT_PATH
-    task_mode = "3-class sentiment"
-    if BINARY_NEG_POS:
-        df = df[df[LABEL_COLUMN].isin(["negative", "positive"])].copy()
-        report_path = REPORT_PATH.with_name("baseline_sentiment_naive_bayes_binary.txt")
-        task_mode = "binary negative vs positive"
-
-    train_df, test_df = stratified_train_test_split(
-        df,
-        LABEL_COLUMN,
-        TEST_SIZE,
-        RANDOM_STATE,
-    )
-
-    model = MultinomialNaiveBayes(alpha=ALPHA, min_df=MIN_DF)
-    model.fit(train_df[TEXT_COLUMN].tolist(), train_df[LABEL_COLUMN].tolist())
-    predictions = model.predict(test_df[TEXT_COLUMN].tolist())
-
-    accuracy, macro_f1, rows = calculate_metrics(
-        test_df[LABEL_COLUMN].tolist(),
-        predictions,
-    )
-
-    lines = [
-        "=" * 72,
-        "Task: Sentiment Classification",
-        f"Mode: {task_mode}",
-        "Model: From-scratch Multinomial Naive Bayes",
-        "Feature: Unigram + Bigram counts",
-        f"Alpha: {ALPHA}",
-        f"Min DF: {MIN_DF}",
-        f"Train rows: {len(train_df)}",
-        f"Test rows: {len(test_df)}",
-        f"Vocabulary size: {len(model.vocabulary)}",
-        f"Accuracy: {accuracy:.4f}",
-        f"Macro F1: {macro_f1:.4f}",
-        "",
-        "Per-class metrics:",
-    ]
-
-    for row in rows:
-        lines.append(
-            f"{row['label']:>10}  "
-            f"precision={row['precision']:.4f}  "
-            f"recall={row['recall']:.4f}  "
-            f"f1={row['f1']:.4f}  "
-            f"support={row['support']}"
-        )
-
-    content = "\n".join(lines)
-    print(content)
-
-    report_path.parent.mkdir(parents=True, exist_ok=True)
-    report_path.write_text(content + "\n", encoding="utf-8")
-    print()
-    print(f"Saved report: {report_path}")
-
-
-if __name__ == "__main__":
-    main()

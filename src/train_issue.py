@@ -5,9 +5,10 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score, classification_report, f1_score
 from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import FeatureUnion
 from sklearn.svm import LinearSVC
+
+from naive_bayes_model import calculate_metrics, train_naive_bayes
 
 
 DATA_PATH = os.environ.get(
@@ -18,6 +19,8 @@ TEXT_COLUMN = "cleaned_review"
 LABEL_COLUMN = "issue"
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
+NAIVE_BAYES_ALPHA = float(os.environ.get("NAIVE_BAYES_ALPHA", "1.0"))
+NAIVE_BAYES_MIN_DF = int(os.environ.get("NAIVE_BAYES_MIN_DF", "1"))
 
 FEATURE_NAME = "TF-IDF Word + Char"
 
@@ -51,11 +54,49 @@ def build_vectorizer():
 
 def build_models():
     return {
-        "Naive Bayes": MultinomialNB(alpha=0.5),
         "Linear SVM": LinearSVC(
             class_weight="balanced",
             C=1.0,
         ),
+    }
+
+
+def print_naive_bayes_report(X_train, y_train, X_test, y_test):
+    model = train_naive_bayes(
+        X_train.tolist(),
+        y_train.tolist(),
+        alpha=NAIVE_BAYES_ALPHA,
+        min_df=NAIVE_BAYES_MIN_DF,
+    )
+    y_pred = model.predict(X_test.tolist())
+    accuracy, macro_f1, rows = calculate_metrics(y_test.tolist(), y_pred)
+
+    print("=" * 72)
+    print("Task: Issue Classification")
+    print("Feature: Unigram + Bigram counts")
+    print("Model: Naive Bayes")
+    print("Implementation: from scratch")
+    print("Alpha:", NAIVE_BAYES_ALPHA)
+    print("Min DF:", NAIVE_BAYES_MIN_DF)
+    print("Vocabulary size:", len(model.vocabulary))
+    print("Accuracy:", round(accuracy, 4))
+    print("Macro F1:", round(macro_f1, 4))
+    print()
+    print("Per-class metrics:")
+    for row in rows:
+        print(
+            f"{row['label']:>18}  "
+            f"precision={row['precision']:.4f}  "
+            f"recall={row['recall']:.4f}  "
+            f"f1={row['f1']:.4f}  "
+            f"support={row['support']}"
+        )
+
+    return {
+        "feature": "Unigram + Bigram counts",
+        "model": "Naive Bayes",
+        "accuracy": accuracy,
+        "macro_f1": macro_f1,
     }
 
 
@@ -82,6 +123,7 @@ def main():
     )
 
     results = []
+    results.append(print_naive_bayes_report(X_train, y_train, X_test, y_test))
 
     vectorizer = build_vectorizer()
     X_train_vec = vectorizer.fit_transform(X_train)

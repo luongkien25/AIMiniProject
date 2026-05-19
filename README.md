@@ -81,10 +81,9 @@ Kiểm tra hoặc tạo lại cột `cleaned_review`:
 python src/prepare_data.py
 ```
 
-Train baseline Naive Bayes và mô hình chính Linear SVM:
+Train Naive Bayes baseline và mô hình chính Linear SVM:
 
 ```powershell
-python src/baseline_naive_bayes.py
 python src/train_sentiment.py
 python src/train_issue.py
 ```
@@ -123,23 +122,25 @@ shop giao cham, hop bi mop
 
 Để giữ project gọn cho bản nộp, code chỉ giữ lại hai hướng chính:
 
-- `Naive Bayes`: baseline đơn giản, có bản tự cài đặt để giải thích nguyên lý.
+- `Naive Bayes`: baseline đơn giản, tự cài đặt trong `src/naive_bayes_model.py`.
 - `Linear SVM`: mô hình mạnh nhất hiện tại, dùng làm model final.
+
+File `src/naive_bayes_model.py` chỉ chứa phần model/thuật toán. Việc đọc dữ liệu, train, so sánh metric và ghi report được đặt trong `src/train_sentiment.py` và `src/train_issue.py`.
 
 Baseline tự cài đặt để minh họa nguyên lý thuật toán:
 
 ```text
 Sentiment baseline: Multinomial Naive Bayes from scratch
 Feature           : Unigram + Bigram counts
-Accuracy          : 0.6997
-Macro F1          : 0.6318
+Accuracy          : 0.6974
+Macro F1          : 0.6265
 ```
 
 Thí nghiệm phụ khi chỉ phân biệt `negative` và `positive`:
 
 ```text
-Binary Naive Bayes Accuracy: 0.8170
-Binary Naive Bayes Macro F1: 0.7650
+Binary Naive Bayes Accuracy: 0.8179
+Binary Naive Bayes Macro F1: 0.7676
 ```
 
 Model chính:

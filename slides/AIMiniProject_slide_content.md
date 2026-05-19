@@ -162,8 +162,8 @@ Pipeline:
 
 - Chuẩn bị và làm sạch dữ liệu bình luận Shopee đã gán nhãn.
 - Xây dựng tiền xử lý trong `src/preprocess.py`.
-- Cài baseline Naive Bayes từ đầu trong `src/baseline_naive_bayes.py`.
-- Train và so sánh mô hình trong:
+- Cài thuật toán Naive Bayes từ đầu trong `src/naive_bayes_model.py`.
+- Train Naive Bayes và Linear SVM trong:
   - `src/train_sentiment.py`
   - `src/train_issue.py`
 - Tạo report và confusion matrix trong `src/evaluate.py`.
