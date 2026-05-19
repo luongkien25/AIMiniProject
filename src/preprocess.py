@@ -50,5 +50,5 @@ def preprocess_text(text):
 
     text = re.sub(r"[^0-9a-zA-ZÀ-ỹ\s]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
-    
+
     return text

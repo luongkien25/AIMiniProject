@@ -1,0 +1,16 @@
+========================================================================
+Task: Sentiment Classification
+Mode: binary negative vs positive
+Model: From-scratch Multinomial Naive Bayes
+Feature: Unigram + Bigram counts
+Alpha: 1.0
+Min DF: 1
+Train rows: 4152
+Test rows: 1038
+Vocabulary size: 77699
+Accuracy: 0.8170
+Macro F1: 0.7650
+
+Per-class metrics:
+  negative  precision=0.7831  recall=0.9926  f1=0.8755  support=673
+  positive  precision=0.9730  recall=0.4932  f1=0.6545  support=365

@@ -3,11 +3,9 @@ import os
 import pandas as pd
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, f1_score
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.pipeline import FeatureUnion
 from sklearn.svm import LinearSVC
 
 
@@ -22,54 +20,21 @@ PRIMARY_METRIC = os.environ.get("SENTIMENT_PRIMARY_METRIC", "accuracy").lower()
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
 
-FEATURE_CONFIGS = {
-    "TF-IDF Unigram": TfidfVectorizer(
-        ngram_range=(1, 1),
-        max_features=10000,
-        min_df=2,
-        sublinear_tf=True,
-    ),
-    "TF-IDF Unigram + Bigram": TfidfVectorizer(
+FEATURE_NAME = "TF-IDF Unigram + Bigram"
+
+
+def build_vectorizer():
+    return TfidfVectorizer(
         ngram_range=(1, 2),
         max_features=10000,
         min_df=2,
         sublinear_tf=True,
-    ),
-    "TF-IDF Word + Char": FeatureUnion(
-        [
-            (
-                "word",
-                TfidfVectorizer(
-                    analyzer="word",
-                    ngram_range=(1, 2),
-                    max_features=10000,
-                    min_df=2,
-                    sublinear_tf=True,
-                ),
-            ),
-            (
-                "char",
-                TfidfVectorizer(
-                    analyzer="char_wb",
-                    ngram_range=(3, 5),
-                    max_features=20000,
-                    min_df=2,
-                    sublinear_tf=True,
-                ),
-            ),
-        ]
-    ),
-}
+    )
 
 
 def build_models():
     return {
         "Naive Bayes": MultinomialNB(alpha=0.5),
-        "Logistic Regression": LogisticRegression(
-            max_iter=2000,
-            class_weight="balanced",
-            C=2.0,
-        ),
         "Linear SVM": LinearSVC(
             class_weight="balanced",
             C=1.5,
@@ -128,33 +93,33 @@ def main():
 
     results = []
 
-    for feature_name, vectorizer in FEATURE_CONFIGS.items():
-        X_train_vec = vectorizer.fit_transform(X_train)
-        X_test_vec = vectorizer.transform(X_test)
+    vectorizer = build_vectorizer()
+    X_train_vec = vectorizer.fit_transform(X_train)
+    X_test_vec = vectorizer.transform(X_test)
 
-        for model_name, model in build_models().items():
-            model.fit(X_train_vec, y_train)
-            y_pred = model.predict(X_test_vec)
+    for model_name, model in build_models().items():
+        model.fit(X_train_vec, y_train)
+        y_pred = model.predict(X_test_vec)
 
-            accuracy = accuracy_score(y_test, y_pred)
-            macro_f1 = f1_score(y_test, y_pred, average="macro")
-            results.append(
-                {
-                    "feature": feature_name,
-                    "model": model_name,
-                    "accuracy": accuracy,
-                    "macro_f1": macro_f1,
-                }
-            )
+        accuracy = accuracy_score(y_test, y_pred)
+        macro_f1 = f1_score(y_test, y_pred, average="macro")
+        results.append(
+            {
+                "feature": FEATURE_NAME,
+                "model": model_name,
+                "accuracy": accuracy,
+                "macro_f1": macro_f1,
+            }
+        )
 
-            print("=" * 72)
-            print("Task: Sentiment Classification")
-            print("Feature:", feature_name)
-            print("Model:", model_name)
-            print("Accuracy:", round(accuracy, 4))
-            print("Macro F1:", round(macro_f1, 4))
-            print()
-            print(classification_report(y_test, y_pred, zero_division=0))
+        print("=" * 72)
+        print("Task: Sentiment Classification")
+        print("Feature:", FEATURE_NAME)
+        print("Model:", model_name)
+        print("Accuracy:", round(accuracy, 4))
+        print("Macro F1:", round(macro_f1, 4))
+        print()
+        print(classification_report(y_test, y_pred, zero_division=0))
 
     secondary_metric = "macro_f1" if PRIMARY_METRIC == "accuracy" else "accuracy"
     result_df = pd.DataFrame(results).sort_values(
@@ -163,7 +128,7 @@ def main():
     )
 
     print("=" * 72)
-    print("Feature/model comparison")
+    print("Baseline vs final model comparison")
     print(result_df.to_string(index=False))
 
     best_result = result_df.iloc[0]

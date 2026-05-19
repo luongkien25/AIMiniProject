@@ -5,8 +5,8 @@ Accuracy: 0.7849
 Macro F1: 0.7323
 
 Model selection:
-- Ket qua train/test tu `src/train_issue.py`: cau hinh nen tot nhat la TF-IDF Word + Char + Linear SVM voi Accuracy 0.7773 va Macro F1 0.7101.
-- Report final ap dung them Safe Issue Rules cho cac mau co dau hieu ro rang, giup Accuracy tang len 0.7849 va Macro F1 tang len 0.7323.
+- Kết quả train/test từ `src/train_issue.py`: cấu hình nền tốt nhất là TF-IDF Word + Char + Linear SVM với Accuracy 0.7773 và Macro F1 0.7101.
+- Report final áp dụng thêm Safe Issue Rules cho các mẫu có dấu hiệu rõ ràng, giúp Accuracy tăng lên 0.7849 và Macro F1 tăng lên 0.7323.
 
                     precision    recall  f1-score   support
 

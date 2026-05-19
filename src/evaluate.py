@@ -85,10 +85,10 @@ TASK_CONFIGS = {
         ),
         "issue_rule_override": "safe",
         "selection_notes": [
-            "Ket qua train/test tu `src/train_issue.py`: cau hinh nen tot nhat la "
-            "TF-IDF Word + Char + Linear SVM voi Accuracy 0.7773 va Macro F1 0.7101.",
-            "Report final ap dung them Safe Issue Rules cho cac mau co dau hieu ro rang, "
-            "giup Accuracy tang len 0.7849 va Macro F1 tang len 0.7323.",
+            "Kết quả train/test từ `src/train_issue.py`: cấu hình nền tốt nhất là "
+            "TF-IDF Word + Char + Linear SVM với Accuracy 0.7773 và Macro F1 0.7101.",
+            "Report final áp dụng thêm Safe Issue Rules cho các mẫu có dấu hiệu rõ ràng, "
+            "giúp Accuracy tăng lên 0.7849 và Macro F1 tăng lên 0.7323.",
         ],
         "labels": [
             "no_issue",
@@ -210,22 +210,22 @@ def save_classification_report(task_key, config, y_true, y_pred, labels, accurac
     )
     observations = build_observations(task_key, y_true, y_pred, labels)
     selection_notes = config.get("selection_notes", [])
-    selection_section = ""
+    content_parts = [
+        f"Task: {config['task_name']}",
+        f"Feature: {config['feature_name']}",
+        f"Model: {config['model_name']}",
+        f"Accuracy: {accuracy:.4f}",
+        f"Macro F1: {macro_f1:.4f}",
+        "",
+    ]
+
     if selection_notes:
-        selection_section = "\n".join(
-            ["Model selection:"] + [f"- {note}" for note in selection_notes]
+        content_parts.extend(
+            ["Model selection:"] + [f"- {note}" for note in selection_notes] + [""]
         )
 
-    content = "\n".join(
+    content_parts.extend(
         [
-            f"Task: {config['task_name']}",
-            f"Feature: {config['feature_name']}",
-            f"Model: {config['model_name']}",
-            f"Accuracy: {accuracy:.4f}",
-            f"Macro F1: {macro_f1:.4f}",
-            "",
-            selection_section,
-            "",
             report,
             "",
             METRIC_EXPLANATION,
@@ -233,6 +233,7 @@ def save_classification_report(task_key, config, y_true, y_pred, labels, accurac
             "",
         ]
     )
+    content = "\n".join(content_parts)
 
     output_path = REPORTS_DIR / f"classification_report_{task_key}.txt"
     output_path.write_text(content, encoding="utf-8")

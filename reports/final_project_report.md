@@ -1,6 +1,6 @@
 # Báo cáo tổng kết dự án
 
-Cập nhật: 17/05/2026
+Cập nhật: 19/05/2026
 
 ## 1. Mục tiêu
 
@@ -71,6 +71,10 @@ Result : Accuracy 0.6997, Macro F1 0.6318
 
 Baseline này được dùng để minh họa nguyên lý học có giám sát trong text classification: đếm token theo từng lớp, tính prior/likelihood với Laplace smoothing, sau đó dự đoán bằng tổng log-probability. Model final vẫn dùng scikit-learn vì cho kết quả tốt và ổn định hơn.
 
+Trong bản nộp, code chỉ giữ hai hướng mô hình chính: Naive Bayes để làm baseline/giải thích nguyên lý và Linear SVM làm mô hình mạnh nhất. Các mô hình thử nghiệm khác không dùng cho kết quả cuối đã được loại bỏ để project gọn và dễ trình bày hơn.
+
+Thí nghiệm phụ với bài toán chỉ gồm `negative` và `positive` đạt Accuracy 0.8170 và Macro F1 0.7650. Kết quả này cao hơn baseline 3 lớp vì lớp `neutral` đã bị loại bỏ, nhưng không thay thế được bài toán chính do hệ thống vẫn cần dự đoán đủ 3 sentiment.
+
 Sentiment classification:
 
 ```text
@@ -117,8 +121,8 @@ reports/confusion_matrix_issue.png
 ```text
 src/baseline_naive_bayes.py  Baseline sentiment tự cài đặt
 src/prepare_data.py      Kiểm tra hoặc tạo lại cột cleaned_review
-src/train_sentiment.py   Train và so sánh mô hình sentiment
-src/train_issue.py       Train và so sánh mô hình issue
+src/train_sentiment.py   So sánh Naive Bayes và Linear SVM cho sentiment
+src/train_issue.py       So sánh Naive Bayes và Linear SVM cho issue
 src/evaluate.py          Tạo classification report và confusion matrix
 src/save_models.py       Train lại trên toàn bộ dữ liệu và lưu model
 src/predict.py           Demo dự đoán bình luận mới
