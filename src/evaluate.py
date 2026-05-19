@@ -11,7 +11,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import (
     ConfusionMatrixDisplay,
     accuracy_score,
-    classification_report,
     f1_score,
 )
 from sklearn.model_selection import train_test_split
@@ -183,8 +182,6 @@ def evaluate_task(df, task_key, config):
     print("Model:", config["model_name"])
     print("Accuracy:", round(accuracy, 4))
     print("Macro F1:", round(macro_f1, 4))
-    print()
-    print(classification_report(y_test, y_pred, labels=labels, zero_division=0))
     print("Saved confusion matrix:", matrix_path)
 
 

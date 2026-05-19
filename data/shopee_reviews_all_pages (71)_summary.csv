@@ -1,0 +1,25 @@
+﻿section,label,count,percentage
+overview,total_rows,22,100.00
+overview,analyzed_reviews,22,100.00
+overview,empty_reviews,0,0.00
+sentiment,negative,15,68.18
+sentiment,neutral,5,22.73
+sentiment,positive,2,9.09
+issue,no_issue,3,13.64
+issue,product_quality,9,40.91
+issue,product_attribute,5,22.73
+issue,packaging,1,4.55
+issue,spam_irrelevant,1,4.55
+issue,shipping_delivery,1,4.55
+issue,price_value,2,9.09
+sentiment_issue,negative | product_quality,5,22.73
+sentiment_issue,neutral | product_quality,4,18.18
+sentiment_issue,negative | product_attribute,3,13.64
+sentiment_issue,negative | no_issue,2,9.09
+sentiment_issue,negative | price_value,2,9.09
+sentiment_issue,negative | packaging,1,4.55
+sentiment_issue,negative | shipping_delivery,1,4.55
+sentiment_issue,negative | spam_irrelevant,1,4.55
+sentiment_issue,neutral | product_attribute,1,4.55
+sentiment_issue,positive | no_issue,1,4.55
+sentiment_issue,positive | product_attribute,1,4.55

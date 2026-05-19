@@ -2,9 +2,13 @@ async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function toCSVCell(value) {
+  return `"${String(value).replaceAll('"', '""')}"`;
+}
+
 function downloadCSV(filename, rows) {
-  const csv = "page,review_text\n" + rows
-    .map(r => `${r.page},"${String(r.review_text).replaceAll('"', '""')}"`)
+  const csv = "review_id,review_text\n" + rows
+    .map((reviewText, index) => `${index + 1},${toCSVCell(reviewText)}`)
     .join("\n");
 
   const blob = new Blob(["\uFEFF" + csv], {
@@ -39,11 +43,11 @@ function getReviewsFromVisibleText() {
         const next = lines[j];
 
         if (/\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}/.test(next)) break;
-        if (/Phản Hồi Của Người Bán/i.test(next)) break;
-        if (/Hữu ích\??/i.test(next)) break;
+        if (/Ph\u1ea3n H\u1ed3i C\u1ee7a Ng\u01b0\u1eddi B\u00e1n/i.test(next)) break;
+        if (/H\u1eefu \u00edch\??/i.test(next)) break;
 
-        if (/^Phân loại hàng:/i.test(next)) continue;
-        if (/^[★☆\s]+$/.test(next)) continue;
+        if (/^Ph\u00e2n lo\u1ea1i h\u00e0ng:/i.test(next)) continue;
+        if (/^[\u2605\u2606\s]+$/.test(next)) continue;
         if (/^\.\.\.$/.test(next)) continue;
 
         block.push(next);
@@ -79,27 +83,24 @@ async function collectShopeeReviewsByPage(startPage = 1, endPage = 10) {
   const seen = new Set();
 
   for (let page = startPage; page <= endPage; page++) {
-    console.log(`Đang chuyển tới trang ${page}...`);
-    
+    console.log(`Moving to page ${page}...`);
+
     clickPageNumber(page);
     await sleep(2500);
 
     const reviews = getReviewsFromVisibleText();
 
-    console.log(`Trang ${page}: lấy được ${reviews.length} bình luận`);
+    console.log(`Page ${page}: collected ${reviews.length} reviews`);
 
     for (const review of reviews) {
       if (!seen.has(review)) {
         seen.add(review);
-        all.push({
-          page,
-          review_text: review
-        });
+        all.push(review);
       }
     }
   }
 
-  console.log(`Hoàn tất. Tổng số bình luận không trùng: ${all.length}`);
+  console.log(`Done. Total unique reviews: ${all.length}`);
   console.log(all);
 
   downloadCSV("shopee_reviews_all_pages.csv", all);
