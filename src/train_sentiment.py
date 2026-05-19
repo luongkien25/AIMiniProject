@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 
 import pandas as pd
 
@@ -21,7 +20,6 @@ LABEL_COLUMN = "sentiment"
 PRIMARY_METRIC = os.environ.get("SENTIMENT_PRIMARY_METRIC", "accuracy").lower()
 RANDOM_STATE = 62
 TEST_SIZE = 0.2
-REPORTS_DIR = Path("reports")
 NAIVE_BAYES_ALPHA = float(os.environ.get("NAIVE_BAYES_ALPHA", "1.0"))
 NAIVE_BAYES_MIN_DF = int(os.environ.get("NAIVE_BAYES_MIN_DF", "1"))
 
@@ -57,7 +55,6 @@ def format_naive_bayes_report(
     rows,
 ):
     lines = [
-        "=" * 72,
         f"Task: {task_name}",
         f"Mode: {mode}",
         "Model: From-scratch Multinomial Naive Bayes",
@@ -91,7 +88,6 @@ def run_naive_bayes_experiment(
     X_test,
     y_test,
     mode,
-    report_path=None,
 ):
     model = train_naive_bayes(
         X_train.tolist(),
@@ -114,41 +110,12 @@ def run_naive_bayes_experiment(
     )
     print(report)
 
-    if report_path is not None:
-        report_path.parent.mkdir(parents=True, exist_ok=True)
-        report_path.write_text(report + "\n", encoding="utf-8")
-        print()
-        print(f"Saved report: {report_path}")
-
     return {
         "feature": "Unigram + Bigram counts",
         "model": "Naive Bayes",
         "accuracy": accuracy,
         "macro_f1": macro_f1,
     }
-
-
-def run_binary_naive_bayes_report(df):
-    binary_df = df[df[LABEL_COLUMN].isin(["negative", "positive"])].copy()
-    X = binary_df[TEXT_COLUMN].fillna("")
-    y = binary_df[LABEL_COLUMN].astype(str)
-
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
-        test_size=TEST_SIZE,
-        random_state=RANDOM_STATE,
-        stratify=y,
-    )
-
-    run_naive_bayes_experiment(
-        X_train,
-        y_train,
-        X_test,
-        y_test,
-        mode="binary negative vs positive",
-        report_path=REPORTS_DIR / "baseline_sentiment_naive_bayes_binary.txt",
-    )
 
 
 def main():
@@ -208,7 +175,6 @@ def main():
             X_test,
             y_test,
             mode="3-class sentiment",
-            report_path=REPORTS_DIR / "baseline_sentiment_naive_bayes.txt",
         )
     )
 
@@ -231,7 +197,6 @@ def main():
             }
         )
 
-        print("=" * 72)
         print("Task: Sentiment Classification")
         print("Feature:", FEATURE_NAME)
         print("Model:", model_name)
@@ -246,22 +211,15 @@ def main():
         ascending=False,
     )
 
-    print("=" * 72)
     print("Baseline vs final model comparison")
     print(result_df.to_string(index=False))
 
     best_result = result_df.iloc[0]
-    print("=" * 72)
     print("Best result by", PRIMARY_METRIC)
     print("Feature:", best_result["feature"])
     print("Model:", best_result["model"])
     print("Accuracy:", round(best_result["accuracy"], 4))
     print("Macro F1:", round(best_result["macro_f1"], 4))
-
-    if not TEST_DATA_PATH:
-        print("=" * 72)
-        print("Extra Naive Bayes report")
-        run_binary_naive_bayes_report(df)
 
 
 if __name__ == "__main__":

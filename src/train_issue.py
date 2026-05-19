@@ -71,7 +71,6 @@ def print_naive_bayes_report(X_train, y_train, X_test, y_test):
     y_pred = model.predict(X_test.tolist())
     accuracy, macro_f1, rows = calculate_metrics(y_test.tolist(), y_pred)
 
-    print("=" * 72)
     print("Task: Issue Classification")
     print("Feature: Unigram + Bigram counts")
     print("Model: Naive Bayes")
@@ -144,7 +143,6 @@ def main():
             }
         )
 
-        print("=" * 72)
         print("Task: Issue Classification")
         print("Feature:", FEATURE_NAME)
         print("Model:", model_name)
@@ -158,12 +156,10 @@ def main():
         ascending=False,
     )
 
-    print("=" * 72)
     print("Baseline vs final model comparison")
     print(result_df.to_string(index=False))
 
     best_result = result_df.iloc[0]
-    print("=" * 72)
     print("Best result by Macro F1")
     print("Feature:", best_result["feature"])
     print("Model:", best_result["model"])

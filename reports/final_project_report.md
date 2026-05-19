@@ -73,8 +73,6 @@ Baseline này được dùng để minh họa nguyên lý học có giám sát t
 
 Trong bản nộp, code chỉ giữ hai hướng mô hình chính: Naive Bayes để làm baseline/giải thích nguyên lý và Linear SVM làm mô hình mạnh nhất. File `src/naive_bayes_model.py` chỉ chứa phần thuật toán Naive Bayes tự cài đặt; việc train và so sánh được đặt trong `src/train_sentiment.py` và `src/train_issue.py`.
 
-Thí nghiệm phụ với bài toán chỉ gồm `negative` và `positive` đạt Accuracy 0.8179 và Macro F1 0.7676. Kết quả này cao hơn baseline 3 lớp vì lớp `neutral` đã bị loại bỏ, nhưng không thay thế được bài toán chính do hệ thống vẫn cần dự đoán đủ 3 sentiment.
-
 Sentiment classification:
 
 ```text
@@ -107,11 +105,9 @@ Accuracy: 0.7849
 Macro F1: 0.7323
 ```
 
-Các báo cáo chi tiết và confusion matrix nằm trong:
+Confusion matrix nằm trong:
 
 ```text
-reports/classification_report_sentiment.txt
-reports/classification_report_issue.txt
 reports/confusion_matrix_sentiment.png
 reports/confusion_matrix_issue.png
 ```
@@ -123,7 +119,7 @@ src/naive_bayes_model.py     Thuật toán Naive Bayes tự cài đặt
 src/prepare_data.py      Kiểm tra hoặc tạo lại cột cleaned_review
 src/train_sentiment.py   Train và so sánh Naive Bayes/Linear SVM cho sentiment
 src/train_issue.py       Train và so sánh Naive Bayes/Linear SVM cho issue
-src/evaluate.py          Tạo classification report và confusion matrix
+src/evaluate.py          In metric đánh giá và tạo confusion matrix
 src/save_models.py       Train lại trên toàn bộ dữ liệu và lưu model
 src/predict.py           Demo dự đoán bình luận mới
 ```

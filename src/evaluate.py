@@ -12,7 +12,6 @@ from sklearn.metrics import (
     ConfusionMatrixDisplay,
     accuracy_score,
     classification_report,
-    confusion_matrix,
     f1_score,
 )
 from sklearn.model_selection import train_test_split
@@ -84,12 +83,6 @@ TASK_CONFIGS = {
             C=1.0,
         ),
         "issue_rule_override": "safe",
-        "selection_notes": [
-            "Kết quả train/test từ `src/train_issue.py`: cấu hình nền tốt nhất là "
-            "TF-IDF Word + Char + Linear SVM với Accuracy 0.7773 và Macro F1 0.7101.",
-            "Report final áp dụng thêm Safe Issue Rules cho các mẫu có dấu hiệu rõ ràng, "
-            "giúp Accuracy tăng lên 0.7849 và Macro F1 tăng lên 0.7323.",
-        ],
         "labels": [
             "no_issue",
             "packaging",
@@ -105,16 +98,6 @@ TASK_CONFIGS = {
 }
 
 
-METRIC_EXPLANATION = """Giải thích metric:
-- Accuracy: tỷ lệ dự đoán đúng trên toàn bộ tập test.
-- Precision: trong các mẫu được dự đoán là một nhãn, có bao nhiêu mẫu dự đoán đúng.
-- Recall: trong các mẫu thật sự thuộc một nhãn, mô hình tìm đúng được bao nhiêu mẫu.
-- F1-score: trung bình điều hòa giữa precision và recall.
-- Macro F1: trung bình F1 của các lớp, mỗi lớp có trọng số ngang nhau. Chỉ số này quan trọng khi dữ liệu có nhiều lớp hoặc phân bố nhãn không đều.
-- Confusion matrix: bảng thể hiện mô hình dự đoán đúng và nhầm lẫn giữa các lớp. Đường chéo chính là dự đoán đúng, các ô ngoài đường chéo là dự đoán sai.
-"""
-
-
 def build_pipeline(config):
     vectorizer_config = config["vectorizer"]
     if isinstance(vectorizer_config, dict):
@@ -128,55 +111,6 @@ def build_pipeline(config):
             ("classifier", config["model"]),
         ]
     )
-
-
-def get_top_confusions(y_true, y_pred, labels, limit=6):
-    matrix = confusion_matrix(y_true, y_pred, labels=labels)
-    confusions = []
-
-    for true_index, true_label in enumerate(labels):
-        for pred_index, pred_label in enumerate(labels):
-            if true_index == pred_index:
-                continue
-
-            count = int(matrix[true_index, pred_index])
-            if count > 0:
-                confusions.append((count, true_label, pred_label))
-
-    return sorted(confusions, reverse=True)[:limit]
-
-
-def build_observations(task_key, y_true, y_pred, labels):
-    lines = ["Nhận xét:"]
-    top_confusions = get_top_confusions(y_true, y_pred, labels)
-
-    if top_confusions:
-        lines.append("- Các nhầm lẫn đáng chú ý:")
-        for count, true_label, pred_label in top_confusions:
-            lines.append(f"  + Nhãn thật `{true_label}` bị dự đoán thành `{pred_label}`: {count} mẫu.")
-
-    if task_key == "sentiment":
-        lines.append(
-            "- Với sentiment classification, lớp `neutral` thường khó hơn vì nhiều bình luận có "
-            "từ như `ok`, `tạm`, `ổn`, `5 sao` hoặc nội dung nhận xu."
-        )
-        lines.append(
-            "- Mô hình hoạt động tốt hơn khi dùng bigram vì học được các cụm như "
-            "`không tốt`, `giao chậm`, `sai màu`, `bị lỗi`."
-        )
-
-    if task_key == "issue":
-        lines.append(
-            "- Issue classification khó hơn sentiment vì có nhiều nhãn hơn và một số nhãn có ý nghĩa gần nhau."
-        )
-        lines.append(
-            "- Sau khi gom các nhãn issue quá chi tiết, Macro F1 cải thiện rõ vì mô hình học các nhóm vấn đề ổn định hơn."
-        )
-        lines.append(
-            "- Một số nhầm lẫn giữa `no_issue` và `product_quality` là hợp lý vì nhiều bình luận vừa mô tả sản phẩm vừa không nêu lỗi rõ ràng."
-        )
-
-    return "\n".join(lines)
 
 
 def save_confusion_matrix(y_true, y_pred, labels, title, output_path):
@@ -199,45 +133,6 @@ def save_confusion_matrix(y_true, y_pred, labels, title, output_path):
     fig.tight_layout()
     fig.savefig(output_path, dpi=180)
     plt.close(fig)
-
-
-def save_classification_report(task_key, config, y_true, y_pred, labels, accuracy, macro_f1):
-    report = classification_report(
-        y_true,
-        y_pred,
-        labels=labels,
-        zero_division=0,
-    )
-    observations = build_observations(task_key, y_true, y_pred, labels)
-    selection_notes = config.get("selection_notes", [])
-    content_parts = [
-        f"Task: {config['task_name']}",
-        f"Feature: {config['feature_name']}",
-        f"Model: {config['model_name']}",
-        f"Accuracy: {accuracy:.4f}",
-        f"Macro F1: {macro_f1:.4f}",
-        "",
-    ]
-
-    if selection_notes:
-        content_parts.extend(
-            ["Model selection:"] + [f"- {note}" for note in selection_notes] + [""]
-        )
-
-    content_parts.extend(
-        [
-            report,
-            "",
-            METRIC_EXPLANATION,
-            observations,
-            "",
-        ]
-    )
-    content = "\n".join(content_parts)
-
-    output_path = REPORTS_DIR / f"classification_report_{task_key}.txt"
-    output_path.write_text(content, encoding="utf-8")
-    return output_path
 
 
 def evaluate_task(df, task_key, config):
@@ -274,16 +169,6 @@ def evaluate_task(df, task_key, config):
     accuracy = accuracy_score(y_test, y_pred)
     macro_f1 = f1_score(y_test, y_pred, average="macro")
 
-    report_path = save_classification_report(
-        task_key,
-        config,
-        y_test,
-        y_pred,
-        labels,
-        accuracy,
-        macro_f1,
-    )
-
     matrix_path = REPORTS_DIR / f"confusion_matrix_{task_key}.png"
     save_confusion_matrix(
         y_test,
@@ -293,13 +178,13 @@ def evaluate_task(df, task_key, config):
         matrix_path,
     )
 
-    print("=" * 72)
     print("Task:", config["task_name"])
     print("Feature:", config["feature_name"])
     print("Model:", config["model_name"])
     print("Accuracy:", round(accuracy, 4))
     print("Macro F1:", round(macro_f1, 4))
-    print("Saved report:", report_path)
+    print()
+    print(classification_report(y_test, y_pred, labels=labels, zero_division=0))
     print("Saved confusion matrix:", matrix_path)
 
 

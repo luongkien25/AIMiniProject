@@ -115,7 +115,6 @@ def main():
         output_path=MODELS_DIR / "issue_model.joblib",
     )
 
-    print("=" * 72)
     print("Saved sentiment model")
     print("Path:", MODELS_DIR / "sentiment_model.joblib")
     print("Training rows:", sentiment_rows)
@@ -123,7 +122,6 @@ def main():
     print("Selection metric: Accuracy")
     print("Selected config: TF-IDF Unigram + Bigram + Linear SVM")
 
-    print("=" * 72)
     print("Saved issue model")
     print("Path:", MODELS_DIR / "issue_model.joblib")
     print("Training rows:", issue_rows)

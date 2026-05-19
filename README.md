@@ -88,7 +88,7 @@ python src/train_sentiment.py
 python src/train_issue.py
 ```
 
-Tạo lại báo cáo đánh giá:
+In metric đánh giá và tạo lại confusion matrix:
 
 ```powershell
 python src/evaluate.py
@@ -125,7 +125,7 @@ shop giao cham, hop bi mop
 - `Naive Bayes`: baseline đơn giản, tự cài đặt trong `src/naive_bayes_model.py`.
 - `Linear SVM`: mô hình mạnh nhất hiện tại, dùng làm model final.
 
-File `src/naive_bayes_model.py` chỉ chứa phần model/thuật toán. Việc đọc dữ liệu, train, so sánh metric và ghi report được đặt trong `src/train_sentiment.py` và `src/train_issue.py`.
+File `src/naive_bayes_model.py` chỉ chứa phần model/thuật toán. Việc đọc dữ liệu, train và so sánh metric được đặt trong `src/train_sentiment.py` và `src/train_issue.py`.
 
 Baseline tự cài đặt để minh họa nguyên lý thuật toán:
 
@@ -134,13 +134,6 @@ Sentiment baseline: Multinomial Naive Bayes from scratch
 Feature           : Unigram + Bigram counts
 Accuracy          : 0.6974
 Macro F1          : 0.6265
-```
-
-Thí nghiệm phụ khi chỉ phân biệt `negative` và `positive`:
-
-```text
-Binary Naive Bayes Accuracy: 0.8179
-Binary Naive Bayes Macro F1: 0.7676
 ```
 
 Model chính:
@@ -187,10 +180,6 @@ Report chính:
 ```text
 reports/final_project_report.md
 reports/label_guidelines_report.md
-reports/baseline_sentiment_naive_bayes.txt
-reports/baseline_sentiment_naive_bayes_binary.txt
-reports/classification_report_sentiment.txt
-reports/classification_report_issue.txt
 reports/confusion_matrix_sentiment.png
 reports/confusion_matrix_issue.png
 ```
