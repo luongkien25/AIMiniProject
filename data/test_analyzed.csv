@@ -1,0 +1,23 @@
+﻿review_id,review_text,sentiment,issue
+1,Chất liệu: kém Chưa mặc đã sù hết rồi Combo 2 áo ba lỗ CANIFA mặc nhà nam Cotton USA 8LA26A002,neutral,product_quality
+2,Cổ áo bị rách,negative,product_quality
+3,Kích cỡ: fom quá rộng có bảng hướng dẫn trọn size mà nghi sai hết ghi linh tinh,negative,product_attribute
+4,Đặt mua áo mã 8TP23A004 giá cao hơn nhưng lại giao mã 8TP25A005 giá rẻ hơn. Đã mua nhiều của Canifa nhưng lần này giao hàng không đúng chủng loại. Nhận rồi làm biếng trả hàng nên thôi. 0:06,negative,price_value
+5,"Áo mùi linong quá, giặt xong mặc vẫn mùi.",neutral,product_quality
+6,"Áo bị mùi lông ngan, vịt. Mùi lông không tẩy kỹ",negative,product_quality
+7,Nhìn ảnh thì ko sao chứ thật ra rất mỏng nhưng vẫn giữ nhiệt đc dùng đc lâu dài còn dùng ngắn hạn thì mua hàng chợ thôi cho đỡ tốn,negative,product_quality
+8,"đang cần mua sp để sử dụng lúc mua đã báo giao sớm, mà shop giao k ktra hangg trc khi giao, giao đến hàng bị như video trên ,chỉ bảo khách hoàn hàng,k bảo thì với hìn hảnh sp thê kia shoppe cũng sẽ duyệt hoàn hàng, mất time của khách khi đang có nhu cầu sử dụng, cho 2 sao vì khâu kiểm duyệt lẫn chăm sóc khách hàng chưa làm khách hài lòng 0:08",negative,shipping_delivery
+9,Chất liệu: len chất lượng thấp,negative,no_issue
+10,Đúng với mô tả: mauf sacws khong nhu mo ta Chất liệu: vải Màu sắc: xám màu áo ảnh phân loại và màu áo khi đuọce giao khác nhau muốn trả hàng nhưng kh được =))) 0:06,negative,product_attribute
+11,"Chất liệu: không rõ Đúng với mô tả: Đúng Màu sắc: Đen Nhận áo của 1 hãng khá nổi tiếng của ViệtNam mà hơi thất vọng, áo gập cuộn tròn, không giống như bất kỳ hãng hay shop nào? Điều đầu tiên khi mở gói hàng. Chất áo thì có vẻ thô, cứng, chắc phải giặt qua. Áo thì rất là bụi, bẩn, như kiểu lôi ra từ góc nào đó! Mọi người có thể xem ảnh và video có thể thấy! Khá thất vọng, dù hàng trên nhãn ghi sx năm 2025 0:06",negative,packaging
+12,K xuất hoá đơn vat,negative,product_quality
+13,"Chất bảo quản của sản phẩm có thể gây ra dị ứng (ngứa) với 1 số người. Khi tôi khui hàng thấy lớp bụi mịn. Da tay tự nhiên khô và nhăn lại, không để ý gãi lên mặt thì bị mẩn ngứa. Qua 2 ngày vài lần tắm và nhiều lần rửa mặt mới đỡ. Chưa bao giờ gặp trường hợp ntn.",negative,product_quality
+14,Chất liệu: len Màu sắc: xanh Đúng với mô tả: đúng Chất xấu lắm không nên mua mọi người nhé mang tiếng hàng hãng mà chất dão kinh may săn được giá rẻ 0:09,positive,no_issue
+15,"Quần thì màu vs kiểu dáng giống hình . Nhưng so chất lượng với giá thành thì k ổn tý nào : - Quần mỏng nên là nhẹ bởi vậy ra chỗ sáng mạnh có thế thấy bên trong - Quần ms rũ qua 1 lần nước rồi phơi mà mặc vô chưa j đã thấy xù. Nên là sờ vô thấy ráp tay -> K biết nếu cho vào máy giặt thì nó sẽ tới mức nào nữa - Chất vải sờ như nilong k co giãn , nên cảm thấy hơi bí chân",neutral,product_quality
+16,Giặt phai màu,positive,no_issue
+17,áo chất lượng bthuong mà bán giá này thì đắt thật ấy. mua sale còn 130k mà vẫn thấy đắt. mặc hơi rộng,negative,price_value
+18,"Đường may chất liệu thì ok, tuy nhiên sản phẩm nhận được không giống hình ảnh. Mẫu shop đăng SA màu xanh lá nhạt mà hàng nhận được đúng SA nhưng lại là màu khác",negative,product_attribute
+19,"Đúng với mô tả: Không như mô tả, quảng cáo Màu sắc: Xanh đen Chất liệu: 88% polyester + 12% spandex - Đăng sp 2025 chất liệu - 88% nylon + 12% spandex nhưng không phải, vẫn là chất cũ 2024 - polyester + spandex. - Nv Live tư vấn size không chuẩn đâu nha mọi người. Nên trực tiếp ra store thử size. Live tư vấn size L sẽ vừa. Mình đặt trừ hao XL vừa khít, đặt size L chắc skinny luôn. 0:08",positive,product_attribute
+20,"Chất liệu: dày dễ nhăn hơn chất cũ Sz to hơn bản cũ, chất cũng ko thích bằng, bản cũ 3 cúc rất đẹp, bản này 2 cúc ko đẹp, đóng cả thì nóng mà đóng 1cúc thì kì. Thất vọng quá",negative,product_attribute
+21,Quần mặc xấu.,negative,spam_irrelevant
+22,"Mỏng lắm, giao hàng nhanh sản ohaanr thì không oke cho lắm nhe 0:08",negative,product_quality
