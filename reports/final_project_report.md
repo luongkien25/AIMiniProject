@@ -94,8 +94,8 @@ Issue prediction có thêm một số rule an toàn để xử lý các trườn
 Sentiment classification:
 
 ```text
-Accuracy: 0.8318
-Macro F1: 0.7993
+Accuracy: 0.8410
+Macro F1: 0.8093
 ```
 
 Issue classification:

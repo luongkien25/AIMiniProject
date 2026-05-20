@@ -300,8 +300,8 @@ Sentiment classification:
 ```text
 Feature: TF-IDF Unigram + Bigram
 Model: Linear SVM
-Accuracy: 0.8318
-Macro F1: 0.7993
+Accuracy: 0.8410
+Macro F1: 0.8093
 ```
 
 Issue classification:

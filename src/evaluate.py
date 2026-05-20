@@ -43,7 +43,7 @@ TASK_CONFIGS = {
         "model_name": "Linear SVM",
         "model": LinearSVC(
             class_weight="balanced",
-            C=1.5,
+            C=0.5,
         ),
         "labels": ["negative", "neutral", "positive"],
     },

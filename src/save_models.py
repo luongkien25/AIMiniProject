@@ -30,7 +30,7 @@ def build_sentiment_model():
                 "classifier",
                 LinearSVC(
                     class_weight="balanced",
-                    C=1.5,
+                    C=0.5,
                 ),
             ),
         ]

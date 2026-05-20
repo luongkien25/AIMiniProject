@@ -1,9 +1,3 @@
-"""From-scratch Multinomial Naive Bayes model utilities.
-
-This module contains only the model logic. Data loading, train/test split,
-report writing, and comparison with Linear SVM live in the train scripts.
-"""
-
 import math
 from collections import Counter, defaultdict
 

@@ -367,8 +367,8 @@ Kết quả tốt nhất của sentiment classification:
 
 ```text
 Model    : TF-IDF word unigram + bigram + Linear SVM
-Accuracy : 0.8318
-Macro F1 : 0.7993
+Accuracy : 0.8410
+Macro F1 : 0.8093
 ```
 
 Kết quả tốt nhất của issue classification:
